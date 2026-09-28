@@ -52,6 +52,14 @@ class SeriesParser(ABC, Generic[CalRecordT]):
     requires --caldate; every other parser reads the date from the
     file and the cli rejects --caldate for it.
     """
+    transcribed_fields: ClassVar[tuple[str, ...]] = ()
+    """Values the operator types in from a vendor document that has no
+    machine-readable text (e.g. a scanned certificate).
+
+    Those parsers take parse(source_path, ..., transcribed={name: value})
+    and the cli requires every one as --value NAME=VALUE; the cli rejects
+    --value for every other parser.
+    """
     accepts_qct: ClassVar[bool] = False
     """True when parse() can also take the QCT capture of the sensor.
 
@@ -67,6 +75,14 @@ class SeriesParser(ABC, Generic[CalRecordT]):
         The returned record must expose serial_number (int) and
         series (str) attributes; cli.generate_cal_csv reads both.
         """
+
+    def review(self, cal: CalRecordT, calibration_root: Path, output_dir_name: str | None = None) -> list[str]:
+        """Warnings about a parsed record, e.g. against earlier calibrations.
+
+        Warnings never stop a run; anything that should stop it belongs
+        in parse(). The default has none.
+        """
+        return []
 
     @abstractmethod
     def write_csv(

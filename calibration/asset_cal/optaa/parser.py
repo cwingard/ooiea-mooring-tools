@@ -132,6 +132,11 @@ class OptaaParser(SeriesParser[OptaaCal]):
 
         nwvl = int(_strip_comment(lines[7]))
         ntbin = int(_strip_comment(lines[8]))
+        if ntbin == 0:
+            raise ValueError(
+                "Devfile has no temperature-correction table (0 temperature bins), so CC_tbins, CC_taarray and "
+                "CC_tcarray cannot be written. Use a devfile that includes the temperature correction."
+            )
         tbin = [float(v) for v in _strip_comment(lines[9]).split()]
         if len(tbin) != ntbin:
             raise ValueError(f"Expected {ntbin} temperature bin values, found {len(tbin)}.")

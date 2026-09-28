@@ -136,3 +136,22 @@ def test_generate_cal_csv_rejects_qct_for_class_that_does_not_use_it(tmp_path: P
         generate_cal_csv(
             "PARAD-J", FIXTURE_DIR / "parad_dev_sample.dev", calibration_root=tmp_path, qct_path=tmp_path / "x.txt"
         )
+
+
+def test_generate_cal_csv_paradk_requires_all_values(tmp_path: Path) -> None:
+    (tmp_path / "PARADK").mkdir()
+
+    with pytest.raises(ValueError, match="missing"):
+        generate_cal_csv(
+            "PARAD-K", tmp_path / "c.pdf", calibration_root=tmp_path, caldate="20240517",
+            transcribed={"serial": "20611"},
+        )
+
+
+def test_generate_cal_csv_rejects_values_for_class_that_reads_them(tmp_path: Path) -> None:
+    (tmp_path / "PARADJ").mkdir()
+
+    with pytest.raises(ValueError, match="do not pass --value"):
+        generate_cal_csv(
+            "PARAD-J", FIXTURE_DIR / "parad_dev_sample.dev", calibration_root=tmp_path, transcribed={"serial": "1"}
+        )

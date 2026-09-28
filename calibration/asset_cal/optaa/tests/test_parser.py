@@ -100,3 +100,14 @@ def test_real_devfile_matches_archived_files(tmp_path: Path) -> None:
         assert (tmp_path / "OPTAAD" / f"{ARCHIVED}{suffix}").read_text() == (
             FIXTURE_DIR / f"{ARCHIVED}{suffix}"
         ).read_text()
+
+
+def test_devfile_without_temperature_bins_stops(tmp_path: Path) -> None:
+    """Seen in a 2026 ACS-344 devfile: '0 ; number of temperature bins'."""
+    lines = REAL_DEV.read_text().splitlines()
+    lines[8] = "0\t\t\t; number of temperature bins"
+    bad = tmp_path / "no_tbins.dev"
+    bad.write_text("\n".join(lines) + "\n")
+
+    with pytest.raises(ValueError, match="no temperature-correction table"):
+        OptaaParser(series="D").parse(bad)

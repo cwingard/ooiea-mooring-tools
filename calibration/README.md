@@ -29,6 +29,7 @@ python -m asset_cal.cli SPKIR-B path/to/DI7255L.cal --asset-management ~/code/as
   `CGINS-<CLASS><SERIES>-<serial, 5 digits>__<caldate>.csv`. The folder must already exist.
 - METCTD (the METBK conductivity/temperature sensor) has no folder of its own: always pass `--output-dir METBKA`.
   Its "series" is the source format: `METCTD-CAL` for the vendor `.cal` file, `METCTD-CAP` for a QCT cap/log capture.
+  `METCTD-CAL` takes the capture as an optional `--qct` check: serial, caldate and all 11 coefficients must agree.
 - Input filenames are never parsed: point the tool at any file name in any folder. Everything it needs comes from
   the file contents, except the calibration date for DOSTA and PHSEN, whose QCT captures do not contain it -- pass it
   from the vendor certificate with `--caldate YYYYMMDD` (required for those two, rejected for every other class).
@@ -40,6 +41,10 @@ python -m asset_cal.cli SPKIR-B path/to/DI7255L.cal --asset-management ~/code/as
 - DOFST-K reads the Sea-Bird SBE 43F certificate PDF; `--qct` (the MMP QCT with the 52-MP `dc` output) is optional.
   Soc is the certificate's adjusted value if marked `(adj)`, else the host-adjusted value from the capture, else the
   certificate Soc x 1.0354 (estimate). See `docs/dofst_soc_adjustment.md`.
+- PARAD-K certificates (Biospherical QSP-2200) are scanned images, so the values are typed in:
+  `--caldate YYYYMMDD --value serial=20611 --value dark_offset=0.45 --value scale_wet=9.04E-18`, with the certificate
+  as the source file (for the note). Values outside the plausible range stop the run (a dropped decimal point or wrong
+  exponent); a wet factor more than 10% from the sensor's previous calibration prints a warning.
 - Values printed at different precision (a vendor file with 7 digits, a capture with 6) agree if they differ by no
   more than one unit in the last place of the less precise one.
 - Rule for every class: where both a vendor document and what the instrument reports are available, they must agree.
@@ -74,16 +79,16 @@ Vendor/QCT source files come from Alfresco (no API; download by hand). Keep them
 | SPKIR-B, SPKIR-J | Satlantic `.cal` | Yes -- byte-identical to committed `CGINS-SPKIRB-00255__20241206.csv` |
 | PARAD-J | factory dev file | Sample from MATLAB header only |
 | PHSEN-D | QCT capture (+ `--caldate`) | Yes -- values match committed PHSEND P0122 (2024-12-10) |
-| FLORT-D, -J, -K | WET Labs dev file | Yes -- names and values match committed FLORTJ 1084 (2025-03-31) |
+| FLORT-D, -J, -K | WET Labs dev file | Yes -- matches FLORTJ 1084 (2025-03-31) except the bare serial column |
 | DOSTA-D, -J | vendor/QCT | No |
 | CTDBP-C, -E | cap file | No |
 | PRESF-A, -B, -C | QCT capture (not the SBE `.cal`) | No |
 | OPTAA-C, -D, -J | WET Labs dev file | Yes -- csv and both `.ext` files match committed OPTAAD 135 (2024-02-08) |
 | NUTNR-B, -J | Satlantic/Sea-Bird cal file | Yes -- byte-identical to committed `CGINS-NUTNRB-01059__20241213.csv` |
-| METCTD-CAL, -CAP | `.cal` / QCT capture | Yes -- real capture and vendor `.cal` for SN 13471 agree exactly |
+| METCTD-CAL, -CAP | `.cal` (+ optional `--qct`) / QCT capture | Yes -- capture and `.cal` for SN 13471 agree |
 | PCO2W-B | PDF certificate (+ optional `--qct`) | Yes -- C0062 certs 2017-2025 match AM; 2025 also with its capture |
 | DOFST-K | SBE 43F PDF certificate (+ optional `--qct`) | Yes -- 4511 matches AM; 4361 checked against MMP QCT |
-| PARAD-K | PDF certificate | Not implemented |
+| PARAD-K | Scanned certificate; values typed in (`--caldate`, `--value`) | Yes -- reproduces 20611 (2024-05-17) |
 
 "No" means the parser was ported from the MATLAB token positions without a real file to test against. Run it in
 `--mode test` against a committed calibration before using it for a new one.

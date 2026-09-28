@@ -138,3 +138,26 @@ def test_cap_parse_ignores_filename(tmp_path: Path) -> None:
 
     assert cal.caldate == "20260604"
     assert cal.source_provenance == "source: foogoo.cap"
+
+
+def test_cal_checked_against_capture_notes_both(tmp_path: Path) -> None:
+    cal = MetctdCalParser().parse(VENDOR_CAL, qct_path=CAPTURE)
+
+    assert cal.source_provenance == "source: metctd_vendor.cal; checked against QCT capture metctd_capture.cap"
+    assert cal.coefficients["a0"] == "-1.253292e-04"
+
+
+def test_cal_capture_coefficient_disagreement_stops(tmp_path: Path) -> None:
+    capture = tmp_path / "capture.cap"
+    capture.write_text(CAPTURE.read_text(encoding="latin-1").replace("<G>-9.872035e-01</G>", "<G>-9.872135e-01</G>"))
+
+    with pytest.raises(ValueError, match="g: .cal file"):
+        MetctdCalParser().parse(VENDOR_CAL, qct_path=capture)
+
+
+def test_cal_capture_caldate_disagreement_stops(tmp_path: Path) -> None:
+    capture = tmp_path / "capture.cap"
+    capture.write_text(CAPTURE.read_text(encoding="latin-1").replace("04-Jun-26", "25-Dec-23"))
+
+    with pytest.raises(ValueError, match="caldate"):
+        MetctdCalParser().parse(VENDOR_CAL, qct_path=capture)

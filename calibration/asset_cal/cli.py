@@ -35,11 +35,15 @@ contain the calibration date (DOSTA, PHSEN: the date is on the vendor
 certificate) and rejected for every other class, which reads the date
 from the file. Input filenames are never parsed.
 
---qct <capture> is optional for PCO2W and DOFST (the MMP QCT with the 52-MP
-"dc" output); for PCO2W: its values always come from the
+--qct <capture> is optional for PCO2W, DOFST (the MMP QCT with the 52-MP
+"dc" output) and METCTD-CAL; for PCO2W: its values always come from the
 vendor PDF certificate (the source file), and when the QCT capture of
 the sensor is given as well, any disagreement between the two stops
 the run. It is rejected for every other class.
+
+--value NAME=VALUE (repeated) is required for PARAD-K, whose Biospherical
+certificates are scanned images: the operator types the values in, and
+the parser range-checks them. Rejected for every other class.
 
 --output-dir overrides which folder under calibration/ the csv goes
 into. The default is f"{class_code}{series}" (e.g. PARADJ), which
@@ -65,7 +69,7 @@ from asset_cal.flort import FlortParser
 from asset_cal.metctd import MetctdCalParser, MetctdCapParser
 from asset_cal.nutnr import NutnrParser
 from asset_cal.optaa import OptaaParser
-from asset_cal.parad import ParadJParser
+from asset_cal.parad import ParadJParser, ParadKParser
 from asset_cal.pco2w import Pco2wParser
 from asset_cal.phsen import PhsenParser
 from asset_cal.presf import PresfParser
@@ -75,6 +79,7 @@ PREVIEW_PREFIX = "_preview_"
 
 PARSERS: dict[str, SeriesParser] = {
     "PARAD-J": ParadJParser(),
+    "PARAD-K": ParadKParser(),
     "DOSTA-D": DostaParser(series="D"),
     "DOSTA-J": DostaParser(series="J"),
     "PHSEN-D": PhsenParser(),
@@ -120,6 +125,7 @@ def generate_cal_csv(
     preview: bool = False,
     caldate: str | None = None,
     qct_path: Path | None = None,
+    transcribed: dict[str, str] | None = None,
 ) -> Path:
     """Parse a source file and write its calibration csv.
 
@@ -148,8 +154,13 @@ def generate_cal_csv(
         requires_caldate is True; must be None for all others.
     qct_path : Path | None
         QCT capture of the sensor, cross-checked against the source
-        file. Optional for parsers whose accepts_qct is True (PCO2W);
+        file. Optional for parsers whose accepts_qct is True (PCO2W, DOFST, METCTD-CAL);
         must be None for all others.
+
+    transcribed : dict[str, str] | None
+        Values typed in from a scanned vendor document. Required, all
+        of them, for parsers with transcribed_fields (PARAD-K); must be
+        empty for all others.
 
     Returns
     -------
@@ -185,12 +196,28 @@ def generate_cal_csv(
         extra["qct_path"] = qct_path
     elif qct_path is not None:
         raise ValueError(f"{key} does not use a QCT capture alongside its source file; do not pass --qct.")
+    transcribed = transcribed or {}
+    if parser.transcribed_fields:
+        missing = [name for name in parser.transcribed_fields if name not in transcribed]
+        unknown = sorted(set(transcribed) - set(parser.transcribed_fields))
+        if missing or unknown:
+            raise ValueError(
+                f"{key} needs exactly these --value NAME=VALUE entries: {list(parser.transcribed_fields)}"
+                + (f"; missing {missing}" if missing else "")
+                + (f"; unknown {unknown}" if unknown else "")
+            )
+        extra["transcribed"] = transcribed
+    elif transcribed:
+        raise ValueError(f"{key} reads its values from the source file; do not pass --value.")
     cal = parser.parse(source_path, **extra)
     if cal.series != expected_series:
         raise ValueError(
             f"Requested {key} but the parsed instrument (serial {cal.serial_number}) "
             f"is series {cal.series!r}, not {expected_series!r}."
         )
+
+    for warning in parser.review(cal, calibration_root, output_dir_name):
+        print(f"WARNING: {warning}", file=sys.stderr)
 
     if not preview:
         return parser.write_csv(cal, calibration_root, output_dir_name)
@@ -209,6 +236,18 @@ def _write_preview(parser: SeriesParser, cal: object, calibration_root: Path, di
         for generated in sorted((scratch_root / dir_name).iterdir()):
             shutil.copyfile(generated, real_dir / f"{PREVIEW_PREFIX}{generated.name}")
     return real_dir / f"{PREVIEW_PREFIX}{csv_path.name}"
+
+
+def _parse_values(items: list[str]) -> dict[str, str]:
+    values: dict[str, str] = {}
+    for item in items:
+        name, sep, value = item.partition("=")
+        if not sep or not name.strip() or not value.strip():
+            raise SystemExit(f"error: --value must be NAME=VALUE, got {item!r}")
+        if name.strip() in values:
+            raise SystemExit(f"error: --value {name.strip()} given twice")
+        values[name.strip()] = value.strip()
+    return values
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -246,7 +285,18 @@ def main(argv: list[str] | None = None) -> int:
         "--qct",
         type=Path,
         default=None,
-        help="QCT capture of the sensor, cross-checked against the certificate. PCO2W and DOFST only; optional.",
+        help="QCT capture of the sensor, cross-checked against the vendor file. PCO2W, DOFST, METCTD-CAL; optional.",
+    )
+    arg_parser.add_argument(
+        "--value",
+        dest="values",
+        action="append",
+        default=[],
+        metavar="NAME=VALUE",
+        help=(
+            "A value typed in from a scanned certificate; repeat for each. PARAD-K only: "
+            "serial, dark_offset (mV), scale_wet (V/(quanta/cm2-sec))."
+        ),
     )
     arg_parser.add_argument(
         "--mode",
@@ -271,6 +321,7 @@ def main(argv: list[str] | None = None) -> int:
             preview=args.mode == "test",
             caldate=args.caldate,
             qct_path=args.qct,
+            transcribed=_parse_values(args.values),
         )
     except (KeyError, ValueError, FileNotFoundError, ImportError) as exc:
         arg_parser.error(str(exc))

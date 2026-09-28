@@ -49,7 +49,7 @@ def test_parse_missing_channel_raises(tmp_path: Path) -> None:
         FlortParser(series="D").parse(bad_file)
 
 
-def test_write_csv_series_j_uses_bbfl2w_prefix_and_matches_current_script(tmp_path: Path) -> None:
+def test_write_csv_series_j_row_order_and_notes(tmp_path: Path) -> None:
     parser = FlortParser(series="J")
     cal = parser.parse(FIXTURE_PATH)
     (tmp_path / "FLORTJ").mkdir()
@@ -59,18 +59,18 @@ def test_write_csv_series_j_uses_bbfl2w_prefix_and_matches_current_script(tmp_pa
     assert output_path == tmp_path / "FLORTJ" / "CGINS-FLORTJ-01030__20161206.csv"
     assert output_path.read_text() == (
         "serial,name,value,notes\n"
-        "BBFL2W-1030,CC_angular_resolution,1.076,"
+        "1030,CC_dark_counts_cdom,47,date in filename comes from dev file\n"
+        "1030,CC_scale_factor_cdom,0.0650,\n"
+        "1030,CC_dark_counts_chlorophyll_a,47,\n"
+        "1030,CC_scale_factor_chlorophyll_a,0.0116,\n"
+        "1030,CC_dark_counts_volume_scatter,48,\n"
+        "1030,CC_scale_factor_volume_scatter,3.437E-06,\n"
+        "1030,CC_depolarization_ratio,0.039,Constant\n"
+        "1030,CC_measurement_wavelength,700,[nm]; Constant\n"
+        "1030,CC_scattering_angle,124,[degrees]; Constant\n"
+        "1030,CC_angular_resolution,1.076,"
         "Erroneously named constant; this coefficient scales the particulate "
         "scattering at 124 degrees to total backscatter from particles\n"
-        "BBFL2W-1030,CC_dark_counts_cdom,47,date in filename comes from dev file\n"
-        "BBFL2W-1030,CC_dark_counts_chlorophyll_a,47,\n"
-        "BBFL2W-1030,CC_dark_counts_volume_scatter,48,\n"
-        "BBFL2W-1030,CC_depolarization_ratio,0.039,Constant\n"
-        "BBFL2W-1030,CC_measurement_wavelength,700,Constant\n"
-        "BBFL2W-1030,CC_scale_factor_cdom,0.0650,\n"
-        "BBFL2W-1030,CC_scale_factor_chlorophyll_a,0.0116,\n"
-        "BBFL2W-1030,CC_scale_factor_volume_scatter,3.437E-06,\n"
-        "BBFL2W-1030,CC_scattering_angle,124,Constant\n"
     )
 
 
@@ -83,7 +83,7 @@ def test_write_csv_series_d_uses_plain_serial(tmp_path: Path) -> None:
 
     assert output_path == tmp_path / "FLORTD" / "CGINS-FLORTD-01030__20161206.csv"
     first_line = output_path.read_text().splitlines()[1]
-    assert first_line.startswith("1030,")  # no "BBFL2W-" prefix
+    assert first_line.startswith("1030,")  # bare serial for every series
 
 
 def test_write_csv_missing_directory_raises(tmp_path: Path) -> None:
@@ -92,3 +92,12 @@ def test_write_csv_missing_directory_raises(tmp_path: Path) -> None:
 
     with pytest.raises(FileNotFoundError, match="FLORTK"):
         parser.write_csv(cal, tmp_path)
+
+
+def test_parse_non_numeric_coefficient_raises(tmp_path: Path) -> None:
+    """A dev file exported from a broken spreadsheet (seen: '#REF!')."""
+    bad_file = tmp_path / "bad.dev"
+    bad_file.write_text(FIXTURE_PATH.read_text().replace("3.437E-06", "#REF!"))
+
+    with pytest.raises(ValueError, match="non-numeric coefficient '#REF!'"):
+        FlortParser(series="D").parse(bad_file)

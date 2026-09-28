@@ -2,10 +2,9 @@
 
 Ported from tools/matlab/Endurance_cal_scripts/flort/write_flort_dev_to_csv.m.
 
-D, J, and K share identical source format (WET Labs dev file) and
-coefficient set -- they only differ in which series letter lands in
-the output filename, and J additionally gets a "BBFL2W-" prefix on
-the serial column (the other two series do not) -- so this is one
+D, J, and K are the same instrument; the series letter only records
+where it is deployed and lands in the output filename. The serial
+column is the bare serial number for every series. So this is one
 FlortParser class, registered under "FLORT-D", "FLORT-J", and
 "FLORT-K" with the series fixed at construction time, same pattern
 as DostaParser/CtdbpParser. No serial-number-to-series lookup: same
@@ -143,21 +142,20 @@ class FlortParser(SeriesParser[FlortCal]):
         filename = f"CGINS-{self.class_code}{self.series}-{sn_str}__{cal.caldate}.csv"
         output_path = output_dir / filename
 
-        serial_column = f"BBFL2W-{cal.serial_number}" if self.series.upper() == "J" else str(cal.serial_number)
+        serial_column = str(cal.serial_number)
 
-        values: dict[str, tuple[str, str]] = {
-            "angular_resolution": ("1.076", _ANGULAR_RESOLUTION_NOTE),
-            "dark_counts_cdom": (cal.dark_counts_cdom, _CALDATE_PROVENANCE),
-            "dark_counts_chlorophyll_a": (cal.dark_counts_chlorophyll_a, ""),
-            "dark_counts_volume_scatter": (cal.dark_counts_volume_scatter, ""),
-            "depolarization_ratio": ("0.039", "Constant"),
-            "measurement_wavelength": ("700", "Constant"),
-            "scale_factor_cdom": (cal.scale_factor_cdom, ""),
-            "scale_factor_chlorophyll_a": (cal.scale_factor_chlorophyll_a, ""),
-            "scale_factor_volume_scatter": (cal.scale_factor_volume_scatter, ""),
-            "scattering_angle": ("124", "Constant"),
-        }
-        coefficients = [CalCoefficient(f"CC_{name}", value, note) for name, (value, note) in sorted(values.items())]
+        coefficients = [
+            CalCoefficient("CC_dark_counts_cdom", cal.dark_counts_cdom, _CALDATE_PROVENANCE),
+            CalCoefficient("CC_scale_factor_cdom", cal.scale_factor_cdom),
+            CalCoefficient("CC_dark_counts_chlorophyll_a", cal.dark_counts_chlorophyll_a),
+            CalCoefficient("CC_scale_factor_chlorophyll_a", cal.scale_factor_chlorophyll_a),
+            CalCoefficient("CC_dark_counts_volume_scatter", cal.dark_counts_volume_scatter),
+            CalCoefficient("CC_scale_factor_volume_scatter", cal.scale_factor_volume_scatter),
+            CalCoefficient("CC_depolarization_ratio", "0.039", "Constant"),
+            CalCoefficient("CC_measurement_wavelength", "700", "[nm]; Constant"),
+            CalCoefficient("CC_scattering_angle", "124", "[degrees]; Constant"),
+            CalCoefficient("CC_angular_resolution", "1.076", _ANGULAR_RESOLUTION_NOTE),
+        ]
 
         return write_cal_csv(output_path, serial_column, coefficients)
 
@@ -195,5 +193,12 @@ def _find_channel_values(lines: list[str], channel: str) -> tuple[str, str]:
         if tokens and channel in tokens[0].lower():
             if len(tokens) < 3:
                 raise ValueError(f"Could not parse channel {channel!r} row: {line!r}")
+            for token in tokens[1:3]:
+                try:
+                    float(token)
+                except ValueError:
+                    raise ValueError(
+                        f"Channel {channel!r} row has a non-numeric coefficient {token!r}: {line.strip()!r}"
+                    ) from None
             return tokens[1], tokens[2]
     raise ValueError(f"Could not find channel {channel!r} row in dev file.")

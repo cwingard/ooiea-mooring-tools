@@ -69,6 +69,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import ClassVar
 
+from asset_cal.common.compare import values_agree
 from asset_cal.common.csv_writer import CalCoefficient, write_cal_csv
 from asset_cal.common.series_parser import SeriesParser
 
@@ -111,22 +112,27 @@ class MetctdCal:
 
 
 class MetctdCalParser(SeriesParser[MetctdCal]):
-    """Parses vendor-supplied SBE37 *.cal files."""
+    """Parses vendor-supplied SBE37 *.cal files, optionally checked
+    against the QCT capture of the sensor."""
 
     class_code: ClassVar[str] = "METCTD"
     series: ClassVar[str] = "CAL"
+    accepts_qct: ClassVar[bool] = True
 
-    def parse(self, source_path: Path) -> MetctdCal:
+    def parse(self, source_path: Path, qct_path: Path | None = None) -> MetctdCal:
         """Parse a METCTD *.cal file into a MetctdCal.
 
-        UNVERIFIED -- no real .cal file was available; ported
-        structurally from rad_read_metctd_cal.m.
+        Tested against a real SBE37 .cal file (serial 13471, cal
+        04-Jun-26). With qct_path, the QCT capture of the sensor
+        must report the same serial, caldate and coefficients
+        (asset_cal.common.compare.values_agree), or the run stops.
 
         Raises
         ------
         ValueError
             If the serial number, either sensor caldate, or any
-            coefficient cannot be found.
+            coefficient cannot be found, or the capture disagrees
+            with the .cal file.
         """
         lines = [line.strip() for line in source_path.read_text(encoding="ascii").splitlines()]
 
@@ -140,11 +146,16 @@ class MetctdCalParser(SeriesParser[MetctdCal]):
             for label, output_name in zip(_CAL_COEFF_LABELS, _COEFFICIENT_ORDER)
         }
 
+        provenance = f"source: {source_path.name}"
+        if qct_path is not None:
+            _check_against_capture(serial_number, caldate, coefficients, MetctdCapParser().parse(qct_path))
+            provenance += f"; checked against QCT capture {qct_path.name}"
+
         return MetctdCal(
             serial_number=serial_number,
             series=self.series,
             caldate=caldate,
-            source_provenance=f"source: {source_path.name}",
+            source_provenance=provenance,
             coefficients=coefficients,
         )
 
@@ -152,6 +163,19 @@ class MetctdCalParser(SeriesParser[MetctdCal]):
         self, cal: MetctdCal, calibration_root: Path, output_dir_name: str | None = None
     ) -> Path:
         return _write_metctd_csv(cal, calibration_root, output_dir_name, self.class_code, self.series)
+
+
+def _check_against_capture(serial: str, caldate: str, coefficients: dict[str, str], capture: MetctdCal) -> None:
+    """Raise ValueError if the capture disagrees with the .cal values."""
+    if capture.serial_number != serial:
+        raise ValueError(f"QCT capture is for serial {capture.serial_number}, not the .cal file's {serial}.")
+    if capture.caldate != caldate:
+        raise ValueError(f"QCT capture caldate {capture.caldate} does not match the .cal file's {caldate}.")
+    for name, value in coefficients.items():
+        if not values_agree(value, capture.coefficients[name]):
+            raise ValueError(
+                f"{name}: .cal file {value} does not match the QCT capture's {capture.coefficients[name]}."
+            )
 
 
 class MetctdCapParser(SeriesParser[MetctdCal]):
