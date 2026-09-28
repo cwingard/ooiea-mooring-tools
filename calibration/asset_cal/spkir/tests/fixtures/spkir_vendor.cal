@@ -1,0 +1,71 @@
+# Satlantic model # OCR-507 ICSW s/n 0255 SATNET
+# WHOI / 2014-7003 / with Bioshutter s/n 200
+#############################################################################################################################################################
+# Calibration History
+# Date       |Operator |SW Version |Rev |Type |Light Data   |Dark Data   |Lamp         |Target       |Immersion Param  |Distance  | Comments
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------
+# 2014-02-14 |Jenn     |1.9.8_118  |A   |ED   |DI7255fa-0255_2014-02-14_09-29-21_raw |DI7255da-0255_2014-02-14_09-19-00_raw |F1206        |             |March 2003       |50.0      | Initial Calibration
+# 2015-12-11 |jsherman |1.9.15_194 |B   |ED   |DI7255fb-0255_2015-12-11_10-44-26_raw |DI7255db-0255_2015-12-11_10-41-04_raw |F1315        |             |March 2003       |50.0      | Post  Calibration
+# 2015-12-12 |jsherman |1.9.15_194 |C   |ED   |DI7255fc-0255_2015-12-12_07-52-57_raw |DI7255dc-0255_2015-12-12_07-49-37_raw |F1315        |             |March 2003       |50.0      | Final Calibration
+# 2016-12-02 |jsherman |1.9.16_196 |D   |ED   |DI7255fd-0255_2016-12-02_14-24-17_raw |DI7255dd-0255_2016-12-02_14-20-57_raw |F1366        |             |March 2003       |50.0      | Post Calibration
+# 2017-12-18 |rlamb    |1.9.23_30  |E   |ED   |DI7255f-0255_2017-12-18_17-01-39_raw |DI7255d-0255_2017-12-18_17-19-34_raw |F1443        |             |March 2003       |50.0      | Final Calibration
+# 2018-12-04 |rlamb    |1.9.23_30  |F   |ED   |DI7255f-0255_2018-12-04_15-19-27_raw |DI7255d-0255_2018-12-04_16-04-17_raw |F1508        |             |March 2003       |50.0      | Final Calibration
+# 2019-01-03 |rlamb    |1.9.23_30  |G   |ED   |DI7255f-0255_2019-01-03_17-00-00_raw |DI7255d-0255_2019-01-03_17-03-33_raw |F1508        |             |March 2003       |50.0      | Final Calibration
+# 2019-12-10 |rlamb    |1.9.23_30  |H   |ED   |DI7255f-0255_2019-12-10_14-38-13_raw |DI7255d-0255_2019-12-10_13-43-04_raw |F1573        |             |March 2003       |50.0      | Final Calibration
+# 2021-05-17 |dsmith   |1.9.23_30  |I   |ED   |DI7255f-0255_2021-05-17_07-21-51_raw |DI7255d-0255_2021-05-17_07-53-52_raw |F1649        |             |March 2003       |50.0      | Regular Calibration
+# 2022-11-04 |rlamb    |1.9.23_30  |J   |ED   |DI7255f-0255_2022-11-04_12-56-44_raw |DI7255d-0255_2022-11-04_13-11-44_raw |F1722        |             |March 2003       |50.0      | Final Calibration
+# 2023-11-13 |mswenson |1.9.23_30  |K   |ED   |DI7255f-0255_2023-11-10_10-24-35_raw |DI7255d-0255_2023-11-13_07-35-20_raw |F1740        |             |March 2003       |50.0      | Final Calibration
+# 2024-12-06 |scunningham |1.9.23_30  |L   |ED   |DI7255f-0255_2024-12-03_13-11-32_raw |DI7255d-0255_2024-12-04_14-12-52_raw |F1806        |             |March 2003       |50.0      | Final Calibration
+
+
+
+INSTRUMENT SATDI7 '' 6 AS 0 NONE
+SN 0255 '' 4 AS 0 NONE
+
+# Time since commencement of normal operation
+TIMER NONE 'sec' 10 AF 0 COUNT
+
+# Sample Delay
+DELAY SAMPLE 'ms' 2 BS 0 COUNT
+
+# Wavelength Data
+
+ED 412.40 'uW/cm^2/nm' 4 BU 1 OPTIC2
+2147358963.8	1.96915114139e-007	1.368
+
+ED 443.58 'uW/cm^2/nm' 4 BU 1 OPTIC2
+2146923241.5	1.97785388815e-007	1.410
+
+ED 489.80 'uW/cm^2/nm' 4 BU 1 OPTIC2
+2147688249.9	2.04216089634e-007	1.365
+
+ED 509.10 'uW/cm^2/nm' 4 BU 1 OPTIC2
+2148136134.4	2.07501485476e-007	1.354
+
+ED 554.62 'uW/cm^2/nm' 4 BU 1 OPTIC2
+2147931936.9	2.17282357967e-007	1.372
+
+ED 619.33 'uW/cm^2/nm' 4 BU 1 OPTIC2
+2146905916.1	1.98169977207e-007	1.322
+
+ED 683.33 'uW/cm^2/nm' 4 BU 1 OPTIC2
+2147501417.5	2.04144849046e-007	1.347
+
+# In-head ancillary measurements
+VS NONE 'Volts' 2 BU 1 POLYU
+0 0.03
+
+VA NONE 'Volts' 2 BU 1 POLYU
+0 0.03
+
+TEMP PCB 'Celsius' 2 BU 1 POLYU
+-50.0 0.5
+
+# Frame Counter (Data Integrity)
+FRAME COUNTER '' 1 BU 0 COUNT
+
+# Check Sum (Data Integrity)
+CHECK SUM '' 1 BU 0 COUNT
+
+# Frame Terminator
+CRLF TERMINATOR '' 2 BU 0 NONE

@@ -1,0 +1,195 @@
+repeat command to set RS-485 id
+WARNING: do not repeat if more than one sensor is attached!
+id set to 1
+SBE37SM-RS485 v3.1  SERIAL NO. 13471  01 Jul 2026 14:08:19
+vMain =  6.97, vLith =  3.01
+samplenumber = 0, free = 838860
+not logging, stop command
+sample interval = 300 seconds
+data format = converted engineering alternate
+sync mode = no
+pump installed = no
+reference pressure = 0.0 decibars
+RS485TxDelay = 25
+RS485RxDelay = 25
+<Executed/>
+<CalibrationCoefficients DeviceType = 'SBE37SM-RS485' SerialNumber = '03713471'>
+   <Calibration format = 'TEMP1' id = 'Temperature'>
+      <SerialNum>03713471</SerialNum>
+      <CalDate>04-Jun-26</CalDate>
+      <A0>-1.253292e-04</A0>
+      <A1>3.137504e-04</A1>
+      <A2>-5.079124e-06</A2>
+      <A3>2.175961e-07</A3>
+   </Calibration>
+   <Calibration format = 'WBCOND0' id = 'Conductivity'>
+      <SerialNum>03713471</SerialNum>
+      <CalDate>04-Jun-26</CalDate>
+      <G>-9.872035e-01</G>
+      <H>1.365948e-01</H>
+      <I>-1.474532e-04</I>
+      <J>2.944662e-05</J>
+      <PCOR>-9.570000e-08</PCOR>
+      <TCOR>3.250000e-06</TCOR>
+      <WBOTC>4.336702e-07</WBOTC>
+   </Calibration>
+</CalibrationCoefficients>
+<Executed/>
+<ConfigurationData DeviceType = 'SBE37SM-RS485' SerialNumber = '03713471'>
+   <PressureInstalled>no</PressureInstalled>
+   <ReferencePressure>0.000000e+00</ReferencePressure>
+   <PumpInstalled>no</PumpInstalled>
+   <SampleDataFormat>converted engineering alternate</SampleDataFormat>
+   <OutputSalinity>no</OutputSalinity>
+   <OutputSV>no</OutputSV>
+   <OutputDepth>no</OutputDepth>
+   <Latitude>0.0</Latitude>
+   <OutputDensity>no</OutputDensity>
+   <SampleInterval>300</SampleInterval>
+   <SyncMode>no</SyncMode>
+   <TxSyncMode>no</TxSyncMode>
+   <RS485RxDelay>25</RS485RxDelay>
+   <RS485TxDelay>25</RS485TxDelay>
+</ConfigurationData>
+<Executed/>
+<StatusData DeviceType = 'SBE37SM-RS485' SerialNumber = '03713471'>
+   <DateTime>2026-07-01T14:10:14</DateTime>
+   <EventSummary numEvents = '1'/>
+   <Power>
+      <vMain> 6.99</vMain>
+      <vLith> 3.01</vLith>
+   </Power>
+   <MemorySummary>
+      <Bytes>0</Bytes>
+      <Samples>0</Samples>
+      <SamplesFree>838860</SamplesFree>
+      <SampleLength>10</SampleLength>
+   </MemorySummary>
+   <AutonomousSampling>no, stop command</AutonomousSampling>
+</StatusData>
+<Executed/>
+<HardwareData DeviceType = 'SBE37SM-RS485' SerialNumber = '03713471'>
+   <Manufacturer>Sea-Bird Electronics, Inc.</Manufacturer>
+   <FirmwareVersion>3.1</FirmwareVersion>
+   <FirmwareDate>Jan 20 2012 17:43:55</FirmwareDate>
+   <PCBAssembly>41647.3</PCBAssembly>
+   <PCBAssembly>41624A</PCBAssembly>
+   <PCBAssembly>41611E</PCBAssembly>
+   <MfgDate>not set</MfgDate>
+   <FirmwareLoader>SBE 37-RS485 FirmwareLoader V 1.0</FirmwareLoader>
+   <InternalSensors>
+      <Sensor id = 'Temperature'>
+         <type>temperature-1</type>
+         <SerialNumber>03713471</SerialNumber>
+      </Sensor>
+      <Sensor id = 'Conductivity'>
+         <type>conductivity-1</type>
+         <SerialNumber>03713471</SerialNumber>
+      </Sensor>
+   </InternalSensors>
+</HardwareData>
+<Executed/>
+<Executed/>
+SBE37SM-RS485 v3.1  SERIAL NO. 13471  01 Jul 2026 21:13:06
+vMain =  6.97, vLith =  3.01
+samplenumber = 0, free = 838860
+not logging, stop command
+sample interval = 300 seconds
+data format = converted engineering alternate
+sync mode = no
+pump installed = no
+reference pressure = 0.0 decibars
+RS485TxDelay = 25
+RS485RxDelay = 25
+<Executed/>
+<Executed/>
+SBE37SM-RS485 v3.1  SERIAL NO. 13471  01 Jul 2026 21:13:38
+vMain =  6.99, vLith =  3.01
+samplenumber = 0, free = 838860
+not logging, stop command
+sample interval = 120 seconds
+data format = converted engineering alternate
+sync mode = no
+pump installed = no
+reference pressure = 0.0 decibars
+RS485TxDelay = 25
+RS485RxDelay = 25
+<Executed/>
+<Executed/>
+SBE37SM-RS485 v3.1  SERIAL NO. 13471  01 Jul 2026 21:13:54
+vMain =  6.98, vLith =  3.01
+samplenumber = 0, free = 838860
+not logging, stop command
+sample interval = 10 seconds
+data format = converted engineering alternate
+sync mode = no
+pump installed = no
+reference pressure = 0.0 decibars
+RS485TxDelay = 25
+RS485RxDelay = 25
+<Executed/>
+13471, 22.2574, 0.00000, 01 Jul 2026, 21:14:08
+<Executed/>
+13471, 22.3335, 0.00000, 01 Jul 2026, 21:22:06
+<Executed/>
+13471, 21.0775, 0.00561, 01 Jul 2026, 21:22:44
+<Executed/>
+this command will initialize memory
+repeat the command to confirm
+<Executed/>
+SBE37SM-RS485 v3.1  SERIAL NO. 13471  01 Jul 2026 21:24:36
+vMain =  6.98, vLith =  3.01
+samplenumber = 0, free = 838860
+not logging, stop command
+sample interval = 10 seconds
+data format = converted engineering alternate
+sync mode = no
+pump installed = no
+reference pressure = 0.0 decibars
+RS485TxDelay = 25
+RS485RxDelay = 25
+<Executed/>
+<!--start logging at = 01 Jul 2026 21:24:58, sample interval = 10 seconds-->
+<Executed/>
+<logging stopped/>
+<Executed/>
+<Error type='INVALID COMMAND' msg='cmd not recognized'/>
+<Executed/>
+SBE37SM-RS485 v3.1  SERIAL NO. 13471  01 Jul 2026 21:26:29
+vMain =  6.99, vLith =  3.01
+samplenumber = 9, free = 838851
+not logging, stop command
+sample interval = 10 seconds
+data format = converted engineering alternate
+sync mode = no
+pump installed = no
+reference pressure = 0.0 decibars
+RS485TxDelay = 25
+RS485RxDelay = 25
+<Executed/>
+start time = 01 Jul 2026 21:24:59
+start sample number = 1
+
+ 21.0789, 0.00629, 01 Jul 2026, 21:24:59
+ 21.0705, 0.00632, 01 Jul 2026, 21:25:09
+ 21.0688, 0.00635, 01 Jul 2026, 21:25:19
+ 21.0710, 0.00640, 01 Jul 2026, 21:25:29
+ 21.0683, 0.00644, 01 Jul 2026, 21:25:39
+ 21.0689, 0.00646, 01 Jul 2026, 21:25:49
+ 26.7052, 0.01439, 01 Jul 2026, 21:25:59
+ 22.7703, 0.01378, 01 Jul 2026, 21:26:09
+ 22.6769, 0.01358, 01 Jul 2026, 21:26:19
+<Executed/>
+<Executed/>
+SBE37SM-RS485 v3.1  SERIAL NO. 13471  01 Jul 2026 21:27:43
+vMain =  6.99, vLith =  3.01
+samplenumber = 9, free = 838851
+not logging, stop command
+sample interval = 300 seconds
+data format = converted engineering alternate
+sync mode = no
+pump installed = no
+reference pressure = 0.0 decibars
+RS485TxDelay = 25
+RS485RxDelay = 25
+<Executed/>

@@ -1,0 +1,3775 @@
+ [^C]
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+                McLane Research Laboratories, USA
+                         Pattern Profiler
+                         S/N: ML14378-01D
+               ___________________________________
+                         Pattern Profiler
+                            Main Menu
+               ___________________________________
+                    Tue Dec 17 14:37:00 2024
+
+ <1> Set Time        <5> Bench Test
+ <2> Diagnostics     <6> Deploy Profiler
+ <3> Flash Card Ops  <7> Offload Deployment Data
+ <4> Sleep           <8> Contacting McLane
+ <C> Configure
+
+ Selection [] ? 1
+
+ Enter date as mm/dd/yy or mm/dd/yyyy, time as hh:mm:ss
+
+ Enter correct time [12/17/2024 14:42:29] ? 03/14/2025, 16:35:25
+
+ Clock reads 03/14/2025 16:35:27. Change it [N] ? Y
+
+ Enter date as mm/dd/yy or mm/dd/yyyy, time as hh:mm:ss
+
+ Enter correct time [03/14/2025 16:35:31] ? 
+
+ Clock reads 03/14/2025 16:35:33. Change it [N] ? N
+
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+                McLane Research Laboratories, USA
+                         Pattern Profiler
+                         S/N: ML14378-01D
+               ___________________________________
+                         Pattern Profiler
+                            Main Menu
+               ___________________________________
+                    Fri Mar 14 16:35:37 2025
+
+ <1> Set Time        <5> Bench Test
+ <2> Diagnostics     <6> Deploy Profiler
+ <3> Flash Card Ops  <7> Offload Deployment Data
+ <4> Sleep           <8> Contacting McLane
+ <C> Configure
+
+ Selection [] ? 2
+
+ Press ^C to exit, or any other key to pause|continue.
+
+  Real-time clock       Watchdog clock    Battery  Motor
+03/14/2025 16:36:39, 03/14/2025 16:36:39,   11.2V,   0mA
+03/14/2025 16:36:42, 03/14/2025 16:36:42,   11.2V,   0mA
+03/14/2025 16:36:44, 03/14/2025 16:36:44,   11.2V,   0mA
+03/14/2025 16:36:46, 03/14/2025 16:36:46,   11.2V,   0mA
+03/14/2025 16:36:48, 03/14/2025 16:36:48,   11.2V,   0mA
+03/14/2025 16:36:51, 03/14/2025 16:36:51,   11.2V,   0mA
+03/14/2025 16:36:53, 03/14/2025 16:36:53,   11.2V,   0mA
+03/14/2025 16:36:55, 03/14/2025 16:36:55,   11.2V,   0mA
+  (paused...03/14/2025 16:36:58, 03/14/2025 16:36:58,   11.2V,   0mA
+03/14/2025 16:37:01, 03/14/2025 16:37:01,   11.2V,   0mA
+ [^C]
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+                McLane Research Laboratories, USA
+                         Pattern Profiler
+                         S/N: ML14378-01D
+               ___________________________________
+                         Pattern Profiler
+                            Main Menu
+               ___________________________________
+                    Fri Mar 14 16:37:03 2025
+
+ <1> Set Time        <5> Bench Test
+ <2> Diagnostics     <6> Deploy Profiler
+ <3> Flash Card Ops  <7> Offload Deployment Data
+ <4> Sleep           <8> Contacting McLane
+ <C> Configure
+
+ Selection [] ? 1
+
+ Enter date as mm/dd/yy or mm/dd/yyyy, time as hh:mm:ss
+
+ Enter correct time [03/14/2025 16:37:05] ? 03/14/2025, 16:37:30
+
+ Clock reads 03/14/2025 16:37:32. Change it [N] ? N
+
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+                McLane Research Laboratories, USA
+                         Pattern Profiler
+                         S/N: ML14378-01D
+               ___________________________________
+                         Pattern Profiler
+                            Main Menu
+               ___________________________________
+                    Fri Mar 14 16:37:35 2025
+
+ <1> Set Time        <5> Bench Test
+ <2> Diagnostics     <6> Deploy Profiler
+ <3> Flash Card Ops  <7> Offload Deployment Data
+ <4> Sleep           <8> Contacting McLane
+ <C> Configure
+
+ Selection [] ? 2
+
+ Press ^C to exit, or any other key to pause|continue.
+
+  Real-time clock       Watchdog clock    Battery  Motor
+03/14/2025 16:37:39, 03/14/2025 16:37:38,   11.2V,   0mA
+03/14/2025 16:37:41, 03/14/2025 16:37:41,   11.2V,   0mA
+03/14/2025 16:37:43, 03/14/2025 16:37:43,   11.2V,   0mA
+03/14/2025 16:37:45, 03/14/2025 16:37:45,   11.2V,   0mA
+03/14/2025 16:37:47, 03/14/2025 16:37:47,   11.2V,   0mA
+03/14/2025 16:37:50, 03/14/2025 16:37:50,   11.2V,   0mA
+03/14/2025 16:37:52, 03/14/2025 16:37:52,   11.2V,   0mA
+  (pause [^C]
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+                McLane Research Laboratories, USA
+                         Pattern Profiler
+                         S/N: ML14378-01D
+               ___________________________________
+                         Pattern Profiler
+                            Main Menu
+               ___________________________________
+                    Fri Mar 14 16:37:57 2025
+
+ <1> Set Time        <5> Bench Test
+ <2> Diagnostics     <6> Deploy Profiler
+ <3> Flash Card Ops  <7> Offload Deployment Data
+ <4> Sleep           <8> Contacting McLane
+ <C> Configure
+
+ Selection [] ? 3
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                      Flash Card Operations
+               ___________________________________
+                    Fri Mar 14 16:39:05 2025
+
+ <1> Flash card size/free
+ <2> List files
+ <3> Show profile count
+ <4> Delete all files
+ <5> Exchange flash cards
+ <6> Format flash card
+ <7> Command interface
+
+ <M> Main Menu
+
+ Selection [] ? 1
+
+03/14/2025 16:39:11   SYSTEM Sizing CompactFlash ... done.
+03/14/2025 16:39:11   SYSTEM CompactFlash: 3.9 MB used, 1.89 GB free, 1.89 GB size.
+03/14/2025 16:39:11   SYSTEM 27 files found on disk.
+
+
+Press any key to continue.
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                      Flash Card Operations
+               ___________________________________
+                    Fri Mar 14 16:41:05 2025
+
+ <1> Flash card size/free
+ <2> List files
+ <3> Show profile count
+ <4> Delete all files
+ <5> Exchange flash cards
+ <6> Format flash card
+ <7> Command interface
+
+ <M> Main Menu
+
+ Selection [] ? 2
+
+ Volume in drive C is PROFILER   
+ Volume Serial Number is 4030-66A1
+ Directory of C:\
+
+AUTOEXEC.BAT             36  10-20-99  2:11p
+ERRORLOG.TXT          5,161  12-17-24  2:37p
+00000          <DIR>         12-18-24  2:14p
+AQUADOPP.CFG          1,026  12-16-24  1:21p
+DEPLOY.DAT              304  12-17-24  2:24p
+FILELIST.TXT          3,776  12-17-24  2:32p
+IRQ_XCPT.LOG             12  12-17-24  2:24p
+LASTSENT.DAT              4  12-18-24  1:20p
+PROFILEA.LOG             28  12-18-24  6:06a
+PROFILEB.LOG             28  12-18-24  7:05a
+PROFILEC.LOG             28  12-18-24  8:06a
+PROFILED.LOG             28  12-18-24  9:06a
+PROFILEE.LOG             28  12-18-24 10:06a
+PROFILEF.LOG             28  12-18-24 11:06a
+PROFILEG.LOG             28  12-18-24 12:06p
+PROFILEH.LOG             28  12-18-24  2:01p
+PROFILEI.LOG             28  12-18-24  4:06a
+PROFILEJ.LOG             28  12-17-24  2:32p
+PROFILER.PXE        645,376  12-16-24  1:21p
+PROFILES.DAT              4  12-17-24  2:28p
+S0000000.DAT         10,880  12-16-24  1:21p
+SCHEDULE.DPL         10,880  12-16-24  1:21p
+SCHEDULE.TXT          1,388  12-17-24  2:25p
+
+        22 file(s)         679,127 bytes
+         1 dir(s)    2,030,338,048 bytes free
+
+
+Press any key to continue.
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                      Flash Card Operations
+               ___________________________________
+                    Fri Mar 14 16:41:13 2025
+
+ <1> Flash card size/free
+ <2> List files
+ <3> Show profile count
+ <4> Delete all files
+ <5> Exchange flash cards
+ <6> Format flash card
+ <7> Command interface
+
+ <M> Main Menu
+
+ Selection [] ? 3
+
+LOCATION  CONTENTS
+00000000  00 00 00 31                                      ...1
+
+
+
+
+Press any key to continue.
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                      Flash Card Operations
+               ___________________________________
+                    Fri Mar 14 16:41:24 2025
+
+ <1> Flash card size/free
+ <2> List files
+ <3> Show profile count
+ <4> Delete all files
+ <5> Exchange flash cards
+ <6> Format flash card
+ <7> Command interface
+
+ <M> Main Menu
+
+ Selection [] ? M
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+                McLane Research Laboratories, USA
+                         Pattern Profiler
+                         S/N: ML14378-01D
+               ___________________________________
+                         Pattern Profiler
+                            Main Menu
+               ___________________________________
+                    Fri Mar 14 16:41:27 2025
+
+ <1> Set Time        <5> Bench Test
+ <2> Diagnostics     <6> Deploy Profiler
+ <3> Flash Card Ops  <7> Offload Deployment Data
+ <4> Sleep           <8> Contacting McLane
+ <C> Configure
+
+ Selection [] ? 5
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 16:41:34 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Release Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ?  [timeout]
+
+03/14/2025 17:02:19   SYSTEM Suspended ... ?
+03/14/2025 17:08:50   SYSTEM Suspended ... ?
+03/14/2025 17:08:55   SYSTEM Suspended ... ?
+Enter ^C now to wake up ...  [^C]
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 17:09:01 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Release Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ?  [^C]
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+                McLane Research Laboratories, USA
+                         Pattern Profiler
+                         S/N: ML14378-01D
+               ___________________________________
+                         Pattern Profiler
+                            Main Menu
+               ___________________________________
+                    Fri Mar 14 17:09:04 2025
+
+ <1> Set Time        <5> Bench Test
+ <2> Diagnostics     <6> Deploy Profiler
+ <3> Flash Card Ops  <7> Offload Deployment Data
+ <4> Sleep           <8> Contacting McLane
+ <C> Configure
+
+ Selection [] ? 5
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 17:09:08 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Release Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? 1
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                 Seabird 52MP CTD Bench Test Menu
+               ___________________________________
+                    Fri Mar 14 17:09:37 2025
+
+ <1> Direct communications (9600 Baud)
+ <2> restore McLane parameters
+ <3> restore Factory parameters
+ <4> Report parameter settings
+ <5> Perform a profile test loop 
+
+ <M> return to previous Menu
+
+ Selection [] ? 4
+
+****************************************************************
+
+03/14/2025 17:09:45 SBE/52MP Executing scripted commands. Please wait...
+
+03/14/2025 17:09:46 SBE/52MP Sending scripted command [ds].
+
+ SBE 52 MP 2.5  SERIAL NO. 0189
+DO installed = yes
+overwrite memory if filled
+stop profile when pressure is less than = -9.9 decibars
+automatic bin averaging when p < -9.9 disabled
+number of samples = 0
+number of bins = 0
+top bin interval = 10
+top bin size = 10
+top bin max = 100
+middle bin interval = 50
+middle bin size = 50
+middle bin max = 1000
+bottom bin interval = 100
+bottom bin size = 100
+do not include two transition bins
+oxygen frequency multiplier = 0.25
+S>
+
+03/14/2025 17:09:47 SBE/52MP Sending scripted command [dc].
+
+ SBE 52 MP 2.5  SERIAL NO. 0189
+temperature:  26-jan-24
+    TA0 =  5.881658e-05
+    TA1 =  2.685635e-04
+    TA2 = -2.063726e-06
+    TA3 =  1.404103e-07
+conductivity:  26-jan-24
+    G = -1.002236e+00
+    H =  1.379115e-01
+    I = -2.513536e-04
+    J =  3.862314e-05
+    CPCOR = -9.570001e-08
+    CTCOR =  3.250000e-06
+    WBOTC =  6.317148e-08
+pressure S/N = 10654708, range = 870 psia:  24-oct-23
+    PA0 = -6.692400e-02
+    PA1 =  4.288905e-02
+    PA2 =  5.766020e-09
+    PTCA0 = -2.606546e+01
+    PTCA1 =  1.231464e-02
+    PTCA2 = -3.579183e-03
+    PTCB0 =  2.515214e+01
+    PTCB1 = -1.754386e-04
+    PTCB2 =  0.000000e+00
+    PTHA0 = -8.389235e+01
+    PTHA1 =  4.413319e-02
+    PTHA2 =  3.291268e-08
+    POFFSET =  0.000000e+00
+oxygen S/N = 4361: 06-mar-24
+    Soc =  3.801300e-04
+    Foffset = -7.666900e+02
+    A = -3.608700e-03
+    B =  1.268300e-04
+    C = -2.274400e-06
+    E =  3.600000e-02
+S>
+
+03/14/2025 17:09:50 SBE/52MP Completed scripted commands.
+
+03/14/2025 17:09:50 SBE/52MP Press ^C to terminate COMM session.
+03/14/2025 17:09:50   SYSTEM Press ^B to change or confirm Baud rate.
+
+
+
+S> [^C]
+****************************************************************
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                 Seabird 52MP CTD Bench Test Menu
+               ___________________________________
+                    Fri Mar 14 17:09:58 2025
+
+ <1> Direct communications (9600 Baud)
+ <2> restore McLane parameters
+ <3> restore Factory parameters
+ <4> Report parameter settings
+ <5> Perform a profile test loop 
+
+ <M> return to previous Menu
+
+ Selection [] ? 5
+
+
+ Enter profile duration in minutes (1-60) [5] ? 
+
+ Enter stop-check interval in seconds (2-60) [15] ? 
+
+03/14/2025 17:10:17 SBE/52MP Automated verification of sensor settings.
+
+03/14/2025 17:10:21 SBE/52MP Identified as  V2.5, S/N 189.
+03/14/2025 17:10:21 SBE/52MP Checking parameters ...
+
+03/14/2025 17:10:36 SBE/52MP Pressure = -0.430 dbar.
+
+
+ Press ^C to exit the loop.
+
+03/14/2025 17:10:41 SBE/52MP Preparing for profile 50.
+
+03/14/2025 17:10:44 SBE/52MP Identified as  V2.5, S/N 189.
+
+03/14/2025 17:10:51 SBE/52MP Acquiring for 5 minutes, with a 15 second StopCheck interval.
+
+03/14/2025 17:10:51   SYSTEM Waiting until 03/14/2025 17:11:06. ... Continuing
+
+03/14/2025 17:11:08 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:11:09   SYSTEM Waiting until 03/14/2025 17:11:21. ... Continuing
+
+03/14/2025 17:11:23 SBE/52MP Pressure = -0.420 dbar.
+
+03/14/2025 17:11:24   SYSTEM Waiting until 03/14/2025 17:11:36. ... Continuing
+
+03/14/2025 17:11:38 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:11:39   SYSTEM Waiting until 03/14/2025 17:11:51. ... Continuing
+
+03/14/2025 17:11:53 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:11:54   SYSTEM Waiting until 03/14/2025 17:12:06. ... Continuing
+
+03/14/2025 17:12:08 SBE/52MP Pressure = -0.420 dbar.
+
+03/14/2025 17:12:09   SYSTEM Waiting until 03/14/2025 17:12:21. ... Continuing
+
+03/14/2025 17:12:23 SBE/52MP Pressure = -0.420 dbar.
+
+03/14/2025 17:12:24   SYSTEM Waiting until 03/14/2025 17:12:36. ... Continuing
+
+03/14/2025 17:12:38 SBE/52MP Pressure = -0.420 dbar.
+
+03/14/2025 17:12:39   SYSTEM Waiting until 03/14/2025 17:12:51. ... Continuing
+
+03/14/2025 17:12:53 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:12:54   SYSTEM Waiting until 03/14/2025 17:13:06. ... Continuing
+
+03/14/2025 17:13:08 SBE/52MP Pressure = -0.420 dbar.
+
+03/14/2025 17:13:09   SYSTEM Waiting until 03/14/2025 17:13:21. ... Continuing
+
+03/14/2025 17:13:23 SBE/52MP Pressure = -0.420 dbar.
+
+03/14/2025 17:13:24   SYSTEM Waiting until 03/14/2025 17:13:36. ... Continuing
+
+03/14/2025 17:13:38 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:13:39   SYSTEM Waiting until 03/14/2025 17:13:51. ... Continuing
+
+03/14/2025 17:13:53 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:13:54   SYSTEM Waiting until 03/14/2025 17:14:06. ... Continuing
+
+03/14/2025 17:14:08 SBE/52MP Pressure = -0.420 dbar.
+
+03/14/2025 17:14:09   SYSTEM Waiting until 03/14/2025 17:14:21. ... Continuing
+
+03/14/2025 17:14:23 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:14:24   SYSTEM Waiting until 03/14/2025 17:14:36. ... Continuing
+
+03/14/2025 17:14:38 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:14:39   SYSTEM Waiting until 03/14/2025 17:14:51. ... Continuing
+
+03/14/2025 17:14:53 SBE/52MP Pressure = -0.420 dbar.
+
+03/14/2025 17:14:54   SYSTEM Waiting until 03/14/2025 17:15:06. ... Continuing
+
+03/14/2025 17:15:08 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:15:09   SYSTEM Waiting until 03/14/2025 17:15:21. ... Continuing
+
+03/14/2025 17:15:23 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:15:24   SYSTEM Waiting until 03/14/2025 17:15:36. ... Continuing
+
+03/14/2025 17:15:38 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:15:39   SYSTEM Waiting until 03/14/2025 17:15:51. ... Continuing
+
+03/14/2025 17:15:53 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:15:54 SBE/52MP Halting profile 50.
+
+03/14/2025 17:15:56 SBE/52MP Dumping data to disk for profile 50.
+
+03/14/2025 17:15:56 SBE/52MP Opening 00000\C0000050.DAT for profile 50.
+03/14/2025 17:15:57 SBE/52MP Sending 3355 byte block 1 of 1 ................
+03/14/2025 17:16:05   SYSTEM Received 3355 bytes for block 1 of 1.
+03/14/2025 17:16:05 SBE/52MP Offloaded 3355 bytes in 8 seconds. ~419 CPS.
+03/14/2025 17:16:05 SBE/52MP Closing 00000\C0000050.DAT for profile 50.
+03/14/2025 17:16:05 SBE/52MP Powered off.
+03/14/2025 17:16:05 SBE/52MP Power-down delay .....................
+
+03/14/2025 17:16:11 SBE/52MP Test profile 50 succeeded.
+
+ Press ^C to exit the loop.
+
+03/14/2025 17:16:11 SBE/52MP Preparing for profile 51.
+
+03/14/2025 17:16:14 SBE/52MP Identified as  V2.5, S/N 189.
+
+03/14/2025 17:16:20 SBE/52MP Acquiring for 5 minutes, with a 15 second StopCheck interval.
+
+03/14/2025 17:16:21   SYSTEM Waiting until 03/14/2025 17:16:35. ... Continuing
+
+03/14/2025 17:16:37 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:16:37   SYSTEM Waiting until 03/14/2025 17:16:50. ... Continuing
+
+03/14/2025 17:16:52 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:16:52   SYSTEM Waiting until 03/14/2025 17:17:05. ... Continuing
+
+03/14/2025 17:17:07 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:17:07   SYSTEM Waiting until 03/14/2025 17:17:20. ... Continuing
+
+03/14/2025 17:17:22 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:17:22   SYSTEM Waiting until 03/14/2025 17:17:35. ... Continuing
+
+03/14/2025 17:17:37 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:17:37   SYSTEM Waiting until 03/14/2025 17:17:50. ... Continuing
+
+03/14/2025 17:17:52 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:17:52   SYSTEM Waiting until 03/14/2025 17:18:05. ... Continuing
+
+03/14/2025 17:18:07 SBE/52MP Pressure = -0.440 dbar.
+
+03/14/2025 17:18:07   SYSTEM Waiting until 03/14/2025 17:18:20. ... Continuing
+
+03/14/2025 17:18:22 SBE/52MP Pressure = -0.430 dbar.
+
+03/14/2025 17:18:22   SYSTEM Waiting until 03/14/2025 17:18:35. ... Continuing
+
+03/14/2025 17:18:37 SBE/52MP Pressure = -0.440 dbar.
+
+03/14/2025 17:18:37   SYSTEM Waiting until 03/14/2025 17:18:50. ... [^C] Continuing
+ [^C]
+
+03/14/2025 17:18:39 SBE/52MP Test profile 51 succeeded.
+03/14/2025 17:18:39 SBE/52MP Powered off.
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                 Seabird 52MP CTD Bench Test Menu
+               ___________________________________
+                    Fri Mar 14 17:18:39 2025
+
+ <1> Direct communications (9600 Baud)
+ <2> restore McLane parameters
+ <3> restore Factory parameters
+ <4> Report parameter settings
+ <5> Perform a profile test loop 
+
+ <M> return to previous Menu
+
+ Selection [] ? m
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 17:19:23 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Release Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? 2
+
+
+03/14/2025 17:20:00 SBE/52MP pressure = -0.430 dbar.
+
+
+Press any key to continue.
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 17:20:05 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Release Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? 3
+
+Enter number of measurements to average (2-5000) [100] ? 10
+
+
+03/14/2025 17:20:29 SBE/52MP Pressure 1 of 10 = -0.430 dbar.
+03/14/2025 17:20:34 SBE/52MP Pressure 2 of 10 = -0.420 dbar.
+03/14/2025 17:20:38 SBE/52MP Pressure 3 of 10 = -0.430 dbar.
+03/14/2025 17:20:43 SBE/52MP Pressure 4 of 10 = -0.430 dbar.
+03/14/2025 17:20:47 SBE/52MP Pressure 5 of 10 = -0.430 dbar.
+03/14/2025 17:20:52 SBE/52MP Pressure 6 of 10 = -0.420 dbar.
+03/14/2025 17:20:56 SBE/52MP Pressure 7 of 10 = -0.430 dbar.
+03/14/2025 17:21:01 SBE/52MP Pressure 8 of 10 = -0.430 dbar.
+03/14/2025 17:21:05 SBE/52MP Pressure 9 of 10 = -0.430 dbar.
+03/14/2025 17:21:10 SBE/52MP Pressure 10 of 10 = -0.430 dbar.
+
+03/14/2025 17:21:10 SBE/52MP Pressure = -0.428 dbar, averaged over 10 samples.
+
+
+Press any key to continue.
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 17:21:28 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Release Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? 4
+
+Enter number of measurements (1-1000) [  10] ? 2
+Enter measurement interval [minutes] (1- 60) [ 10] ? 5
+
+03/14/2025 17:22:00   SYSTEM Temperature record will finish at 03/14/2025 17:32:00.
+03/14/2025 17:22:00 SBE/52MP Powered on.
+
+03/14/2025 17:23:10 SBE/52MP +20.6470°C 1 of 2.
+03/14/2025 17:23:10   SYSTEM Suspended until 03/14/2025 17:28:00 ... Awake
+03/14/2025 17:28:17 SBE/52MP +23.9211°C 2 of 2.
+
+03/14/2025 17:28:17 SBE/52MP Averaged 2 of 2 requested temperature samples.
+
+03/14/2025 17:28:22   SYSTEM Suspended ... ?
+03/14/2025 17:36:28   SYSTEM Suspended ... ?
+Enter ^C now to wake up ...  [^C]
+
+Display temperature record [Y] ? y
+
+Initiate your communication program's file logging utility
+to copy the temperature record to a disk file. Then:
+
+Press any key to continue.
+
+03/14/2025 17:28:17 SBE/52MP Averaged 2 of 2 requested temperature samples.
+
+03/14/2025 17:23:10  0001  +20.6470°C
+03/14/2025 17:28:17  0002  +23.9211°C
+
+Average temperature = +22.2840 °C
+
+Temperature record will be discarded. Exit [N] ? y
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 17:38:36 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Release Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? 5
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+               Nortek AquaDopp2 DVS Bench Test Menu
+               ___________________________________
+                    Fri Mar 14 17:39:03 2025
+
+ <1> Direct communications (19200 Baud)
+ <2> restore McLane parameters
+ <3> restore Factory parameters
+ <4> Report parameter settings
+ <5> Perform a profile test loop
+ <6> Set sampling rate (2 Hz)
+ <7> Set AquaDopp clock
+ <8> Read AquaDopp clock
+ <9> Erase sensor data 
+
+ <M> return to previous Menu
+
+ Selection [] ? 4
+
+03/14/2025 17:42:47 AQUADOP2 19.2 kBaud communication channel opened.
+03/14/2025 17:42:47 AQUADOP2 Powered on. .
+03/14/2025 17:42:53 AQUADOP2 Forcing into command mode.
+03/14/2025 17:42:53 AQUADOP2 Sending command [@@@@@@].
+03/14/2025 17:42:53 AQUADOP2 Sending command [K1W%!Q].
+03/14/2025 17:42:53 AQUADOP2 Sending command [K1W%!Q]. .
+03/14/2025 17:42:54 AQUADOP2 Sending command [MC]. . ...
+03/14/2025 17:42:55 AQUADOP2 Sending command [ID]. .
+03/14/2025 17:42:55 AQUADOP2 Identified as AQUADOP2, V2214_9, S/N 100475.
+
+03/14/2025 17:42:55 AQUADOP2 Sending command [GETCLOCK]. .
+03/14/2025 17:42:55 AQUADOP2 2025,3,14,12,42,49.
+
+03/14/2025 17:42:55 AQUADOP2 Sending command [GETINST]. ..
+03/14/2025 17:42:55 AQUADOP2 19200,232,"ON","AUTOXUPDOWN",300,60,60.
+
+03/14/2025 17:42:56 AQUADOP2 Sending command [GETPLAN]. ..
+03/14/2025 17:42:56 AQUADOP2 1,0,0,2,10,35.0,1,0,0,1500.00,"TELEMETRYFILE.BIN",0,1000,0.
+
+03/14/2025 17:42:56 AQUADOP2 Sending command [GETTM]. .
+03/14/2025 17:42:56 AQUADOP2 0,0,1,1,1,1,1,0,0,0,0.
+
+03/14/2025 17:42:56 AQUADOP2 Sending command [GETCP]. ..
+03/14/2025 17:42:57 AQUADOP2 1,0.50,0.30,BEAM,0.00,1,0.00000,2.50,0.
+
+03/14/2025 17:42:57 AQUADOP2 Sending command [GETBURST]. ...
+03/14/2025 17:42:57 AQUADOP2 1,0,0.230,0.150,"BEAM",-9.0,2,1024,5.00,1.000,2,1,0,0,3.00,0,0,0,1,0.10,30.00,0,0.
+
+03/14/2025 17:42:57 AQUADOP2 Sending command [GETUSER]. .
+03/14/2025 17:42:57 AQUADOP2 9.50,0.00,0,0,0.
+
+03/14/2025 17:42:58 AQUADOP2 Powered off.
+03/14/2025 17:42:58 AQUADOP2 19.2 kBaud communication channel closed.
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+               Nortek AquaDopp2 DVS Bench Test Menu
+               ___________________________________
+                    Fri Mar 14 17:42:58 2025
+
+ <1> Direct communications (19200 Baud)
+ <2> restore McLane parameters
+ <3> restore Factory parameters
+ <4> Report parameter settings
+ <5> Perform a profile test loop
+ <6> Set sampling rate (2 Hz)
+ <7> Set AquaDopp clock
+ <8> Read AquaDopp clock
+ <9> Erase sensor data 
+
+ <M> return to previous Menu
+
+ Selection [] ? 4
+
+03/14/2025 17:43:27 AQUADOP2 19.2 kBaud communication channel opened.
+03/14/2025 17:43:28 AQUADOP2 Powered on. . ...
+03/14/2025 17:43:29 AQUADOP2 Sending command [ID]. .
+03/14/2025 17:43:29 AQUADOP2 Identified as AQUADOP2, V2214_9, S/N 100475.
+
+03/14/2025 17:43:29 AQUADOP2 Sending command [GETCLOCK]. .
+03/14/2025 17:43:29 AQUADOP2 2025,3,14,12,43,23.
+
+03/14/2025 17:43:30 AQUADOP2 Sending command [GETINST]. ..
+03/14/2025 17:43:30 AQUADOP2 19200,232,"ON","AUTOXUPDOWN",300,60,60.
+
+03/14/2025 17:43:30 AQUADOP2 Sending command [GETPLAN]. ..
+03/14/2025 17:43:30 AQUADOP2 1,0,0,2,10,35.0,1,0,0,1500.00,"TELEMETRYFILE.BIN",0,1000,0.
+
+03/14/2025 17:43:30 AQUADOP2 Sending command [GETTM]. .
+03/14/2025 17:43:31 AQUADOP2 0,0,1,1,1,1,1,0,0,0,0.
+
+03/14/2025 17:43:31 AQUADOP2 Sending command [GETCP]. ..
+03/14/2025 17:43:31 AQUADOP2 1,0.50,0.30,BEAM,0.00,1,0.00000,2.50,0.
+
+03/14/2025 17:43:31 AQUADOP2 Sending command [GETBURST]. ...
+03/14/2025 17:43:31 AQUADOP2 1,0,0.230,0.150,"BEAM",-9.0,2,1024,5.00,1.000,2,1,0,0,3.00,0,0,0,1,0.10,30.00,0,0.
+
+03/14/2025 17:43:32 AQUADOP2 Sending command [GETUSER]. .
+03/14/2025 17:43:32 AQUADOP2 9.50,0.00,0,0,0.
+
+03/14/2025 17:43:32 AQUADOP2 Powered off.
+03/14/2025 17:43:32 AQUADOP2 19.2 kBaud communication channel closed.
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+               Nortek AquaDopp2 DVS Bench Test Menu
+               ___________________________________
+                    Fri Mar 14 17:43:32 2025
+
+ <1> Direct communications (19200 Baud)
+ <2> restore McLane parameters
+ <3> restore Factory parameters
+ <4> Report parameter settings
+ <5> Perform a profile test loop
+ <6> Set sampling rate (2 Hz)
+ <7> Set AquaDopp clock
+ <8> Read AquaDopp clock
+ <9> Erase sensor data 
+
+ <M> return to previous Menu
+
+ Selection [] ? m
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 17:44:01 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Release Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? 6
+
+ Displays Heading, Pitch & Roll outputs
+ for use while mounting the ACM pressure housing.
+
+ Press ^C to terminate operation.
+
+03/14/2025 17:50:15 AQUADOP2 19.2 kBaud communication channel opened.
+03/14/2025 17:50:15 AQUADOP2 Powered on. . ...
+03/14/2025 17:50:16 AQUADOP2 Sending command [ID]. .
+03/14/2025 17:50:16 AQUADOP2 Identified as AQUADOP2, V2214_9, S/N 100475.
+03/14/2025 17:50:16 AQUADOP2 Sending command [ERASE,CODE=9999]. .
+03/14/2025 17:50:18 AQUADOP2 Sending command [SETBURST,SR=1,PL=-100]. .
+03/14/2025 17:50:18 AQUADOP2 Sending command [SETPLAN,VD=0,SO=1]. .
+03/14/2025 17:50:19 AQUADOP2 Sending command [START]. .
+
+  DATE     TIME   HEADING     TX     TY    MagX    MagY    MagZ ................................................................ .
+03/14/2025 17:50:32   353.1   37.2    2.6     661     -84      50 .
+03/14/2025 17:50:33     0.0   37.2    2.5     668     -29      61 .
+03/14/2025 17:50:34     5.5   37.2    2.6     676      14      63 .
+03/14/2025 17:50:35    10.5   37.2    2.6     672      53      61 .
+03/14/2025 17:50:36    14.6   37.2    2.4     668      87      54 .
+03/14/2025 17:50:37    17.4   37.2    2.7     669     107      48 .
+03/14/2025 17:50:38    19.6   37.2    2.2     662     128      42 .
+03/14/2025 17:50:39    29.8   37.1    2.4     640     192       0 .
+03/14/2025 17:50:40    43.5   37.1    2.2     596     263     -65 .
+03/14/2025 17:50:41    56.7   37.2    2.5     545     304    -134 .
+03/14/2025 17:50:42    69.5   37.1    2.8     497     323    -202 .
+03/14/2025 17:50:43    79.1   37.1    2.7     457     318    -253 .
+03/14/2025 17:50:44    88.8   37.1    2.4     420     308    -300 .
+03/14/2025 17:50:45    97.9   37.1    2.6     393     292    -342 .
+03/14/2025 17:50:46   101.6   37.2    2.8     380     285    -356 .
+03/14/2025 17:50:47   100.7   37.2    2.5     383     286    -354 .
+03/14/2025 17:50:48   100.4   37.3    2.7     384     286    -353 .
+03/14/2025 17:50:49   101.7   37.2    2.2     379     283    -358 .
+03/14/2025 17:50:50   108.7   37.1    2.3     360     269    -385 .
+03/14/2025 17:50:51   117.5   37.1    2.5     336     245    -416 .
+03/14/2025 17:50:52   126.3   37.1    2.5     311     220    -444 .
+03/14/2025 17:50:53   133.3   37.1    2.6     294     196    -464 .
+03/14/2025 17:50:54   140.2   37.1    2.5     280     170    -481 .
+03/14/2025 17:50:55   147.9   37.1    2.3     264     141    -499 .
+03/14/2025 17:50:56   157.8   37.1    2.6     248      96    -516 .
+03/14/2025 17:50:57   167.5   37.1    2.6     240      50    -527 .
+03/14/2025 17:50:58   176.6   37.1    2.5     231       6    -531 .
+03/14/2025 17:50:59   185.9   37.1    2.5     230     -40    -531 .
+03/14/2025 17:51:00   195.6   37.1    2.4     233     -87    -524 .
+03/14/2025 17:51:01   205.5   37.1    2.4     238    -135    -512 .
+03/14/2025 17:51:02   217.1   37.1    2.4     257    -184    -487 .
+03/14/2025 17:51:03   228.6   37.0    2.4     280    -227    -456 .
+03/14/2025 17:51:04   239.9   37.0    2.5     306    -262    -420 .
+03/14/2025 17:51:05   249.9   37.1    2.6     336    -281    -385 .
+03/14/2025 17:51:06   260.2   37.1    2.6     366    -296    -347 .
+03/14/2025 17:51:07   269.8   37.1    2.6     394    -304    -310 .
+03/14/2025 17:51:08   278.5   37.1    2.5     420    -300    -275 .
+03/14/2025 17:51:09   286.7   37.1    2.6     443    -296    -242 .
+03/14/2025 17:51:10   294.6   37.1    2.6     465    -289    -208 .
+03/14/2025 17:51:11   300.9   37.2    2.4     484    -278    -183 .
+03/14/2025 17:51:12   308.5   37.1    2.8     504    -266    -151 .
+03/14/2025 17:51:13   314.6   37.1    2.6     525    -255    -121 .
+03/14/2025 17:51:14   320.4   37.2    2.5     548    -243     -93 .
+03/14/2025 17:51:15   326.7   37.3    2.7     570    -227     -60 .
+03/14/2025 17:51:16   332.1   37.3    2.7     596    -209     -32 .
+03/14/2025 17:51:17   337.1   37.3    2.6     615    -186      -7 .
+03/14/2025 17:51:18   342.6   37.1    2.6     631    -154      19 .
+03/14/2025 17:51:19   347.6   37.3    3.0     650    -128      37 .
+03/14/2025 17:51:20   347.5   37.2    2.9     649    -128      38 .
+03/14/2025 17:51:21   336.9   37.2    2.9     616    -191      -6 .
+03/14/2025 17:51:22   322.6   37.1    2.7     560    -243     -78 .
+03/14/2025 17:51:23   312.6   37.1    2.8     520    -264    -128 .
+03/14/2025 17:51:24   302.3   37.1    2.6     487    -279    -175 .
+03/14/2025 17:51:25   292.0   37.1    2.3     459    -293    -218 .
+03/14/2025 17:51:26   280.8   37.1    2.4     426    -301    -264 .
+03/14/2025 17:51:27   268.2   37.0    2.5     388    -301    -314 .
+03/14/2025 17:51:28   256.1   37.0    2.7     353    -291    -361 .
+03/14/2025 17:51:29   242.5   37.1    2.5     314    -268    -412 .
+03/14/2025 17:51:30   230.7   37.1    2.5     283    -235    -449 .
+03/14/2025 17:51:31   220.5   37.1    2.4     262    -198    -479 .
+03/14/2025 17:51:32   210.6   37.1    2.4     246    -157    -501 .
+03/14/2025 17:51:33   200.7   37.0    2.5     236    -112    -517 .
+03/14/2025 17:51:34   191.1   37.1    2.6     231     -66    -527 .
+03/14/2025 17:51:35   181.9   37.1    2.2     229     -19    -534 .
+03/14/2025 17:51:36   172.5   37.1    2.2     233      28    -530 .
+03/14/2025 17:51:37   163.0   37.1    2.7     241      72    -523 .
+03/14/2025 17:51:38   154.8   37.1    2.5     252     110    -511 .
+03/14/2025 17:51:39   146.5   37.1    2.4     266     146    -496 .
+03/14/2025 17:51:40   139.0   37.1    2.4     281     176    -479 .
+03/14/2025 17:51:41   130.0   37.0    3.1     301     207    -454 .
+03/14/2025 17:51:42   116.6   36.9    2.8     337     249    -410 .
+03/14/2025 17:51:43   100.6   37.0    2.4     383     288    -351 .
+03/14/2025 17:51:44    88.8   37.3    1.3     418     307    -306 .
+03/14/2025 17:51:45    89.2   37.1    2.7     421     308    -302 .
+03/14/2025 17:51:46    94.3   37.6    1.3     400     297    -332 .
+03/14/2025 17:51:47   107.6   37.4    2.3     359     272    -381 .
+03/14/2025 17:51:48   115.8   39.2    2.7     327     248    -422 .
+03/14/2025 17:51:49   114.5   43.5    3.0     298     255    -440 .
+03/14/2025 17:51:50   118.6   46.8    3.9     265     240    -471 .
+03/14/2025 17:51:51   116.8   50.6    4.5     248     238    -483 .
+03/14/2025 17:51:52   112.0   50.5    3.1     259     254    -469 .
+03/14/2025 17:51:53   116.0   50.4    3.9     251     241    -481 .
+03/14/2025 17:51:54   115.7   50.1    3.9     253     241    -477 .
+03/14/2025 17:51:55   114.9   45.8    2.2     283     248    -454 .
+03/14/2025 17:51:56   121.0   38.4    3.0     319     232    -434 .
+03/14/2025 17:51:57   126.8   36.9    2.8     313     216    -444 .
+03/14/2025 17:51:58   128.8   37.3    2.2     301     215    -453 .
+03/14/2025 17:51:59   132.1   37.1    2.7     301     198    -461 .
+03/14/2025 17:52:00   135.4   37.1    2.8     291     188    -471  [^C]
+
+03/14/2025 17:52:00 AQUADOP2 Sending command [@@@@@@].
+03/14/2025 17:52:01 AQUADOP2 Sending command [K1W%!Q].
+03/14/2025 17:52:01 AQUADOP2 Sending command [K1W%!Q]. .
+03/14/2025 17:52:02 AQUADOP2 Sending command [MC].
+03/14/2025 17:52:02 AQUADOP2 Powered off.
+03/14/2025 17:52:02 AQUADOP2 Power-down delay .....................
+03/14/2025 17:52:08 AQUADOP2 19.2 kBaud communication channel closed.
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 17:52:08 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Release Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? 7
+
+Motor direction (Up/Down)         [U] ? u
+Enter ramp duration [sec] (2-90) [30] ? 2
+
+Press ^C to exit.
+
+03/14/2025 17:54:44   SYSTEM Starting 2 second ramp ...
+
+  Date       Time    Battery  Motor
+03/14/2025 17:54:45,   11.2V,   1mA
+
+Full speed reached. Setting run mode to RISE.
+
+  Date       Time    Battery  Motor
+03/14/2025 17:54:46,   11.0V,  42mA
+03/14/2025 17:54:47,   11.0V,  41mA
+03/14/2025 17:54:48,   11.0V,  44mA
+03/14/2025 17:54:49,   10.7V, 191mA
+03/14/2025 17:54:50,   10.5V, 405mA
+03/14/2025 17:54:51,   10.3V, 716mA
+03/14/2025 17:54:52,   11.0V, 324mA
+03/14/2025 17:54:53,   10.1V, 650mA
+03/14/2025 17:54:54,   10.1V, 780mA
+03/14/2025 17:54:55,   10.8V,  73mA
+03/14/2025 17:54:56,   11.1V,  42mA
+03/14/2025 17:54:57,   11.1V,  42mA
+03/14/2025 17:54:58,   11.1V,  50mA
+03/14/2025 17:54:59,   10.7V, 396mA
+03/14/2025 17:55:00,   10.2V, 728mA
+03/14/2025 17:55:01,   10.1V, 874mA
+03/14/2025 17:55:02,   11.0V,  42mA
+03/14/2025 17:55:03,   11.0V,  87mA
+03/14/2025 17:55:04,   10.4V, 433mA
+03/14/2025 17:55:05,   11.0V,  44mA
+03/14/2025 17:55:06,   11.0V,  41mA
+03/14/2025 17:55:07,   11.0V,  41mA
+03/14/2025 17:55:08,   11.0V,  42mA
+03/14/2025 17:55:09,   11.0V,  41mA
+03/14/2025 17:55:10,   11.0V,  41mA
+03/14/2025 17:55:11,   11.0V,  40mA
+03/14/2025 17:55:12,   11.0V,  41mA
+03/14/2025 17:55:13,   11.0V,  42mA
+03/14/2025 17:55:14,   11.0V,  42mA
+03/14/2025 17:55:15,   11.0V,  42mA
+03/14/2025 17:55:16,   11.0V,  40mA
+03/14/2025 17:55:17,   11.0V,  42mA [^C]
+
+03/14/2025 17:55:18   SYSTEM    Motor disabled. Brake set.
+
+Press any key to continue.
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 17:55:19 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Release Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? 
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 17:56:39 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Release Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? 7
+
+Motor direction (Up/Down)         [D] ? d
+Enter ramp duration [sec] (2-90) [ 2] ? 2
+
+Press ^C to exit.
+
+03/14/2025 17:56:53   SYSTEM    Starting 2 second ramp ...
+
+  Date       Time    Battery  Motor
+03/14/2025 17:56:54,   11.0V,  39mA
+
+Full speed reached. Setting run mode to DIVE.
+
+  Date       Time    Battery  Motor
+03/14/2025 17:56:55,   11.0V,  40mA
+03/14/2025 17:56:56,   11.0V,  46mA
+03/14/2025 17:56:57,   10.9V,  66mA
+03/14/2025 17:56:58,   10.5V, 353mA
+03/14/2025 17:56:59,   10.5V, 473mA
+03/14/2025 17:57:00,   10.3V, 684mA
+03/14/2025 17:57:01,   10.8V, 493mA
+03/14/2025 17:57:02,   11.1V,  76mA
+03/14/2025 17:57:03,   10.3V, 715mA
+03/14/2025 17:57:04,   11.1V,  39mA
+03/14/2025 17:57:05,   11.0V,  37mA
+03/14/2025 17:57:06,   11.0V,  38mA
+03/14/2025 17:57:07,   11.0V,  40mA [^C]
+
+03/14/2025 17:57:08   SYSTEM    Motor disabled. Brake set.
+
+Press any key to continue.
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 17:58:21 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Release Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? 8
+
+Release Brake (FreeWheel) [Y] ? y
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 17:58:27 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Set Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? 9
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                          Watchdog Tests
+               ___________________________________
+                    Fri Mar 14 17:59:42 2025
+
+ <1> Test Watchdog IRQ ( 2 seconds)
+ <2> Test Watchdog reset while AWAKE (68+ minutes)
+ <3> Test Watchdog reset while SUSPENDED (68+ minutes)
+ <4> Test waking from suspend via alarm
+
+ <M> previous Menu
+
+ Selection [] ? 1
+
+Initializing ... done.
+
+Waiting for IRQ (2 seconds) ... IRQ detected.
+
+Watchdog IRQ test completed normally.
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                          Watchdog Tests
+               ___________________________________
+                    Fri Mar 14 17:59:52 2025
+
+ <1> Test Watchdog IRQ ( 2 seconds)
+ <2> Test Watchdog reset while AWAKE (68+ minutes)
+ <3> Test Watchdog reset while SUSPENDED (68+ minutes)
+ <4> Test waking from suspend via alarm
+
+ <M> previous Menu
+
+ Selection [] ? m
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 18:00:23 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Set Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? m
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+            OceanServer5000 MotionPack Bench Test Menu
+               ___________________________________
+                    Fri Mar 14 18:00:29 2025
+
+ <1> Direct communications (19200 Baud)
+ <2> restore McLane parameters
+ <3> restore Factory parameters
+ <4> Report parameter settings
+ <5> Perform a profile test loop 
+
+ <M> return to previous Menu
+
+ Selection [] ? 4
+
+03/14/2025 18:00:36 OST/5kMP    Identified as V2.6, S#19960.
+03/14/2025 18:00:36 OST/5kMP    Parameter settings.
+
+--------
+FW_Version=V2.6-4
+FW_Date=3-Nov-10
+Serial_number=000019960
+Test_date=19 Feb 16
+Output_Format=8
+Acclerometer=2
+Display_Fields=495
+HW_Mounting_Pos=5
+Baud_Rate=3
+Set-Reset_Rate=100
+Output_Rate=1
+Averaging=4
+AD_Update_Rate=3
+lifeskip=8
+Euler=4
+MaxG=2
+--------
+
+
+
+Press any key to continue.
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+            OceanServer5000 MotionPack Bench Test Menu
+               ___________________________________
+                    Fri Mar 14 18:00:56 2025
+
+ <1> Direct communications (19200 Baud)
+ <2> restore McLane parameters
+ <3> restore Factory parameters
+ <4> Report parameter settings
+ <5> Perform a profile test loop 
+
+ <M> return to previous Menu
+
+ Selection [] ? 5
+
+03/14/2025 18:00:58 OST/5kMP    Automated verification of sensor settings.
+
+
+03/14/2025 18:01:02 OST/5kMP    Identified as V2.6, S#19960.
+03/14/2025 18:01:02 OST/5kMP    Parameter settings.
+
+--------
+FW_Version=V2.6-4
+FW_Date=3-Nov-10
+Serial_number=000019960
+Test_date=19 Feb 16
+Output_Format=8
+Acclerometer=2
+Display_Fields=495
+HW_Mounting_Pos=5
+Baud_Rate=3
+Set-Reset_Rate=100
+Output_Rate=1
+Averaging=4
+AD_Update_Rate=3
+lifeskip=8
+Euler=4
+MaxG=2
+--------
+
+
+03/14/2025 18:01:04   SYSTEM Next profile scheduled for 03/14/2025 18:02:00.
+
+03/14/2025 18:01:04   SYSTEM Suspended until 03/14/2025 18:02:00 ... Awake
+________________________________________________________________
+
+03/14/2025 18:02:05   SYSTEM Awake at 03/14/2025 18:02:05.
+
+ Press ^C to exit the loop.
+
+03/14/2025 18:02:05 OST/5kMP Preparing for profile 50.
+
+
+03/14/2025 18:02:05 OST/5kMP  Initializing logging ...
+03/14/2025 18:02:09 OST/5kMP  Identified as V2.6, S#19960.
+
+03/14/2025 18:02:09 OST/5kMP  Opening 00000\M0000050.DAT for profile 50.
+03/14/2025 18:02:10 OST/5kMP  Closing 00000\M0000050.DAT for profile 50.
+03/14/2025 18:02:10 OST/5kMP  Logging initialized.
+
+03/14/2025 18:02:10 OST/5kMP  Acquiring for 4 minutes, with a 15 second StopCheck interval.
+
+03/14/2025 18:02:10   SYSTEM  1 minute warmup.
+03/14/2025 18:02:10   SYSTEM  Waiting until 03/14/2025 18:03:10. ... Continuing
+
+
+03/14/2025 18:03:14   SYSTEM   "Diving" ...
+
+03/14/2025 18:03:15 OST/5kMP    Azimuth, Pitch, Roll, Temperature, Vmag, Vacc, Pressure.
+03/14/2025 18:03:33 OST/5kMP    C65.5, P87.9, R0.0, T22.8, Vm185.8, Va1.1, 3.75 dbar.
+03/14/2025 18:03:47 OST/5kMP    C65.7, P87.9, R0.0, T23.7, Vm186.1, Va1.1, 7.50 dbar.
+03/14/2025 18:04:03 OST/5kMP    C65.5, P87.9, R0.0, T24.5, Vm185.4, Va1.1, 11.25 dbar.
+03/14/2025 18:04:18 OST/5kMP    C61.4, P88.1, R0.0, T25.2, Vm187.9, Va1.1, 15.00 dbar.
+03/14/2025 18:04:32 OST/5kMP    C0.7, P-41.2, R-48.6, T25.7, Vm211.0, Va1.0, 18.75 dbar.
+03/14/2025 18:04:47 OST/5kMP    C0.6, P-41.2, R-48.6, T26.2, Vm210.9, Va1.0, 22.50 dbar.
+03/14/2025 18:05:02 OST/5kMP    C0.6, P-41.2, R-48.6, T26.5, Vm210.7, Va1.0, 26.25 dbar.
+03/14/2025 18:05:17 OST/5kMP    C258.1, P-65.7, R23.8, T27.0, Vm236.1, Va1.0, 30.00 dbar.
+
+03/14/2025 18:05:18   SYSTEM   Found stop at 30 dbar.
+03/14/2025 18:05:18   SYSTEM   1 minute warmdown.
+03/14/2025 18:05:18   SYSTEM   Waiting until 03/14/2025 18:06:18. ... Continuing
+
+
+03/14/2025 18:06:21 OST/5kMP  Halting profile 50.
+
+03/14/2025 18:06:21 OST/5kMP  Halting logging ...
+03/14/2025 18:06:21 OST/5kMP  Logging halted.
+03/14/2025 18:06:21 OST/5kMP  Saving data to disk ...
+
+03/14/2025 18:06:21 OST/5kMP  Opening 00000\M0000050.DAT for profile 50.
+03/14/2025 18:06:21 OST/5kMP  Closing 00000\M0000050.DAT for profile 50.
+03/14/2025 18:06:21 OST/5kMP  Data saved to disk.
+
+
+03/14/2025 18:06:23 OST/5kMP Test profile 50 succeeded.
+
+03/14/2025 18:06:23   SYSTEM Next profile scheduled for 03/14/2025 18:08:00.
+
+03/14/2025 18:06:23   SYSTEM Suspended until 03/14/2025 18:08:00 ... ?
+03/14/2025 18:06:44   SYSTEM Suspended until 03/14/2025 18:08:00 ... ?
+03/14/2025 18:06:53   SYSTEM Suspended until 03/14/2025 18:08:00 ... ?
+Enter ^C now to wake up ...  [^C]
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+            OceanServer5000 MotionPack Bench Test Menu
+               ___________________________________
+                    Fri Mar 14 18:07:18 2025
+
+ <1> Direct communications (19200 Baud)
+ <2> restore McLane parameters
+ <3> restore Factory parameters
+ <4> Report parameter settings
+ <5> Perform a profile test loop 
+
+ <M> return to previous Menu
+
+ Selection [] ? m
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 18:07:35 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Set Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? w
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                Wetlabs ECO BBFL2 Bench Test Menu
+               ___________________________________
+                    Fri Mar 14 18:07:49 2025
+
+ <1> Direct communications (19200 Baud)
+ <2> Perform a profile test loop 
+
+ <M> return to previous Menu
+
+ Selection [] ? 2
+
+
+ Enter the stop check interval (2-60 seconds) (2-60) [10] ? 
+
+                             Scat Chlr  CDOM
+
+03/14/2025 18:10:18 WL/BBFL2 4130 1578  4130.
+03/14/2025 18:10:21 WL/BBFL2 1208  295  1148.
+03/14/2025 18:10:30 WL/BBFL2  100   45    57.
+03/14/2025 18:10:40 WL/BBFL2  133 4130   466.
+03/14/2025 18:10:50 WL/BBFL2  133 3955   748.
+03/14/2025 18:11:00 WL/BBFL2  176  871  2704.
+03/14/2025 18:11:10 WL/BBFL2  568  830  1735.
+03/14/2025 18:11:20 WL/BBFL2  911 1113  4130.
+03/14/2025 18:11:30 WL/BBFL2 1429  105   530.
+03/14/2025 18:11:40 WL/BBFL2 1197  118   602.
+03/14/2025 18:11:50 WL/BBFL2 4130   86   717. [^C]
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                Wetlabs ECO BBFL2 Bench Test Menu
+               ___________________________________
+                    Fri Mar 14 18:11:57 2025
+
+ <1> Direct communications (19200 Baud)
+ <2> Perform a profile test loop 
+
+ <M> return to previous Menu
+
+ Selection [] ? m
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 18:14:30 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Set Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? p
+
+ Enter number of PAR samples to average (1-100) [5] ? 20
+
+ Press ^C to exit, or any other key to pause|continue.
+
+
+03/14/2025 18:14:51  BII/PAR Powered on.
+
+03/14/2025 18:14:51  BII/PAR 0.0 mV, 11.1Vb.
+03/14/2025 18:14:52  BII/PAR 0.6 mV, 11.1Vb.
+03/14/2025 18:14:53  BII/PAR 0.5 mV, 11.1Vb.
+03/14/2025 18:14:54  BII/PAR 0.8 mV, 11.1Vb.
+03/14/2025 18:14:55  BII/PAR 1.2 mV, 11.1Vb.
+03/14/2025 18:14:56  BII/PAR 0.7 mV, 11.1Vb.
+03/14/2025 18:14:57  BII/PAR 0.8 mV, 11.1Vb.
+03/14/2025 18:14:58  BII/PAR 1.0 mV, 11.1Vb.
+03/14/2025 18:14:59  BII/PAR 0.7 mV, 11.1Vb.
+03/14/2025 18:15:00  BII/PAR 0.8 mV, 11.1Vb.
+03/14/2025 18:15:01  BII/PAR 0.7 mV, 11.1Vb.
+03/14/2025 18:15:02  BII/PAR 1.0 mV, 11.1Vb.
+03/14/2025 18:15:03  BII/PAR 1.1 mV, 11.1Vb.
+03/14/2025 18:15:04  BII/PAR 0.8 mV, 11.1Vb.
+03/14/2025 18:15:05  BII/PAR 0.7 mV, 11.1Vb.
+03/14/2025 18:15:06  BII/PAR 6.9 mV, 11.1Vb.
+03/14/2025 18:15:07  BII/PAR 12.9 mV, 11.1Vb.
+03/14/2025 18:15:08  BII/PAR 10.7 mV, 11.1Vb.
+03/14/2025 18:15:09  BII/PAR 14.3 mV, 11.1Vb.
+03/14/2025 18:15:10  BII/PAR 25.5 mV, 11.1Vb.
+03/14/2025 18:15:11  BII/PAR 22.8 mV, 11.1Vb.
+03/14/2025 18:15:12  BII/PAR 30.2 mV, 11.1Vb.
+03/14/2025 18:15:13  BII/PAR 20.9 mV, 11.1Vb.
+03/14/2025 18:15:14  BII/PAR 25.9 mV, 11.1Vb.
+03/14/2025 18:15:15  BII/PAR 21.0 mV, 11.1Vb.
+03/14/2025 18:15:16  BII/PAR 24.2 mV, 11.1Vb.
+03/14/2025 18:15:17  BII/PAR 6.8 mV, 11.1Vb.
+03/14/2025 18:15:18  BII/PAR 9.0 mV, 11.1Vb.
+03/14/2025 18:15:19  BII/PAR 41.6 mV, 11.1Vb.
+03/14/2025 18:15:20  BII/PAR 44.7 mV, 11.1Vb.
+03/14/2025 18:15:21  BII/PAR 114.9 mV, 11.1Vb.
+03/14/2025 18:15:22  BII/PAR 177.7 mV, 11.1Vb.
+03/14/2025 18:15:23  BII/PAR 174.8 mV, 11.1Vb.
+03/14/2025 18:15:24  BII/PAR 121.8 mV, 11.1Vb.
+03/14/2025 18:15:25  BII/PAR 6.2 mV, 11.1Vb.
+03/14/2025 18:15:26  BII/PAR 1.0 mV, 11.1Vb.
+03/14/2025 18:15:27  BII/PAR 1.2 mV, 11.1Vb.
+03/14/2025 18:15:28  BII/PAR 0.8 mV, 11.1Vb.
+03/14/2025 18:15:29  BII/PAR 0.8 mV, 11.1Vb.
+03/14/2025 18:15:30  BII/PAR 0.8 mV, 11.1Vb.
+03/14/2025 18:15:31  BII/PAR 0.6 mV, 11.1Vb.
+03/14/2025 18:15:32  BII/PAR 0.9 mV, 11.1Vb.
+03/14/2025 18:15:33  BII/PAR 0.8 mV, 11.1Vb.
+03/14/2025 18:15:34  BII/PAR 0.7 mV, 11.1Vb.
+03/14/2025 18:15:35  BII/PAR 1.2 mV, 11.1Vb. [^C]
+
+03/14/2025 18:15:35  BII/PAR Powered off.
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 18:15:36 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Set Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? p
+
+ Enter number of PAR samples to average (1-100) [5] ? 20
+
+ Press ^C to exit, or any other key to pause|continue.
+
+
+03/14/2025 18:16:24  BII/PAR Powered on.
+
+03/14/2025 18:16:25  BII/PAR 0.0 mV, 11.1Vb.
+03/14/2025 18:16:26  BII/PAR 0.7 mV, 11.1Vb.
+03/14/2025 18:16:27  BII/PAR 0.9 mV, 11.1Vb.
+03/14/2025 18:16:28  BII/PAR 0.5 mV, 11.1Vb.
+03/14/2025 18:16:29  BII/PAR 0.9 mV, 11.1Vb.
+03/14/2025 18:16:30  BII/PAR 1.9 mV, 11.1Vb.
+03/14/2025 18:16:31  BII/PAR 22.7 mV, 11.1Vb.
+03/14/2025 18:16:32  BII/PAR 36.6 mV, 11.1Vb.
+03/14/2025 18:16:33  BII/PAR 51.3 mV, 11.1Vb.
+03/14/2025 18:16:34  BII/PAR 42.2 mV, 11.1Vb.
+03/14/2025 18:16:35  BII/PAR 87.3 mV, 11.1Vb.
+03/14/2025 18:16:36  BII/PAR 157.7 mV, 11.1Vb.
+03/14/2025 18:16:37  BII/PAR 124.7 mV, 11.1Vb.
+03/14/2025 18:16:38  BII/PAR 112.7 mV, 11.1Vb.
+03/14/2025 18:16:39  BII/PAR 57.0 mV, 11.1Vb.
+03/14/2025 18:16:40  BII/PAR 96.8 mV, 11.1Vb.
+03/14/2025 18:16:41  BII/PAR 345.1 mV, 11.1Vb.
+03/14/2025 18:16:42  BII/PAR 414.7 mV, 11.1Vb.
+03/14/2025 18:16:43  BII/PAR 642.5 mV, 11.1Vb.
+03/14/2025 18:16:44  BII/PAR 593.0 mV, 11.1Vb.
+03/14/2025 18:16:45  BII/PAR 298.2 mV, 11.1Vb.
+03/14/2025 18:16:46  BII/PAR 355.0 mV, 11.1Vb.
+03/14/2025 18:16:47  BII/PAR 422.1 mV, 11.1Vb.
+03/14/2025 18:16:48  BII/PAR 459.4 mV, 11.1Vb.
+03/14/2025 18:16:49  BII/PAR 247.7 mV, 11.1Vb.
+03/14/2025 18:16:50  BII/PAR 6.4 mV, 11.1Vb.
+03/14/2025 18:16:51  BII/PAR 6.6 mV, 11.1Vb.
+03/14/2025 18:16:52  BII/PAR 7.1 mV, 11.1Vb.
+03/14/2025 18:16:53  BII/PAR 7.4 mV, 11.1Vb.
+03/14/2025 18:16:54  BII/PAR 7.3 mV, 11.1Vb.
+03/14/2025 18:16:55  BII/PAR 7.2 mV, 11.1Vb.
+03/14/2025 18:16:56  BII/PAR 6.7 mV, 11.1Vb.
+03/14/2025 18:16:57  BII/PAR 0.9 mV, 11.1Vb.
+03/14/2025 18:16:58  BII/PAR 1.0 mV, 11.1Vb.
+03/14/2025 18:16:59  BII/PAR 0.8 mV, 11.1Vb.
+03/14/2025 18:17:00  BII/PAR 0.9 mV, 11.1Vb.
+03/14/2025 18:17:01  BII/PAR 1.0 mV, 11.1Vb. [^C]
+
+03/14/2025 18:17:01  BII/PAR Powered off.
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 18:17:01 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Set Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ?  [^C]
+ [^C]
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+                McLane Research Laboratories, USA
+                         Pattern Profiler
+                         S/N: ML14378-01D
+               ___________________________________
+                         Pattern Profiler
+                            Main Menu
+               ___________________________________
+                    Fri Mar 14 18:38:03 2025
+
+ <1> Set Time        <5> Bench Test
+ <2> Diagnostics     <6> Deploy Profiler
+ <3> Flash Card Ops  <7> Offload Deployment Data
+ <4> Sleep           <8> Contacting McLane
+ <C> Configure
+
+ Selection [] ? 5
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 18:40:32 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Set Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? i
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+             Seabird Inductive Modem Bench Test Menu
+               ___________________________________
+                    Fri Mar 14 18:40:37 2025
+
+ <1> Direct communications (9600 Baud)
+ <2> restore McLane parameters
+ <3> restore Factory parameters
+ <4> Report parameter settings
+ <5> Single transaction
+ <6> Telemetry session 
+
+ <M> return to previous Menu
+
+ Selection [] ? 1
+
+03/14/2025 18:40:45  SBE/IMM Press ^C to terminate COMM session.
+03/14/2025 18:40:45   SYSTEM Press ^B to change or confirm Baud rate.
+
+03/14/2025 18:40:46  SBE/IMM 9.6 kBaud communication channel opened.
+03/14/2025 18:40:46  SBE/IMM Powered on.
+****************************************************************
+ [^C]
+****************************************************************
+
+03/14/2025 18:47:49  SBE/IMM Powered off.
+03/14/2025 18:47:49  SBE/IMM 9.6 kBaud communication channel closed.
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+             Seabird Inductive Modem Bench Test Menu
+               ___________________________________
+                    Fri Mar 14 18:47:49 2025
+
+ <1> Direct communications (9600 Baud)
+ <2> restore McLane parameters
+ <3> restore Factory parameters
+ <4> Report parameter settings
+ <5> Single transaction
+ <6> Telemetry session 
+
+ <M> return to previous Menu
+
+ Selection [] ? 
+TIME
+
+Clock reads: Thursday, April 01, 1976  10:18:53 am
+D:\PROFILER
+
+
+
+________________________________________________________________
+                          CF2-MPP-5.42
+
+               S/N ML14378-01D    Pattern Profiler
+
+ © 1999-2020 McLane Research Laboratories. All rights reserved.
+________________________________________________________________
+
+RTC correction - CF2 RTC: 1976-04-01 10:18:56 DS1306: 2025-03-14 19:07:14 Last Known: 2025-03-14 18:38:01
+RTC correction result - CF2 RTC: 2025-03-14 19:07:15 DS1306: 2025-03-14 19:07:15 Last Known: 2025-03-14 18:38:01
+
+ The "Pattern Profiler" MPP operator interface is now running.
+
+  Type ^C within 30 seconds to assert control and initialize system.
+
+   3   29 secon   28 secon   27 secon   26 secon   25 secon   24 secon   23 secon   22 seconds [^C]
+
+ Clock reads 03/14/2025 19:07:23. Change it [N] ? n
+
+03/14/2025 19:08:13   SYSTEM Checking FlashCard ... done.
+03/14/2025 19:08:23   SYSTEM 27 files found on disk.
+
+03/14/2025 19:08:23   SYSTEM History: 351.05 motor hours, 99 meters.
+03/14/2025 19:08:23   SYSTEM Hardware: Rev-D. Motor OpAmp offset: 32mA.
+
+03/14/2025 19:08:24   SYSTEM Watchdog clock initialized.
+03/14/2025 19:08:24   SYSTEM Watchdog hourly alarm activated.
+
+03/14/2025 19:08:24   SYSTEM Loading URAO ... done.
+03/14/2025 19:08:24   SYSTEM Initializing sensors ... done.
+03/14/2025 19:08:25   SYSTEM Sizing CompactFlash ... done.
+03/14/2025 19:08:25   SYSTEM CompactFlash: 3.9 MB used, 1.89 GB free, 1.89 GB size.
+03/14/2025 19:08:25   SYSTEM Primary battery measures 11.3V.
+03/14/2025 19:08:25   SYSTEM  Backup battery measures  3.0V.
+
+03/14/2025 19:08:25   SYSTEM Loading schedule information ...
+03/14/2025 19:08:26   SYSTEM Loading SCHEDULE.DPL.
+03/14/2025 19:08:26   SYSTEM Scheduled dive zero time is 01/08/2021 20:15:00.
+03/14/2025 19:08:26   SYSTEM Filling in schedule years ... done.
+03/14/2025 19:08:26   SYSTEM Loaded SCHEDULE.DPL.
+03/14/2025 19:08:26   SYSTEM Generating SCHEDULE.TXT ... done.
+03/14/2025 19:08:28   SYSTEM Generating 00000\S0000000.DAT from SCHEDULE.DPL ...
+03/14/2025 19:08:29   SYSTEM Copying SCHEDULE.DPL to 00000\S0000000.DAT.    
+SCHEDULE.DPL
+
+       1 file(s) 
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+                McLane Research Laboratories, USA
+                         Pattern Profiler
+                         S/N: ML14378-01D
+               ___________________________________
+                         Pattern Profiler
+                            Main Menu
+               ___________________________________
+                    Fri Mar 14 19:08:32 2025
+
+ <1> Set Time        <5> Bench Test
+ <2> Diagnostics     <6> Deploy Profiler
+ <3> Flash Card Ops  <7> Offload Deployment Data
+ <4> Sleep           <8> Contacting McLane
+ <C> Configure
+
+ Selection [] ? 5
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 19:08:40 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Set Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? d
+
+Schedule V2.4 header:
+PIN                  Fast Pro90155C38
+Top stop             30.0
+Bottom stop          100.0
+Max Profiles         25
+Max Patterns         12
+MaxProfiles/Pattern  100
+MaxPatterns/Schedule 12
+Patterns in use      1
+Profiles in use      2
+
+Profile:             A
+Dive duration        00:05:50
+CheckStopInterval    00:00:02
+ShallowPLim          30.0
+DeepPLim             100.0
+ShallowEBar          7.0
+DeepEBar             7.0
+Profile direction    UP
+Telemetry session    YES
+ACM Decimation       OFF
+CTD Decimation       OFF
+
+Profile:             B
+Dive duration        00:05:50
+CheckStopInterval    00:00:02
+ShallowPLim          30.0
+DeepPLim             100.0
+ShallowEBar          7.0
+DeepEBar             7.0
+Profile direction    DOWN
+Telemetry session    YES
+ACM Decimation       OFF
+CTD Decimation       OFF
+
+Dive Zero:
+Dive duration        00:05:50
+CheckStopInterval    00:00:02
+ShallowPLim          30.0
+DeepPLim             100.0
+ShallowEBar          7.0
+DeepEBar             7.0
+Profile direction    DOWN
+Telemetry session    YES
+ACM Decimation       OFF
+CTD Decimation       OFF
+
+Pattern 0 has 2 profiles:
+Item  0, Profile A, Duration 01:00:00, Start next immediately? NO
+Item  1, Profile B, Duration 01:00:00, Start next immediately? NO
+
+Repeating schedule has 1 pattern:
+Item  0, Pattern  0, Start 01/08/2021 20:45:00
+
+Dive Zero            Start 01/08/2021 20:15:00
+
+
+Press any key to continue.
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 19:16:04 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Set Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? d
+
+Schedule V2.4 header:
+PIN                  Fast Pro90155C38
+Top stop             30.0
+Bottom stop          100.0
+Max Profiles         25
+Max Patterns         12
+MaxProfiles/Pattern  100
+MaxPatterns/Schedule 12
+Patterns in use      1
+Profiles in use      2
+
+Profile:             A
+Dive duration        00:05:50
+CheckStopInterval    00:00:02
+ShallowPLim          30.0
+DeepPLim             100.0
+ShallowEBar          7.0
+DeepEBar             7.0
+Profile direction    UP
+Telemetry session    YES
+ACM Decimation       OFF
+CTD Decimation       OFF
+
+Profile:             B
+Dive duration        00:05:50
+CheckStopInterval    00:00:02
+ShallowPLim          30.0
+DeepPLim             100.0
+ShallowEBar          7.0
+DeepEBar             7.0
+Profile direction    DOWN
+Telemetry session    YES
+ACM Decimation       OFF
+CTD Decimation       OFF
+
+Dive Zero:
+Dive duration        00:05:50
+CheckStopInterval    00:00:02
+ShallowPLim          30.0
+DeepPLim             100.0
+ShallowEBar          7.0
+DeepEBar             7.0
+Profile direction    DOWN
+Telemetry session    YES
+ACM Decimation       OFF
+CTD Decimation       OFF
+
+Pattern 0 has 2 profiles:
+Item  0, Profile A, Duration 01:00:00, Start next immediately? NO
+Item  1, Profile B, Duration 01:00:00, Start next immediately? NO
+
+Repeating schedule has 1 pattern:
+Item  0, Pattern  0, Start 01/08/2021 20:45:00
+
+Dive Zero            Start 01/08/2021 20:15:00
+
+
+Press any key to continue.
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 19:22:26 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Set Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? 
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                           Bench Tests
+               ___________________________________
+                    Fri Mar 14 19:22:28 2025
+
+ CTD & ACM utilities:
+
+  <1> Seabird 52MP CTD communication
+  <2> Seabird 52MP CTD pressure
+  <3> Seabird 52MP CTD average pressure
+  <4> Seabird 52MP CTD temperature record
+
+  <5> Nortek AquaDopp2 DVS communication
+  <6> Nortek AquaDopp2 DVS tilt & compass
+
+ System evaluation:
+
+  <7> Motor operation 
+  <8> Set Brake 
+  <9> Independent Watchdog 
+  <D> Detailed schedule 
+  <S> Recover schedule 
+
+ Sensor & Option tests:
+
+  <I> Seabird Inductive Modem 
+  <M> OceanServer5000 MotionPack 
+  <P> Biospherical PAR 
+  <W> Wetlabs ECO BBFL2 
+
+ Exit:
+
+  <X> Main Menu
+
+ Selection [] ? x
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+                McLane Research Laboratories, USA
+                         Pattern Profiler
+                         S/N: ML14378-01D
+               ___________________________________
+                         Pattern Profiler
+                            Main Menu
+               ___________________________________
+                    Fri Mar 14 19:23:39 2025
+
+ <1> Set Time        <5> Bench Test
+ <2> Diagnostics     <6> Deploy Profiler
+ <3> Flash Card Ops  <7> Offload Deployment Data
+ <4> Sleep           <8> Contacting McLane
+ <C> Configure
+
+ Selection [] ? 6
+
+03/14/2025 19:23:42   SYSTEM Filling in schedule years ... done.
+
+ Clock reads 03/14/2025 19:23:42. Change it [N] ? n
+
+03/14/2025 19:23:50   SYSTEM History: 351.05 motor hours, 99 meters.
+03/14/2025 19:23:50   SYSTEM Primary battery measures 11.0V.
+03/14/2025 19:23:50   SYSTEM  Backup battery measures  3.0V.
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                 Verification of Sensor Settings
+               ___________________________________
+                    Fri Mar 14 19:23:51 2025
+
+ <A> Automated (standard settings only)
+ <M> Manual    (operator controlled)
+ <S> Skip verification
+
+ Selection [] ? a
+
+03/14/2025 19:23:56   SYSTEM Automated verification of sensor settings.
+
+03/14/2025 19:23:56   SYSTEM Verifying CTD ...
+03/14/2025 19:23:56 SBE/52MP 9.6 kBaud communication channel opened.
+03/14/2025 19:23:56 SBE/52MP Powered on.
+03/14/2025 19:23:57 SBE/52MP Sending command [qs].
+03/14/2025 19:23:58 SBE/52MP Sending command [].
+03/14/2025 19:23:58 SBE/52MP Sending command []. .
+03/14/2025 19:23:58 SBE/52MP Sending command []. .
+03/14/2025 19:23:59 SBE/52MP Sending command [pcutoff= -9.9]. .
+03/14/2025 19:23:59 SBE/52MP Sending command [outputctdo=N]. .
+03/14/2025 19:24:00 SBE/52MP Sending command [outputctdoraw=N]. .
+03/14/2025 19:24:00 SBE/52MP Sending command [outputdensity=N]. .
+03/14/2025 19:24:01 SBE/52MP Sending command [outputpressure=N]. .
+03/14/2025 19:24:01 SBE/52MP Sending command [outputpts=N]. .
+03/14/2025 19:24:01 SBE/52MP Sending command [outputrt=N]. .
+03/14/2025 19:24:02 SBE/52MP Sending command [outputsn=N]. .
+03/14/2025 19:24:02 SBE/52MP 9.6 kBaud communication channel closed.
+03/14/2025 19:24:06 SBE/52MP Identified as  V2.5, S/N 189.
+03/14/2025 19:24:06 SBE/52MP Checking parameters ...
+
+03/14/2025 19:24:21 SBE/52MP Pressure = -0.420 dbar.
+
+03/14/2025 19:24:27   SYSTEM CTD settings verified.
+
+03/14/2025 19:24:27   SYSTEM Verifying ACM ...
+03/14/2025 19:24:27 AQUADOP2 19.2 kBaud communication channel opened.
+03/14/2025 19:24:28 AQUADOP2 Powered on. . ...
+03/14/2025 19:24:29 AQUADOP2 Sending command [ID]. .
+03/14/2025 19:24:29 AQUADOP2 Identified as AQUADOP2, V2214_9, S/N 100475.
+
+ Format the AquaDopp disk (recommended) [N] ? y  ARE YOU SURE [N] ? y
+
+03/14/2025 19:24:38 AQUADOP2 Sending command [FORMAT,CODE=9999]. .
+03/14/2025 19:24:39 AQUADOP2 Disk formatted.
+03/14/2025 19:24:40 AQUADOP2 Clock write 03/14/2025 19:24:41.
+03/14/2025 19:24:40 AQUADOP2 Sending command [SETCLOCK,MONTH=03,DAY=14,YEAR=2025,HOUR=19,MINUTE=24,SECOND=41]. .
+03/14/2025 19:24:41 AQUADOP2 Sending command [GETCLOCK]. .
+03/14/2025 19:24:41 AQUADOP2 Clock reads 03/14/2025 19:24:41.
+
+03/14/2025 19:24:42 AQUADOP2 Sending command [SETDEFAULT,ALL]. .
+03/14/2025 19:24:42 AQUADOP2 Sending command [SETINST,BR=19200,RS=232,LED=1]. .
+03/14/2025 19:24:43 AQUADOP2 Sending command [SETPLAN,MICP=1,CP=0,DICP=0,VD=1,MV=10,SA=35,BURST=1,MIBURST=0]. .
+03/14/2025 19:24:44 AQUADOP2 Sending command [SETPLAN,DIBURST=0,SV=1500,FN="TELEMETRYFILE.BIN",SO=0]. .
+03/14/2025 19:24:46 AQUADOP2 Sending command [SETTM,SD=1,SA=1,CD=1,PD=1,TV=1,TA=1,TC=1,TVBT=0,TABT=0,TCBT=0,TDBT=0]. .
+03/14/2025 19:24:47 AQUADOP2 Sending command [SETCP,NC=01,CS=0.5,BD=0.3,CY="BEAM",PL=0,AI=1,DF=0]. .
+03/14/2025 19:24:49 AQUADOP2 Sending command [SETBURST,NC=1,NB=0,CS=0.23,BD=0.15,CY="BEAM",PL=-9]. .
+03/14/2025 19:24:50 AQUADOP2 Sending command [SETBURST,SR=2,NS=1024,VR=5.00,VP=1.00,DF=2,NPING=1]. .
+03/14/2025 19:24:51 AQUADOP2 Sending command [SETINST,ORIENT="AUTOXUPDOWN"]. .
+03/14/2025 19:24:52 AQUADOP2 Sending command [SAVE,ALL]. .
+03/14/2025 19:24:52 AQUADOP2 Powered off.
+03/14/2025 19:24:52 AQUADOP2 Power-down delay .....................
+03/14/2025 19:24:57 AQUADOP2 19.2 kBaud communication channel closed.
+03/14/2025 19:24:57   SYSTEM ACM settings verified.
+
+03/14/2025 19:24:58 OST/5kMP Verifying MotionPack ...
+03/14/2025 19:25:01 OST/5kMP Identified as V2.6, S#19960.
+03/14/2025 19:25:01 OST/5kMP Parameter settings.
+
+--------
+FW_Version=V2.6-4
+FW_Date=3-Nov-10
+Serial_number=000019960
+Test_date=19 Feb 16
+Output_Format=8
+Acclerometer=2
+Display_Fields=495
+HW_Mounting_Pos=5
+Baud_Rate=3
+Set-Reset_Rate=100
+Output_Rate=1
+Averaging=4
+AD_Update_Rate=3
+lifeskip=8
+Euler=4
+MaxG=2
+--------
+
+03/14/2025 19:25:03 OST/5kMP Settings verified.
+
+03/14/2025 19:25:04   SYSTEM Sensor suite initialized and ready.
+
+ Proceed with the deployment [Y] ? y
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                         Deployment Menu
+               ___________________________________
+                    Fri Mar 14 19:25:06 2025
+
+ Schedule V2.4 PIN "Fast Pro90155C38"
+
+ 01/08/2021 20:15:00  Dive Zero
+
+ 01/08/2025 20:45:00  Pattern 0 <- WARNING: YEAR DIFFERS FROM DIVE ZERO! ADJUST IF INCORRECT!
+
+ID        <M> Mooring ID               = 001
+
+Start     <D> Dive 0 Scheduled Start   = 01/08/2021 20:15:00
+
+Deploy    <V> Verify and Proceed
+
+ Selection [] ? dd
+
+ Enter date as mm/dd/yy or mm/dd/yyyy, time as hh:mm:ss
+
+ Enter Dive 0 start:   [03/14/2025 19:25:40] ? 03/14/2025 19:28:40
+03/14/2025 19:26:07   SYSTEM Filling in schedule years ... done.
+
+ Schedule V2.4 PIN "Fast Pro90155C38"
+
+ 03/14/2025 19:28:40  Dive Zero
+
+ 01/08/2026 20:45:00  Pattern 0 <- WARNING: YEAR DIFFERS FROM DIVE ZERO! ADJUST IF INCORRECT!
+
+ Accept the schedule year and date [N] ? y
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                         Deployment Menu
+               ___________________________________
+                    Fri Mar 14 19:26:30 2025
+
+ Schedule V2.4 PIN "Fast Pro90155C38"
+
+ 03/14/2025 19:28:40  Dive Zero
+
+ 01/08/2026 20:45:00  Pattern 0 <- WARNING: YEAR DIFFERS FROM DIVE ZERO! ADJUST IF INCORRECT!
+
+ID        <M> Mooring ID               = 001
+
+Start     <D> Dive 0 Scheduled Start   = 03/14/2025 19:28:40
+
+Deploy    <V> Verify and Proceed
+
+ Selection [] ? v
+
+Accept and store schedule selections [Y] ? y
+
+
+03/14/2025 19:26:39   SYSTEM Storing deployment parameters ... done.
+
+!!!!!!!! WARNING: If you have not already done so,
+                  Remove the CTD flow path caps NOW.
+
+                  Failure to remove the caps prevents proper CTD operation
+                  during the deployment & may cause permanent sensor damage..
+
+ Have you removed the CTD caps [Y] ? y
+
+03/14/2025 19:27:05   SYSTEM Status.
+
+  Real-time clock       Watchdog clock    Battery  Motor
+03/14/2025 19:27:06, 03/14/2025 19:27:06,   11.2V,   0mA
+
+
+!!!!!!!! CAUTION: Deployment will ERASE ALL DATA stored on flash card.
+
+ Proceed [N] ? y
+
+03/14/2025 19:27:11   SYSTEM Initializing autonomous operation.
+03/14/2025 19:27:11   SYSTEM Setting motor to Free Wheel during launch ... done.
+
+!!!!!!!!  NOTICE: DO NOT REMOVE communication cable until instructed.
+
+03/14/2025 19:27:12  SBE/IMM 9.6 kBaud communication channel opened.
+03/14/2025 19:27:12  SBE/IMM Powered on.
+03/14/2025 19:27:14  SBE/IMM Sending command [\r\n]. .
+03/14/2025 19:27:14  SBE/IMM Sending command [SETDEBUGLEVEL=2]. .
+03/14/2025 19:27:14  SBE/IMM Sending command [SETTERMFROMHOST=255]. .
+03/14/2025 19:27:15  SBE/IMM Sending command []. .
+03/14/2025 19:27:15  SBE/IMM Sending command []. .
+03/14/2025 19:27:15  SBE/IMM Sending command [GETCD]. ............................. .
+03/14/2025 19:27:19  SBE/IMM Sending command [FORCECAPTURELINE]. .
+03/14/2025 19:27:19  SBE/IMM Sending command [SENDWAKEUPTONE]. ...
+03/14/2025 19:27:24  SBE/IMM Sending command [#G0:@@@MMP/ML14378-01/001/01]. .
+03/14/2025 19:27:25  SBE/IMM Sending command [RELEASELINE]. .
+03/14/2025 19:27:26  SBE/IMM Sending command [PWROFF]. .
+
+03/14/2025 19:27:27   SYSTEM Initializing data pointers and status flags ... done.
+03/14/2025 19:27:27   SYSTEM Initializing flash card.
+03/14/2025 19:27:27   SYSTEM Deleting all previous data files. Please wait ...
+03/14/2025 19:27:28   SYSTEM Copying C:ERRORLOG.TXT to D:ERRORLOG.001.    
+ERRORLOG.TXT
+
+       1 file(s)
+03/14/2025 19:27:28   SYSTEM Copying C:AUTOEXEC.BAT to D:.    
+AUTOEXEC.BAT
+
+       1 file(s)
+03/14/2025 19:27:28   SYSTEM Copying C:SCHEDULE.DPL to D:.    
+SCHEDULE.DPL
+
+       1 file(s) c
+03/14/2025 19:27:29   SYSTEM Copying C:SCHEDULE.TXT to D:.    
+SCHEDULE.TXT
+
+       1 file(s) 
+03/14/2025 19:27:29   SYSTEM Copying C:AQUADOPP.CFG to D:.    
+AQUADOPP.CFG
+
+       1 file(s) 
+
+03/14/2025 19:27:30   SYSTEM Format C: /v:Profiler542 /q /p ...
+
+03/14/2025 19:27:45   SYSTEM Copying D:AUTOEXEC.BAT to C:.    
+AUTOEXEC.BAT
+
+       1 file(s) copied
+
+03/14/2025 19:27:46   SYSTEM Copying D:SCHEDULE.DPL to C:.    
+SCHEDULE.DPL
+
+       1 file(s) c
+03/14/2025 19:27:46   SYSTEM Copying D:SCHEDULE.TXT to C:.    
+SCHEDULE.TXT
+
+       1 file(s) 
+03/14/2025 19:27:47   SYSTEM Copying D:AQUADOPP.CFG to C:.    
+AQUADOPP.CFG
+
+       1 file(s) 
+03/14/2025 19:27:47   SYSTEM Copying D:PROFILER.PXE to C:.    
+PROFILER.PXE
+
+       1 file(s) 
+
+03/14/2025 19:27:51   SYSTEM Initializing disk pointers.
+03/14/2025 19:27:52   SYSTEM Creating DEPLOY.DAT ... done.
+03/14/2025 19:27:53   SYSTEM Creating PROFILES.DAT ... done.
+03/14/2025 19:27:53   SYSTEM Creating IRQ_XCPT.LOG ... done.
+03/14/2025 19:27:53   SYSTEM Creating LASTSENT.DAT ... done.
+03/14/2025 19:27:54   SYSTEM Generating directory listing ...
+03/14/2025 19:27:54   SYSTEM 12 files are listed in C:FILELIST.TXT.
+03/14/2025 19:27:55   SYSTEM Generating S0000000.DAT from SCHEDULE.DPL ...
+03/14/2025 19:27:55   SYSTEM Copying SCHEDULE.DPL to S0000000.DAT.    
+SCHEDULE.DPL
+
+       1 file(s) copied
+03/14/2025 19:27:57   SYSTEM Flash card initialization complete.
+03/14/2025 19:27:57   SYSTEM Saving emergency schedule ....... done.
+
+03/14/2025 19:28:01   SYSTEM Current time is   03/14/2025 19:27:58.
+03/14/2025 19:28:01   SYSTEM Sensor warmup at  03/14/2025 19:28:40.
+03/14/2025 19:28:02   SYSTEM Initial dive at   03/14/2025 19:30:40.
+
+!!!!!!!!  NOTICE: System is ready to deploy.
+
+                  Remove communication cable NOW.
+                  Install communications port dummy plug.
+                  Attach faired bottom cap to vehicle.
+
+
+03/14/2025 19:28:02   SYSTEM Waiting until 03/14/2025 19:28:40. ... Continuing
+
+03/14/2025 19:28:41  SBE/IMM Powered off.
+03/14/2025 19:28:41  SBE/IMM Power-down delay .........
+03/14/2025 19:28:43  SBE/IMM 9.6 kBaud communication channel closed.
+
+________________________________________________________________
+
+03/14/2025 19:28:43   SYSTEM ML14378-01D awake at 03/14/2025 19:28:43.
+03/14/2025 19:28:44   SYSTEM NOTICE! 1 error log entry.
+03/14/2025 19:28:44   SYSTEM Duration: 0d 00:00:46 Motor: 0.0 hours, 0 meters.
+03/14/2025 19:28:44   SYSTEM Preparing for profile 0: dive to 100.0 dbar.
+03/14/2025 19:28:44 SBE/52MP  Initializing logging ...
+03/14/2025 19:28:53 SBE/52MP  Logging initialized.
+03/14/2025 19:28:54 AQUADOP2  Initializing logging ...
+03/14/2025 19:29:01 AQUADOP2  Logging initialized.
+03/14/2025 19:29:04 OST/5kMP  Initializing logging ...
+03/14/2025 19:29:08 OST/5kMP  Logging initialized.
+03/14/2025 19:29:09   SYSTEM  Continuing 120 second warm-up pause.
+03/14/2025 19:30:46   SYSTEM  Started profile 0 motion at 03/14/2025 19:30:46.
+03/14/2025 19:30:47   SYSTEM   Starting 30 second ramp ...
+03/14/2025 19:30:48   SYSTEM    StopCheck Profile 0,  5:54 timer,   0mA, 10.8Vb,  0.0db
+03/14/2025 19:30:55   SYSTEM    StopCheck Profile 0,  5:47 timer,  99mA, 10.7Vb,  0.0db
+03/14/2025 19:31:01   SYSTEM    StopCheck Profile 0,  5:41 timer,  41mA, 10.8Vb,  0.0db
+03/14/2025 19:31:07   SYSTEM    StopCheck Profile 0,  5:35 timer,  36mA, 10.8Vb,  0.0db
+03/14/2025 19:31:13   SYSTEM    StopCheck Profile 0,  5:29 timer,  35mA, 10.8Vb,  0.0db
+03/14/2025 19:31:19   SYSTEM    Ramp complete; full speed reached. Setting run mode.
+03/14/2025 19:31:24   SYSTEM    StopCheck Profile 0,  5:20 timer,  35mA, 10.8Vb, -0.4db
+03/14/2025 19:31:29   SYSTEM    StopCheck Profile 0,  5:15 timer,  34mA, 10.8Vb, -0.4db, 0.00db/s
+03/14/2025 19:31:34   SYSTEM    StopCheck Profile 0,  5:09 timer,  35mA, 10.8Vb, -0.4db, 0.00db/s
+03/14/2025 19:31:39   SYSTEM    StopCheck Profile 0,  5:04 timer,  34mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:31:45   SYSTEM    StopCheck Profile 0,  4:59 timer,  35mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:31:51   SYSTEM    StopCheck Profile 0,  4:54 timer,  35mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:31:57   SYSTEM    StopCheck Profile 0,  4:48 timer,  35mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:32:03   SYSTEM    StopCheck Profile 0,  4:42 timer,  34mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:32:09   SYSTEM    StopCheck Profile 0,  4:36 timer,  35mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:32:15   SYSTEM    StopCheck Profile 0,  4:30 timer,  34mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:32:21   SYSTEM    StopCheck. Profile 0,  4:24 timer,  34mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:32:27   SYSTEM    StopCheck Profile 0,  4:18 timer,  34mA, 10.7Vb, -0.4db, 0.00db/s
+
+03/14/2025 19:32:27   SYSTEM    NOTICE! Pressure rate zero.
+
+
+03/14/2025 19:32:28   SYSTEM    NOTICE! Restarting profile 0 (retry 1 of 3).
+
+03/14/2025 19:32:28   SYSTEM    NOTICE! Tether obstruction? 30 second backtrack.
+03/14/2025 19:32:29   SYSTEM    Starting 30 second ramp ...
+03/14/2025 19:32:30   SYSTEM    StopCheck Profile 0,  6:13 timer,   0mA, 10.8Vb,  0.0db
+03/14/2025 19:32:36   SYSTEM    StopCheck Profile 0,  6:07 timer,  87mA, 10.6Vb,  0.0db
+03/14/2025 19:32:42   SYSTEM    StopCheck Profile 0,  6:01 timer,  41mA, 10.7Vb,  0.0db
+03/14/2025 19:32:48   SYSTEM    StopCheck Profile 0,  5:55 timer,  41mA, 10.7Vb,  0.0db
+03/14/2025 19:32:54   SYSTEM    StopCheck Profile 0,  5:49 timer,  37mA, 10.7Vb,  0.0db
+03/14/2025 19:33:00   SYSTEM    Backtrack complete.
+03/14/2025 19:33:01   SYSTEM    Starting 30 second ramp ...
+03/14/2025 19:33:02   SYSTEM    StopCheck Profile 0,  5:41 timer,   0mA, 10.8Vb,  0.0db
+03/14/2025 19:33:09   SYSTEM    StopCheck Profile 0,  5:34 timer,  95mA, 10.6Vb,  0.0db
+03/14/2025 19:33:15   SYSTEM    StopCheck Profile 0,  5:28 timer,  39mA, 10.7Vb,  0.0db
+03/14/2025 19:33:21   SYSTEM    StopCheck. Profile 0,  5:22 timer,  35mA, 10.7Vb,  0.0db
+03/14/2025 19:33:28   SYSTEM    StopCheck Profile 0,  5:15 timer,  35mA, 10.7Vb,  0.0db
+03/14/2025 19:33:33   SYSTEM    Ramp complete; full speed reached. Setting run mode.
+03/14/2025 19:33:38   SYSTEM    StopCheck. Profile 0,  5:07 timer,  34mA, 10.7Vb, -0.4db
+03/14/2025 19:33:43   SYSTEM    StopCheck Profile 0,  5:02 timer,  33mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:33:48   SYSTEM    StopCheck Profile 0,  4:56 timer,  34mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:33:53   SYSTEM    StopCheck Profile 0,  4:51 timer,  34mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:33:58   SYSTEM    StopCheck Profile 0,  4:46 timer,  34mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:34:03   SYSTEM    StopCheck Profile 0,  4:41 timer,  35mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:34:09   SYSTEM    StopCheck Profile 0,  4:36 timer,  34mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:34:15   SYSTEM    StopCheck Profile 0,  4:31 timer,  33mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:34:21   SYSTEM    StopCheck. Profile 0,  4:25 timer,  34mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:34:27   SYSTEM    StopCheck Profile 0,  4:19 timer,  34mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:34:33   SYSTEM    StopCheck. Profile 0,  4:13 timer,  33mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:34:39   SYSTEM    StopCheck Profile 0,  4:07 timer,  33mA, 10.7Vb, -0.4db, 0.00db/s
+
+03/14/2025 19:34:39   SYSTEM    NOTICE! Pressure rate zero.
+
+
+03/14/2025 19:34:40   SYSTEM    NOTICE! Restarting profile 0 (retry 2 of 3).
+
+03/14/2025 19:34:40   SYSTEM    NOTICE! Tether obstruction? 30 second backtrack.
+03/14/2025 19:34:41   SYSTEM    Starting 30 second ramp ...
+03/14/2025 19:34:42   SYSTEM    StopCheck Profile 0,  6:02 timer,  83mA, 10.7Vb,  0.0db
+03/14/2025 19:34:48   SYSTEM    StopCheck Profile 0,  5:56 timer,  33mA, 10.7Vb,  0.0db
+03/14/2025 19:34:53   SYSTEM    StopCheck Profile 0,  5:51 timer,  40mA, 10.7Vb,  0.0db
+03/14/2025 19:34:59   SYSTEM    StopCheck Profile 0,  5:45 timer,  38mA, 10.7Vb,  0.0db
+03/14/2025 19:35:05   SYSTEM    StopCheck Profile 0,  5:39 timer,  37mA, 10.7Vb,  0.0db
+03/14/2025 19:35:11   SYSTEM    Backtrack complete.
+03/14/2025 19:35:12   SYSTEM    Starting 30 second ramp ...
+03/14/2025 19:35:13   SYSTEM    StopCheck Profile 0,  5:31 timer,   0mA, 10.8Vb,  0.0db
+03/14/2025 19:35:20   SYSTEM    StopCheck Profile 0,  5:24 timer,  95mA, 10.6Vb,  0.0db
+03/14/2025 19:35:26   SYSTEM    StopCheck Profile 0,  5:18 timer,  38mA, 10.7Vb,  0.0db
+03/14/2025 19:35:32   SYSTEM    StopCheck Profile 0,  5:12 timer,  34mA, 10.7Vb,  0.0db
+03/14/2025 19:35:38   SYSTEM    StopCheck Profile 0,  5:06 timer,  34mA, 10.7Vb,  0.0db
+03/14/2025 19:35:44   SYSTEM    Ramp complete; full speed reached. Setting run mode.
+03/14/2025 19:35:49   SYSTEM    StopCheck Profile 0,  4:57 timer,  34mA, 10.7Vb, -0.4db
+03/14/2025 19:35:55   SYSTEM    StopCheck Profile 0,  4:52 timer,  33mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:36:01   SYSTEM    StopCheck Profile 0,  4:46 timer,  34mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:36:07   SYSTEM    StopCheck Profile 0,  4:40 timer,  33mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:36:13   SYSTEM    StopCheck Profile 0,  4:34 timer,  32mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:36:19   SYSTEM    StopCheck Profile 0,  4:28 timer,  32mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:36:25   SYSTEM    StopCheck Profile 0,  4:22 timer,  34mA, 10.7Vb, -0.4db, 0.00db/s
+03/14/2025 19:36:31   SYSTEM    StopCheck Profile 0,  4:16 timer,  33mA, 10.7Vb, -0.4db, 0.00db/s
+
+03/14/2025 19:36:39 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 19:36:39   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 19:36:44 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 19:36:44   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 19:36:49 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 19:36:49 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 19:36:49   SYSTEM    Attention attempt 2 of 3.
+
+03/14/2025 19:36:55 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 19:36:55   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 19:36:55 SBE/52MP    ERROR! Didn't receive formatted response from [slp] command.
+
+03/14/2025 19:36:55   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 19:37:01 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 19:37:01 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 19:37:01   SYSTEM    Attention attempt 3 of 3.
+
+03/14/2025 19:37:07 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 19:37:07   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 19:37:12 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 19:37:12   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 19:37:17 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 19:37:17 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+ [^C1] [^C2] [^C3] [^C]
+
+03/14/2025 19:37:22 OST/5kMP    ERROR! Didn't receive a line terminator.
+
+03/14/2025 19:37:22   SYSTEM    StopCheck Profile 0,  4:10 timer,  33mA, 10.7Vb, -99.0db
+
+03/14/2025 19:37:22   SYSTEM    NOTICE! CTD communications failure.
+ [^C1]
+03/14/2025 19:37:23   SYSTEM    Motor disabled. Brake set. [^C2] [^C3] [^C] [^C1]
+
+ Storing data from last profile. Please wait ...
+
+ ^C will abort storing the last profile's data.
+
+ 5 second pause for operator entry.
+ [^C2]
+03/14/2025 19:37:29   SYSTEM Deployment complete.
+
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+                McLane Research Laboratories, USA
+                         Pattern Profiler
+                         S/N: ML14378-01D
+               ___________________________________
+                         Pattern Profiler
+                            Main Menu
+               ___________________________________
+                    Fri Mar 14 19:37:31 2025
+
+ <1> Set Time        <5> Bench Test
+ <2> Diagnostics     <6> Deploy Profiler
+ <3> Flash Card Ops  <7> Offload Deployment Data
+ <4> Sleep           <8> Contacting McLane
+ <C> Configure
+
+ Selection [] ?  [timeout]
+
+
+
+03/14/2025 19:58:15   SYSTEM Suspended ... 
+03/14/2025 20:00:03   SYSTEM Suspended ... 6
+
+!!!!!!!!  NOTICE: Rebooting is STRONGLY RECOMMENDED before redeploying.
+
+Reboot now (Y|N) [Y] ? y
+
+TIME
+
+Clock reads: Friday, March 14, 2025  08:16:45 pm
+D:\PROFILER
+
+
+________________________________________________________________
+                          CF2-MPP-5.42
+
+               S/N ML14378-01D    Pattern Profiler
+
+ © 1999-2020 McLane Research Laboratories. All rights reserved.
+________________________________________________________________
+
+
+ The "Pattern Profiler" MPP operator interface is now running.
+
+  Type ^C within 30 seconds to assert control and initialize system.
+
+   30 s   29 secon   28 seconds [^C]
+
+ Clock reads 03/14/2025 20:16:51. Change it [N] ? y
+
+ Enter date as mm/dd/yy or mm/dd/yyyy, time as hh:mm:ss
+
+ Enter correct time [03/14/2025 20:16:57] ? 03/14/2025 21:08:20
+
+ Clock reads 03/14/2025 21:08:20. Change it [N] ? n
+
+03/14/2025 21:08:23   SYSTEM Checking FlashCard ... done.
+03/14/2025 21:08:33   SYSTEM 16 files found on disk.
+
+03/14/2025 21:08:33   SYSTEM History: 351.16 motor hours, 99 meters.
+03/14/2025 21:08:33   SYSTEM Hardware: Rev-D. Motor OpAmp offset: 31mA.
+
+03/14/2025 21:08:34   SYSTEM Watchdog clock initialized.
+03/14/2025 21:08:34   SYSTEM Watchdog hourly alarm activated.
+
+03/14/2025 21:08:34   SYSTEM Loading URAO ... done.
+03/14/2025 21:08:34   SYSTEM Initializing sensors ... done.
+03/14/2025 21:08:35   SYSTEM Sizing CompactFlash ... done.
+03/14/2025 21:08:35   SYSTEM CompactFlash: 0.8 MB used, 1.89 GB free, 1.89 GB size.
+03/14/2025 21:08:35   SYSTEM Primary battery measures 11.3V.
+03/14/2025 21:08:36   SYSTEM  Backup battery measures  3.0V.
+
+03/14/2025 21:08:36   SYSTEM Loading schedule information ...
+03/14/2025 21:08:36   SYSTEM Loading SCHEDULE.DPL.
+03/14/2025 21:08:36   SYSTEM Scheduled dive zero time is 03/14/2025 21:30:00.
+03/14/2025 21:08:36   SYSTEM Filling in schedule years ... done.
+03/14/2025 21:08:36   SYSTEM Loaded SCHEDULE.DPL.
+03/14/2025 21:08:36   SYSTEM Generating SCHEDULE.TXT ... done.
+03/14/2025 21:08:39   SYSTEM Generating 00000\S0000000.DAT from SCHEDULE.DPL ...
+03/14/2025 21:08:39   SYSTEM Copying SCHEDULE.DPL to 00000\S0000000.DAT.    
+SCHEDULE.DPL
+
+       1 file(s) c
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+                McLane Research Laboratories, USA
+                         Pattern Profiler
+                         S/N: ML14378-01D
+               ___________________________________
+                         Pattern Profiler
+                            Main Menu
+               ___________________________________
+                    Fri Mar 14 21:08:42 2025
+
+ <1> Set Time        <5> Bench Test
+ <2> Diagnostics     <6> Deploy Profiler
+ <3> Flash Card Ops  <7> Offload Deployment Data
+ <4> Sleep           <8> Contacting McLane
+ <C> Configure
+
+ Selection [] ? 6
+
+03/14/2025 21:08:48   SYSTEM Filling in schedule years ... done.
+
+ Clock reads 03/14/2025 21:08:48. Change it [N] ? n
+
+03/14/2025 21:08:52   SYSTEM History: 351.16 motor hours, 99 meters.
+03/14/2025 21:08:52   SYSTEM Primary battery measures 11.1V.
+03/14/2025 21:08:53   SYSTEM  Backup battery measures  3.0V.
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                 Verification of Sensor Settings
+               ___________________________________
+                    Fri Mar 14 21:08:53 2025
+
+ <A> Automated (standard settings only)
+ <M> Manual    (operator controlled)
+ <S> Skip verification
+
+ Selection [] ? a
+
+03/14/2025 21:08:58   SYSTEM Automated verification of sensor settings.
+
+03/14/2025 21:08:58   SYSTEM Verifying CTD ...
+03/14/2025 21:08:58 SBE/52MP 9.6 kBaud communication channel opened.
+03/14/2025 21:08:59 SBE/52MP Powered on.
+03/14/2025 21:08:59 SBE/52MP Sending command [qs].
+03/14/2025 21:09:00 SBE/52MP Sending command [].
+03/14/2025 21:09:00 SBE/52MP Sending command []. 
+03/14/2025 21:09:06 SBE/52MP 9.6 kBaud communication channel closed.
+
+03/14/2025 21:09:11 SBE/52MP NOTICE! Expected "SBE 52 MP", got "˙".
+
+
+03/14/2025 21:09:11 SBE/52MP ERROR! Didn't receive proper sensor identification.
+
+03/14/2025 21:09:11   SYSTEM Identify attempt 2 of 3.
+03/14/2025 21:09:14 SBE/52MP Identified as  V2.5, S/N 189.
+03/14/2025 21:09:14 SBE/52MP Checking parameters ...
+
+03/14/2025 21:09:29 SBE/52MP Pressure = -0.420 dbar.
+
+03/14/2025 21:09:34   SYSTEM CTD settings verified.
+
+03/14/2025 21:09:34   SYSTEM Verifying ACM ...
+03/14/2025 21:09:35 AQUADOP2 19.2 kBaud communication channel opened.
+03/14/2025 21:09:35 AQUADOP2 Powered on. .
+03/14/2025 21:09:41 AQUADOP2 Forcing into command mode.
+03/14/2025 21:09:41 AQUADOP2 Sending command [@@@@@@].
+03/14/2025 21:09:41 AQUADOP2 Sending command [K1W%!Q].
+03/14/2025 21:09:41 AQUADOP2 Sending command [K1W%!Q]. .
+03/14/2025 21:09:42 AQUADOP2 Sending command [MC]. . ...
+03/14/2025 21:09:43 AQUADOP2 Sending command [ID]. .
+03/14/2025 21:09:43 AQUADOP2 Identified as AQUADOP2, V2214_9, S/N 100475.
+
+ Format the AquaDopp disk (recommended) [N] ? y  ARE YOU SURE [N] ? y
+
+03/14/2025 21:10:18 AQUADOP2 Sending command [FORMAT,CODE=9999]. .
+03/14/2025 21:10:19 AQUADOP2 Disk formatted.
+03/14/2025 21:10:20 AQUADOP2 Clock write 03/14/2025 21:10:21.
+03/14/2025 21:10:20 AQUADOP2 Sending command [SETCLOCK,MONTH=03,DAY=14,YEAR=2025,HOUR=21,MINUTE=10,SECOND=21]. .
+03/14/2025 21:10:21 AQUADOP2 Sending command [GETCLOCK]. .
+03/14/2025 21:10:21 AQUADOP2 Clock reads 03/14/2025 21:10:21.
+
+03/14/2025 21:10:22 AQUADOP2 Sending command [SETDEFAULT,ALL]. .
+03/14/2025 21:10:22 AQUADOP2 Sending command [SETINST,BR=19200,RS=232,LED=1]. .
+03/14/2025 21:10:23 AQUADOP2 Sending command [SETPLAN,MICP=1,CP=0,DICP=0,VD=1,MV=10,SA=35,BURST=1,MIBURST=0]. .
+03/14/2025 21:10:24 AQUADOP2 Sending command [SETPLAN,DIBURST=0,SV=1500,FN="TELEMETRYFILE.BIN",SO=0]. .
+03/14/2025 21:10:26 AQUADOP2 Sending command [SETTM,SD=1,SA=1,CD=1,PD=1,TV=1,TA=1,TC=1,TVBT=0,TABT=0,TCBT=0,TDBT=0]. .
+03/14/2025 21:10:27 AQUADOP2 Sending command [SETCP,NC=01,CS=0.5,BD=0.3,CY="BEAM",PL=0,AI=1,DF=0]. .
+03/14/2025 21:10:29 AQUADOP2 Sending command [SETBURST,NC=1,NB=0,CS=0.23,BD=0.15,CY="BEAM",PL=-9]. .
+03/14/2025 21:10:30 AQUADOP2 Sending command [SETBURST,SR=2,NS=1024,VR=5.00,VP=1.00,DF=2,NPING=1]. .
+03/14/2025 21:10:31 AQUADOP2 Sending command [SETINST,ORIENT="AUTOXUPDOWN"]. .
+03/14/2025 21:10:32 AQUADOP2 Sending command [SAVE,ALL]. .
+03/14/2025 21:10:32 AQUADOP2 Powered off.
+03/14/2025 21:10:32 AQUADOP2 Power-down delay .....................
+03/14/2025 21:10:37 AQUADOP2 19.2 kBaud communication channel closed.
+03/14/2025 21:10:37   SYSTEM ACM settings verified.
+
+03/14/2025 21:10:38 OST/5kMP Verifying MotionPack ...
+03/14/2025 21:10:41 OST/5kMP Identified as V2.6, S#19960.
+03/14/2025 21:10:41 OST/5kMP Parameter settings.
+
+--------
+FW_Version=V2.6-4
+FW_Date=3-Nov-10
+Serial_number=000019960
+Test_date=19 Feb 16
+Output_Format=8
+Acclerometer=2
+Display_Fields=495
+HW_Mounting_Pos=5
+Baud_Rate=3
+Set-Reset_Rate=100
+Output_Rate=1
+Averaging=4
+AD_Update_Rate=3
+lifeskip=8
+Euler=4
+MaxG=2
+--------
+
+03/14/2025 21:10:43 OST/5kMP Settings verified.
+
+03/14/2025 21:10:44   SYSTEM Sensor suite initialized and ready.
+
+ Proceed with the deployment [Y] ? y
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+               ___________________________________
+                         Pattern Profiler
+                         Deployment Menu
+               ___________________________________
+                    Fri Mar 14 21:10:47 2025
+
+ Schedule V2.4 PIN "Fast Pro0C9D826"
+
+ 03/14/2025 21:30:00  Dive Zero
+
+ 03/14/2025 22:30:00  Pattern 0
+
+ID        <M> Mooring ID               = 001
+
+Start     <D> Dive 0 Scheduled Start   = 03/14/2025 21:30:00
+
+Deploy    <V> Verify and Proceed
+
+ Selection [] ? v
+
+Accept and store schedule selections [Y] ? y
+
+03/14/2025 21:10:55   SYSTEM Updating SCHEDULE.DPL ... done.
+
+03/14/2025 21:10:55   SYSTEM Storing deployment parameters ... done.
+
+!!!!!!!! WARNING: If you have not already done so,
+                  Remove the CTD flow path caps NOW.
+
+                  Failure to remove the caps prevents proper CTD operation
+                  during the deployment & may cause permanent sensor damage..
+
+ Have you removed the CTD caps [Y] ? y
+
+03/14/2025 21:10:59   SYSTEM Status.
+
+  Real-time clock       Watchdog clock    Battery  Motor
+03/14/2025 21:11:00, 03/14/2025 21:11:00,   11.2V,   0mA
+
+
+!!!!!!!! CAUTION: Deployment will ERASE ALL DATA stored on flash card.
+
+ Proceed [N] ? y
+
+03/14/2025 21:11:07   SYSTEM Initializing autonomous operation.
+03/14/2025 21:11:07   SYSTEM Setting motor to Free Wheel during launch ... done.
+
+!!!!!!!!  NOTICE: DO NOT REMOVE communication cable until instructed.
+
+03/14/2025 21:11:09  SBE/IMM 9.6 kBaud communication channel opened.
+03/14/2025 21:11:09  SBE/IMM Powered on.
+03/14/2025 21:11:10  SBE/IMM Sending command [\r\n]. .
+03/14/2025 21:11:10  SBE/IMM Sending command [SETDEBUGLEVEL=2]. .
+03/14/2025 21:11:10  SBE/IMM Sending command [SETTERMFROMHOST=255]. .
+03/14/2025 21:11:11  SBE/IMM Sending command []. .
+03/14/2025 21:11:11  SBE/IMM Sending command []. .
+03/14/2025 21:11:11  SBE/IMM Sending command [GETCD]. ............................. .
+03/14/2025 21:11:15  SBE/IMM Sending command [FORCECAPTURELINE]. .
+03/14/2025 21:11:16  SBE/IMM Sending command [SENDWAKEUPTONE]. ...
+03/14/2025 21:11:20  SBE/IMM Sending command [#G0:@@@MMP/ML14378-01/001/01]. .
+03/14/2025 21:11:21  SBE/IMM Sending command [RELEASELINE]. .
+03/14/2025 21:11:22  SBE/IMM Sending command [PWROFF]. .
+
+03/14/2025 21:11:23   SYSTEM Initializing data pointers and status flags ... done.
+03/14/2025 21:11:23   SYSTEM Initializing flash card.
+03/14/2025 21:11:23   SYSTEM Deleting all previous data files. Please wait ...
+03/14/2025 21:11:24   SYSTEM Renaming D:ERRORLOG.001 to D:ERRORLOG.002.   
+03/14/2025 21:11:24   SYSTEM Copying C:ERRORLOG.TXT to D:ERRORLOG.001.    
+ERRORLOG.TXT
+
+       1 file(s) copie
+03/14/2025 21:11:24   SYSTEM Copying C:AUTOEXEC.BAT to D:.    
+AUTOEXEC.BAT
+
+       1 file(s) 
+03/14/2025 21:11:25   SYSTEM Copying C:SCHEDULE.DPL to D:.    
+SCHEDULE.DPL
+
+       1 file(s) 
+03/14/2025 21:11:25   SYSTEM Copying C:SCHEDULE.TXT to D:.    
+SCHEDULE.TXT
+
+       1 file(s) 
+03/14/2025 21:11:26   SYSTEM Copying C:AQUADOPP.CFG to D:.    
+AQUADOPP.CFG
+
+       1 file(s) 
+
+03/14/2025 21:11:26   SYSTEM Format C: /v:Profiler542 /q /p ...
+
+03/14/2025 21:11:42   SYSTEM Copying D:AUTOEXEC.BAT to C:.    
+AUTOEXEC.BAT
+
+       1 file(s) copied
+
+03/14/2025 21:11:42   SYSTEM Copying D:SCHEDULE.DPL to C:.    
+SCHEDULE.DPL
+
+       1 file(s) 
+03/14/2025 21:11:42   SYSTEM Copying D:SCHEDULE.TXT to C:.    
+SCHEDULE.TXT
+
+       1 file(s) 
+03/14/2025 21:11:43   SYSTEM Copying D:AQUADOPP.CFG to C:.    
+AQUADOPP.CFG
+
+       1 file(s) 
+03/14/2025 21:11:43   SYSTEM Copying D:PROFILER.PXE to C:.    
+PROFILER.PXE
+
+       1 file(s) 
+
+03/14/2025 21:11:48   SYSTEM Initializing disk pointers.
+03/14/2025 21:11:48   SYSTEM Creating DEPLOY.DAT ... done.
+03/14/2025 21:11:49   SYSTEM Creating PROFILES.DAT ... done.
+03/14/2025 21:11:49   SYSTEM Creating IRQ_XCPT.LOG ... done.
+03/14/2025 21:11:50   SYSTEM Creating LASTSENT.DAT ... done.
+03/14/2025 21:11:50   SYSTEM Generating directory listing ...
+03/14/2025 21:11:51   SYSTEM 12 files are listed in C:FILELIST.TXT.
+03/14/2025 21:11:51   SYSTEM Generating S0000000.DAT from SCHEDULE.DPL ...
+03/14/2025 21:11:51   SYSTEM Copying SCHEDULE.DPL to S0000000.DAT.    
+SCHEDULE.DPL
+
+       1 file(s) copied
+03/14/2025 21:11:53   SYSTEM Flash card initialization complete.
+03/14/2025 21:11:53   SYSTEM Saving emergency schedule ....... done.
+
+03/14/2025 21:11:56   SYSTEM Current time is   03/14/2025 21:11:53.
+03/14/2025 21:11:57   SYSTEM Sensor warmup at  03/14/2025 21:30:00.
+03/14/2025 21:11:57   SYSTEM Initial dive at   03/14/2025 21:32:00.
+
+!!!!!!!!  NOTICE: System is ready to deploy.
+
+                  Remove communication cable NOW.
+                  Install communications port dummy plug.
+                  Attach faired bottom cap to vehicle.
+
+
+03/14/2025 21:11:58   SYSTEM Waiting until 03/14/2025 21:30:00. ... Continuing
+
+03/14/2025 21:30:01  SBE/IMM Powered off.
+03/14/2025 21:30:01  SBE/IMM Power-down delay .........
+03/14/2025 21:30:04  SBE/IMM 9.6 kBaud communication channel closed.
+
+________________________________________________________________
+
+03/14/2025 21:30:04   SYSTEM ML14378-01D awake at 03/14/2025 21:30:04.
+03/14/2025 21:30:04   SYSTEM NOTICE! 1 error log entry.
+03/14/2025 21:30:04   SYSTEM Duration: 0d 00:18:11 Motor: 0.0 hours, 0 meters.
+03/14/2025 21:30:05   SYSTEM Preparing for profile 0: dive to 100.0 dbar.
+03/14/2025 21:30:05 SBE/52MP  Initializing logging ...
+03/14/2025 21:30:14 SBE/52MP  Logging initialized.
+03/14/2025 21:30:14 AQUADOP2  Initializing logging ...
+03/14/2025 21:30:22 AQUADOP2  Logging initialized.
+03/14/2025 21:30:25 OST/5kMP  Initializing logging ...
+03/14/2025 21:30:29 OST/5kMP  Logging initialized.
+03/14/2025 21:30:30   SYSTEM  Continuing 120 second warm-up pause.
+03/14/2025 21:32:07   SYSTEM  Started profile 0 motion at 03/14/2025 21:32:07.
+03/14/2025 21:32:08   SYSTEM   Starting 30 second ramp ...
+03/14/2025 21:32:09   SYSTEM    StopCheck Profile 0,  5:54 timer,   0mA, 10.9Vb,  0.0db
+03/14/2025 21:32:16   SYSTEM    StopCheck Profile 0,  5:47 timer,  96mA, 10.7Vb,  0.0db
+03/14/2025 21:32:22   SYSTEM    StopCheck. Profile 0,  5:41 timer,  38mA, 10.8Vb,  0.0db
+03/14/2025 21:32:28   SYSTEM    StopCheck Profile 0,  5:35 timer,  35mA, 10.8Vb,  0.0db
+03/14/2025 21:32:34   SYSTEM    StopCheck Profile 0,  5:29 timer,  34mA, 10.8Vb,  0.0db
+03/14/2025 21:32:40   SYSTEM    Ramp complete; full speed reached. Setting run mode.
+03/14/2025 21:32:45   SYSTEM    StopCheck Profile 0,  5:20 timer,  33mA, 10.8Vb, -0.4db
+03/14/2025 21:32:50   SYSTEM    StopCheck Profile 0,  5:15 timer,  33mA, 10.8Vb, -0.4db, 0.00db/s
+03/14/2025 21:32:56   SYSTEM    StopCheck Profile 0,  5:09 timer,  34mA, 10.8Vb, -0.4db, 0.00db/s
+03/14/2025 21:33:02   SYSTEM    StopCheck Profile 0,  5:04 timer,  34mA, 10.8Vb, -0.4db, 0.00db/s
+03/14/2025 21:33:09   SYSTEM    StopCheck Profile 0,  4:58 timer,  34mA, 10.8Vb, -0.4db, 0.00db/s
+03/14/2025 21:33:14   SYSTEM    StopCheck Profile 0,  4:51 timer,  33mA, 10.8Vb, -0.4db, 0.00db/s
+03/14/2025 21:33:20   SYSTEM    StopCheck Profile 0,  4:46 timer,  33mA, 10.8Vb, -0.4db, 0.00db/s
+03/14/2025 21:33:26   SYSTEM    StopCheck Profile 0,  4:40 timer,  33mA, 10.8Vb, -0.4db, 0.00db/s
+03/14/2025 21:33:32   SYSTEM    StopCheck Profile 0,  4:34 timer,  32mA, 10.8Vb, -0.4db, 0.00db/s
+03/14/2025 21:33:38   SYSTEM    StopCheck Profile 0,  4:28 timer,  33mA, 10.8Vb, -0.4db, 0.00db/s
+03/14/2025 21:33:45   SYSTEM    StopCheck Profile 0,  4:22 timer,  32mA, 10.8Vb, -0.4db, 0.00db/s
+03/14/2025 21:33:50   SYSTEM    StopCheck Profile 0,  4:15 timer,  32mA, 10.8Vb, -0.4db, 0.00db/s
+
+03/14/2025 21:33:51   SYSTEM    NOTICE! Pressure rate zero.
+
+
+03/14/2025 21:33:51   SYSTEM    NOTICE! Restarting profile 0 (retry 1 of 3).
+
+03/14/2025 21:33:52   SYSTEM    NOTICE! Tether obstruction? 30 second backtrack.
+03/14/2025 21:33:53   SYSTEM    Starting 30 second ramp ...
+03/14/2025 21:33:54   SYSTEM    StopCheck Profile 0,  6:10 timer,   0mA, 10.9Vb,  0.0db
+03/14/2025 21:34:00   SYSTEM    StopCheck Profile 0,  6:04 timer,  88mA, 10.7Vb,  0.0db
+03/14/2025 21:34:06   SYSTEM    StopCheck Profile 0,  5:58 timer,  41mA, 10.7Vb,  0.0db
+03/14/2025 21:34:12   SYSTEM    StopCheck Profile 0,  5:52 timer,  37mA, 10.8Vb,  0.0db
+03/14/2025 21:34:17   SYSTEM    StopCheck. Profile 0,  5:47 timer,  35mA, 10.8Vb,  0.0db
+03/14/2025 21:34:23   SYSTEM    Backtrack complete.
+03/14/2025 21:34:24   SYSTEM    Starting 30 second ramp ...
+03/14/2025 21:34:25   SYSTEM    StopCheck Profile 0,  5:39 timer,   0mA, 10.9Vb,  0.0db
+03/14/2025 21:34:32   SYSTEM    StopCheck Profile 0,  5:32 timer,  95mA, 10.6Vb,  0.0db
+03/14/2025 21:34:38   SYSTEM    StopCheck Profile 0,  5:26 timer,  38mA, 10.7Vb,  0.0db
+03/14/2025 21:34:44   SYSTEM    StopCheck Profile 0,  5:20 timer,  33mA, 10.8Vb,  0.0db
+03/14/2025 21:34:50   SYSTEM    StopCheck Profile 0,  5:14 timer,  33mA, 10.8Vb,  0.0db
+03/14/2025 21:34:55   SYSTEM    Ramp complete; full speed reached. Setting run mode.
+
+03/14/2025 21:35:04 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:35:04   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 21:35:09 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:35:09   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 21:35:14 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 21:35:14 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 21:35:14   SYSTEM    Attention attempt 2 of 3.
+
+03/14/2025 21:35:20 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:35:20   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 21:35:25 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:35:25   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 21:35:30 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 21:35:30 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 21:35:30   SYSTEM    Attention attempt 3 of 3.
+
+03/14/2025 21:35:36 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:35:36   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 21:35:41 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:35:41   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 21:35:46 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 21:35:46 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 21:36:01   SYSTEM    StopCheck Profile 0,  5:06 timer,  32mA, 10.8Vb, -99.0db
+
+03/14/2025 21:36:01   SYSTEM    NOTICE! CTD communications failure.
+
+
+03/14/2025 21:36:10 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:36:10   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 21:36:15 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:36:15   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 21:36:20 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 21:36:20 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 21:36:20   SYSTEM    Attention attempt 2 of 3.
+
+03/14/2025 21:36:26 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:36:26   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 21:36:31 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:36:31   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 21:36:36 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 21:36:36 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 21:36:36   SYSTEM    Attention attempt 3 of 3.
+
+03/14/2025 21:36:42 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:36:42   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 21:36:47 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:36:47   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 21:36:52 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 21:36:52 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 21:37:07   SYSTEM    StopCheck Profile 0,  4:00 timer,  32mA, 10.8Vb, -99.0db
+
+03/14/2025 21:37:07   SYSTEM    NOTICE! CTD communications failure.
+
+
+03/14/2025 21:37:16 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:37:16   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 21:37:21 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:37:21   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 21:37:26 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 21:37:26 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 21:37:26   SYSTEM    Attention attempt 2 of 3.
+
+03/14/2025 21:37:32 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:37:32   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 21:37:37 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:37:37   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 21:37:42 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 21:37:42 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 21:37:42   SYSTEM    Attention attempt 3 of 3.
+
+03/14/2025 21:37:48 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:37:48   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 21:37:53 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:37:53   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 21:37:58 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 21:37:58 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 21:38:13   SYSTEM    StopCheck. Profile 0,  2:54 timer,  31mA, 10.7Vb, -99.0db
+
+03/14/2025 21:38:14   SYSTEM    NOTICE! CTD communications failure.
+
+
+03/14/2025 21:38:22 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:38:22   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 21:38:27 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:38:27   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 21:38:32 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 21:38:32 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 21:38:32   SYSTEM    Attention attempt 2 of 3.
+
+03/14/2025 21:38:38 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:38:38   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 21:38:43 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:38:43   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 21:38:48 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 21:38:48 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 21:38:48   SYSTEM    Attention attempt 3 of 3.
+
+03/14/2025 21:38:54 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:38:54   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 21:38:59 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:38:59   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 21:39:04 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 21:39:04 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 21:39:19   SYSTEM    StopCheck Profile 0,  1:47 timer,  31mA, 10.7Vb, -99.0db
+
+03/14/2025 21:39:20   SYSTEM    NOTICE! CTD communications failure.
+
+
+03/14/2025 21:39:29 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:39:29   SYSTEM    Command attempt 2 of 3. [^C1]
+
+03/14/2025 21:39:34 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:39:34   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 21:39:39 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 21:39:39 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 21:39:39   SYSTEM    Attention attempt 2 of 3.
+
+03/14/2025 21:39:45 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:39:45   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 21:39:50 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:39:50   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 21:39:55 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 21:39:55 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 21:39:55   SYSTEM    Attention attempt 3 of 3.
+
+03/14/2025 21:40:01 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:40:01   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 21:40:06 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:40:06   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 21:40:11 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 21:40:11 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 21:40:27   SYSTEM    StopCheck Profile 0,  0:41 timer,  31mA, 10.7Vb, -99.0db
+
+03/14/2025 21:40:27   SYSTEM    NOTICE! CTD communications failure.
+
+
+03/14/2025 21:40:36 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:40:36   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 21:40:41 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:40:41   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 21:40:46 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 21:40:46 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 21:40:46   SYSTEM    Attention attempt 2 of 3.
+
+03/14/2025 21:40:52 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:40:52   SYSTEM    Command attempt 2 of 3.
+
+03/14/2025 21:40:57 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:40:57   SYSTEM    Command attempt 3 of 3.
+
+03/14/2025 21:41:02 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+
+03/14/2025 21:41:02 SBE/52MP    ERROR! Didn't receive a response from the sensor.
+
+03/14/2025 21:41:02   SYSTEM    Attention attempt 3 of 3. [^C1] [^C2]
+
+03/14/2025 21:41:08 SBE/52MP    ERROR! Didn't receive expected response from [slp] command.
+
+03/14/2025 21:41:08   SYSTEM    Command attempt 2 of 3. [^C3] [^C] [^C1]
+
+03/14/2025 21:41:08 OST/5kMP    ERROR! Didn't receive a line terminator.
+
+03/14/2025 21:41:08   SYSTEM    StopCheck Profile 0, -0:26 timer,  32mA, 10.7Vb, -99.0db
+
+03/14/2025 21:41:09   SYSTEM    NOTICE! Terminated by operator.
+ [^C1]
+
+ Storing data from last profile. Please wait ...
+
+ ^C will abort storing the last profile's data.
+
+ 5 second pause for operator entry.
+ [^C2] [^C1] [^C2]
+03/14/2025 21:41:15   SYSTEM Deployment complete.
+
+
+
+________________________________________________________________
+Config: MPP_IM_CM_CT_MP_PA_SC                          CF2 V5.42
+
+                McLane Research Laboratories, USA
+                         Pattern Profiler
+                         S/N: ML14378-01D
+               ___________________________________
+                         Pattern Profiler
+                            Main Menu
+               ___________________________________
+                    Fri Mar 14 21:41:17 2025
+
+ <1> Set Time        <5> Bench Test
+ <2> Diagnostics     <6> Deploy Profiler
+ <3> Flash Card Ops  <7> Offload Deployment Data
+ <4> Sleep           <8> Contacting McLane
+ <C> Configure
+
+ Selection [] ?  [timeout]
+
+
+
+03/14/2025 22:02:01   SYSTEM Suspended ... 

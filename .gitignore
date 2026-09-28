@@ -1,0 +1,92 @@
+# --- Python -------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Test / coverage / type-check caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+.hypothesis/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --- IDEs / editors -------------------------------------------------------------
+# JetBrains (PyCharm, IntelliJ, ...)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.pyproj.user
+
+# Spyder / Rope / Eclipse / PyDev
+.spyderproject
+.spyproject
+.ropeproject/
+.project
+.pydevproject
+.settings/
+
+# Vim / Emacs / Sublime
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+*.sublime-project
+*.sublime-workspace
+
+# --- MATLAB -------------------------------------------------------------------
+*.asv
+*.m~
+slprj/
+
+# --- OS -----------------------------------------------------------------------
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Office lock files ------------------------------------------------------------
+~$*

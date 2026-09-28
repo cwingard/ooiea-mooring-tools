@@ -1,0 +1,68 @@
+File created: Wednesday, March 5, 2025  9:53:29 PM
+SAMI Client Version: 1.3.5
+:SAMIinfoHex
+00372020202020202020202020433030363230323035304543303D8240B83F086595BFBDF06F410F33333F832CA53F93F1413A
+:SAMIinfo
+Firmware: 55
+Name:            C0062
+Serial Number: 0205
+Board version: 0E
+Board Configuration: C0
+Cal1: 0.0636
+Cal2: 0.5328
+Cal3: -1.4839
+Cal4: 8.95
+Cal5: 1.0248
+Cal6: 1.1558
+:ConfigHex
+E3EE70450000003A01E13380060003840402000258010B000000000D000000000D000000000D071020FFFF181C0100381400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+:ConfigText
+Set:    3/5/2025  9:19 PM GMT(3/5/2025  9:19 PM Local Time(0))
+Wait:  58 Sec. 
+Start: 3/5/2025  9:19 PM GMT(3/5/2025  9:19 PM Local Time(0))
+Run:  365 Days 0 Hr. 0 Min. 
+Stop:  3/5/2026  9:19 PM GMT(3/5/2026  9:19 PM Local Time(0))
+Global
+---
+Default communications at 57.6K. 
+
+While waiting to start
+Off
+
+SAMI
+SAMI CO2 (A+)
+Run every 15 Min. 
+Start with Blank Flush.
+  t_pump=16  Pump pulse 1/16 sec
+  t_delay=32  Pump on to meas 1/16 sec
+  n_sample=255  # of samples averaged
+  n_perblank=255  cycles between blanks
+  n_preflush=24  cycles with DI water
+  n_pstflush=28  cycles with reagent
+  t_dlyflush=1  Flush pump interval  sec
+  n_subCycles=1#extra pump cycles
+  subCyc_delay=24  Cycle Interval 1/4 sec
+ 
+Device 1
+Power Out
+Run after SAMI
+12V power is supplied for 10.0 Sec.
+ 
+Device 2
+Off
+ 
+Device 3
+Off
+ 
+:UserText
+
+:Data
+128	3824054341	65	1	0	512
+129	3824054399	67	2	0	530
+5	3824054452	44	34	2942	3016	2698	3019	16864	18435	44	35	2945	3022	2696	3020	3440	1732
+17	3824054519
+4	3824055309	45	37	2941	1228	2699	299	6755	1630	44	35	2942	1229	2697	298	3456	1813
+17	3824055320
+4	3824056209	44	34	2940	1176	2698	324	6464	1781	44	34	2944	1177	2698	322	3457	1812
+17	3824056220
+135	3824056253	83	9	0	686
