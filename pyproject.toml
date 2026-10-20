@@ -1,0 +1,54 @@
+# Project metadata and test configuration for ooiea-mooring-tools.
+#
+# Dependencies are installed with conda (environment.yml), never pip. This file
+# declares them for the record and configures pytest. Two ways to run the tools:
+#
+# 1. No install (as today): run `python -m asset_cal.cli ...` from calibration/,
+#    `python -m asset_deploy.cli ...` from deployment/, etc. `pytest` from the
+#    repo root finds every package through [tool.pytest.ini_options] pythonpath.
+#
+# 2. Editable install, which adds the console scripts below and makes the
+#    packages importable from any directory. --no-deps keeps pip from
+#    installing anything; conda already supplies every dependency:
+#        pip install --no-deps --no-build-isolation -e .
+#    Editable only: asset_ingest finds its templates/ folder next to its
+#    source, which a regular (non-editable) install would not copy.
+#
+# buildtree/buildtree.py is a standalone script (not a package) and is not
+# installed; run it as `python buildtree/buildtree.py <config.xlsx>`.
+
+[build-system]
+requires = ["setuptools>=70.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ooiea-mooring-tools"
+version = "0.1.0"
+description = "Endurance Array mooring tooling: calibration, deployment and ingestion CSVs for OOI asset management"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Chris Wingard" }]
+dependencies = [
+    "openpyxl>=3.1",
+    "python-dateutil>=2.8",
+]
+
+[project.optional-dependencies]
+# PCO2W and DOFST-K certificates; asset_cal imports pdfplumber only for those
+# classes and stops with a clear message if it is missing.
+pdf = ["pdfplumber>=0.10"]
+test = ["pytest>=7"]
+
+[project.scripts]
+asset-cal = "asset_cal.cli:main"
+asset-deploy = "asset_deploy.cli:main"
+asset-ingest = "asset_ingest.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["calibration", "deployment", "ingestion"]
+include = ["asset_cal*", "asset_deploy*", "asset_ingest*"]
+exclude = ["*.tests", "*.tests.*"]
+
+[tool.pytest.ini_options]
+testpaths = ["calibration", "deployment/tests", "ingestion/tests"]
+pythonpath = ["calibration", "deployment", "ingestion"]

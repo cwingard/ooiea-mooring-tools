@@ -4,7 +4,8 @@ Package `asset_ingest`. Writes a deployment's telemetered (`D000NN`) and recover
 the ingestion-csvs repo, and checks existing ones for internal consistency. Replaces copying the previous
 deployment's files by hand.
 
-Run from this folder in the `ooi` conda env (needs `openpyxl`; `pytest` for the tests).
+Run from this folder in the `ea_tools` conda environment (`environment.yml` at the repo root; see the repo-level
+`README.md`, section 8).
 
 ## What it reads
 
@@ -14,7 +15,7 @@ Run from this folder in the `ooi` conda env (needs `openpyxl`; `pytest` for the 
 | deployment configuration workbook (`.xlsx`, read as-is) | site, deployment number, `DCL:Port #` wiring, loggers |
 | `<asset-management>/deployment/<SITE>_Deploy.csv` | which reference designators were deployed |
 
-Run the deploy tool (`asset_deploy`) first: the ingestion files follow what asset_management says, so the two stay
+Run the deploy tool (`asset_deploy`) first: the ingestion files follow what asset-management says, so the two stay
 consistent.
 
 ## Templates
@@ -126,7 +127,8 @@ Older deployments have findings; `check` reports them and changes nothing.
 python -m pytest tests
 ```
 
-Synthetic inputs only (`tests/conftest.py`); no repo checkouts needed.
+Synthetic inputs only (`tests/conftest.py`); no repo checkouts needed. From the repo root, `pytest` runs these
+together with the other packages' tests.
 
 ## Files
 
@@ -136,6 +138,6 @@ Synthetic inputs only (`tests/conftest.py`); no repo checkouts needed.
 | `asset_ingest/generate.py` | fills the templates for one deployment |
 | `asset_ingest/check.py` | consistency checks on existing files |
 | `asset_ingest/config_wiring.py` | reads site, deployment, `DCL:Port #` wiring and loggers from the workbook |
-| `asset_ingest/deploy_state.py` | reads deployed/not-deployed per reference designator from asset_management |
+| `asset_ingest/deploy_state.py` | reads deployed/not-deployed per reference designator from asset-management |
 | `asset_ingest/ingest_file.py` | reads/writes the ingestion CSV format |
 | `templates/` | per-site D and R templates |

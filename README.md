@@ -24,9 +24,9 @@ consumer.
 
 | Repo / system | Status | Notes |
 |---|---|---|
-| `asset_management` | External, unchanged | Downstream data/output repo. Calibration files and deployment CSVs land here. Existing MATLAB and RCA Python tooling under `tools/` stays as-is; this repo's calibration/deployment generators are net-new, not a migration. |
-| `ingestion_csvs` | External, unchanged | Holds the CSV tables that instruct the M2M system how to ingest data. Read/write target for this repo's ingestion CSV generator. |
-| `cgsn_processing` / `cgsn_parsers` | External, unchanged | Shared with CGSN; feed the internal OMS. `cgsn_processing` currently contains the in-progress RDB-to-YAML generator (`generate_yaml.py`); this may move into `ooiea-mooring-tools/core` once the design stabilizes, but the packages themselves are not absorbed. |
+| `asset-management` | External, unchanged | Downstream data/output repo. Calibration files and deployment CSVs land here. Existing MATLAB and RCA Python tooling under `tools/` stays as-is; this repo's calibration/deployment generators are net-new, not a migration. |
+| `ingestion-csvs` | External, unchanged | Holds the CSV tables that instruct the M2M system how to ingest data. Read/write target for this repo's ingestion CSV generator. |
+| `cgsn-processing` / `cgsn-parsers` | External, unchanged | Shared with CGSN; feed the internal OMS. `cgsn-processing` currently contains the in-progress RDB-to-YAML generator (`generate_yaml.py`); this may move into `ooiea-mooring-tools/core` once the design stabilizes, but the packages themselves are not absorbed. |
 | OMS++ (Django/Postgres) | External, unchanged | Standalone display application. Becomes a YAML/RDB consumer for configuration context; not absorbed. |
 | `platform_cfgs` | Absorbed (split into two functions) | See section 5. |
 | Roundabout (RDB) | External, authoritative | The single source of truth. See section 3. |
@@ -81,7 +81,7 @@ names), not separately entered or stored.
 
 - **Crawl:** keep using the existing manual configuration spreadsheets while working out the optimal YAML
   structure. No consumer code depends on RDB yet.
-- **Walk:** begin testing/development with RDB and `cgsn_processing` to automate YAML generation. Hand-editing
+- **Walk:** begin testing/development with RDB and `cgsn-processing` to automate YAML generation. Hand-editing
   still expected, but significantly reduced.
 - **Run:** full CLI tooling pulling from RDB to build the YAML, and using the YAML to generate deployment CSVs,
   ingestion CSVs, buildtree structure, onboard configuration, and SBD/Gmail tooling.
@@ -98,6 +98,8 @@ tribal knowledge.
 
 ```text
 ooiea-mooring-tools/
+    environment.yml      # conda environment (ea_tools) -- see section 8
+    pyproject.toml       # package metadata, console scripts, pytest configuration
     core/                # shared: YAML schema/models, RDB client, validation
     calibration/         # cal file generation (MATLAB -> Python conversion, vendor/QCT-driven)
     deployment/          # deployment record / CSV generation -- see deployment/README.md
@@ -126,12 +128,49 @@ the tool *does*, be correct? If not, the name or the grouping is wrong.
 
 ## 7. Tool status
 
-- **`calibration/`** -- working. Vendor/QCT source files -> asset_management calibration CSVs; 11 instrument
-  classes ported from MATLAB. No YAML dependency.
-- **`deployment/`** -- working (Crawl). Per-deployment config xlsx -> asset_management `*_Deploy.csv`, mooring uid,
+- **`calibration/`** -- working. Vendor/QCT source files -> asset-management calibration CSVs; 12 instrument
+  classes (24 class-series), ported from MATLAB plus PARAD-K, which had none. No YAML dependency. Usage:
+  [calibration/README.md](calibration/README.md).
+- **`deployment/`** -- working (Crawl). Per-deployment config xlsx -> asset-management `*_Deploy.csv`, mooring uid,
   platcon and recovery records via `deploy`, `deploy --replace` (as-deployed update) and `recover`; validates the
   cruise, bulk asset records and the sheet before writing. Becomes a YAML consumer in Run. Usage:
   [deployment/README.md](deployment/README.md).
-- **`buildtree/`** -- absorbed as-is (`buildtree.py`), not yet reworked.
+- **`ingestion/`** -- working (Crawl). Per-site templates + config xlsx + asset-management `*_Deploy.csv` ->
+  ingestion-csvs `D000NN`/`R000NN` files via `generate`; read-only consistency `check` of existing files. Becomes a
+  YAML consumer in Run. Usage: [ingestion/README.md](ingestion/README.md).
+- **`buildtree/`** -- working. Pure-Python replacement for the original bash/awk script (`buildtree.py`); not yet a
+  package and has no tests. Run as `python buildtree/buildtree.py <config.xlsx> [--dry-run]`.
 - **`anchor_survey/`** -- absorbed as-is (MATLAB), not yet converted.
-- **`core/`, `ingestion/`, `onboard_config/`, `instrument_setup/`, `sbd_messages/`** -- not started.
+- **`core/`, `onboard_config/`, `instrument_setup/`, `sbd_messages/`** -- not started (empty folders).
+
+## 8. Environment and tests
+
+The tools run in their own conda environment, `ea_tools`, kept separate from the shared `ooi` data-processing
+environment so neither constrains the other's packages or Python version. Everything comes from conda-forge.
+
+```bash
+cd ~/code/ooiea-mooring-tools
+conda env create -f environment.yml        # once
+conda activate ea_tools
+conda env update -n ea_tools -f environment.yml --prune   # after environment.yml changes
+```
+
+`environment.yml` pins the Python minor version so every operator runs the same interpreter; the code itself needs
+Python 3.10 or later (`pyproject.toml`). Moving to a newer Python is a one-line change in `environment.yml` followed
+by a test run.
+
+No install is needed: each tool runs from its own folder (`python -m asset_cal.cli ...` from `calibration/`, and so
+on; see each tool's README). Optionally, an editable install adds `asset-cal`, `asset-deploy` and `asset-ingest`
+commands that work from any directory. `--no-deps` keeps pip from installing anything -- conda supplies every
+dependency:
+
+```bash
+pip install --no-deps --no-build-isolation -e .
+```
+
+It must be editable (`-e`): `asset_ingest` reads its `templates/` folder from the source tree.
+
+Tests: `pytest` from the repo root runs every package's tests; `python -m pytest` inside a tool folder runs only that
+tool's. Tests that need a local asset-management clone skip when it is not found (see `deployment/README.md`).
+
+All text files in this repo use LF line endings and plain ASCII.

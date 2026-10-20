@@ -12,7 +12,8 @@ RDB-generated deployment YAML (see the repo-level `README.md`).
 
 ## Setup
 
-Run from this `deployment/` folder, in the `ooi` conda environment (needs `openpyxl`; `pytest` for the tests).
+Run from this `deployment/` folder, in the `ea_tools` conda environment (`environment.yml` at the repo root; see the
+repo-level `README.md`, section 8).
 
 ```bash
 cd ~/code/ooiea-mooring-tools/deployment
@@ -148,6 +149,7 @@ deployment/
         bulk_records.py   # bulk asset-record lookups and appends
         deploy_csv.py     # read / append / replace / recover rows in *_Deploy.csv
         platforms/        # one module per mooring
+    append_deploy.py      # wrapper: `python append_deploy.py ...` = `python -m asset_deploy.cli ...`
     append_mooring_uid.py
     matlab/               # original MATLAB scripts, reference only
     tests/
@@ -159,7 +161,8 @@ deployment/
 ASSET_MANAGEMENT_DIR=~/code/asset-management python -m pytest tests
 ```
 
-Tests that need the real asset-management records (historical parity, end-to-end deploy/replace) skip if
-`ASSET_MANAGEMENT_DIR` is not found; they work on temporary copies and never modify the repo.
+From the repo root, `pytest` runs these together with the other packages' tests. Tests that need the real
+asset-management records (historical parity, end-to-end deploy/replace) skip if `ASSET_MANAGEMENT_DIR` is not
+found; they work on temporary copies and never modify the repo.
 `tests/fixtures/CE02SHSM-00020.xlsx` must stay the original sheet used for deployment 20 -- it backs the parity check
 against the committed `CE02SHSM_Deploy.csv`.

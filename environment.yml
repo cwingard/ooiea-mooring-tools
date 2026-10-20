@@ -1,0 +1,35 @@
+# Conda environment for ooiea-mooring-tools.
+#
+# A dedicated environment, kept separate from the shared `ooi` data-processing
+# environment so neither constrains the other's packages or Python version.
+#
+#     conda env create -f environment.yml
+#     conda activate ea_tools
+#
+# After editing this file:
+#     conda env update -n ea_tools -f environment.yml --prune
+#
+# Every runtime and test dependency comes from conda-forge. See pyproject.toml
+# for how (and whether) to register the packages in the environment.
+name: ea_tools
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  # Pinned to one minor version so every operator runs the same interpreter.
+  # 3.14: a year of conda-forge builds behind it, supported to Oct 2030. The
+  # code itself needs only >=3.10 (pyproject.toml), so moving up is a one-line
+  # change here plus a test run.
+  - python =3.14
+  # asset_deploy, asset_ingest, buildtree: per-deployment config workbooks
+  - openpyxl >=3.1
+  # asset_cal: OPTAA devfile dates
+  - python-dateutil >=2.8
+  # asset_cal: PCO2W and DOFST-K vendor PDF certificates
+  - pdfplumber >=0.10
+  # tests
+  - pytest >=7
+  # build backend, needed only for the optional editable install; 70.1+ builds
+  # wheels without the separate `wheel` package (--no-build-isolation needs that)
+  - setuptools >=70.1
+  - pip

@@ -9,8 +9,9 @@ Python port of the MATLAB scripts in `asset-management/tools/matlab/Endurance_ca
 
 ## Setup
 
-Run from this `calibration/` folder, in the `ooi` conda environment. Standard library only, except PCO2W, which
-needs `pdfplumber` (`conda install -c conda-forge pdfplumber`); `pytest` for the tests.
+Run from this `calibration/` folder, in the `ea_tools` conda environment (`environment.yml` at the repo root; see the
+repo-level `README.md`, section 8). Beyond the standard library: `python-dateutil` (OPTAA) and `pdfplumber` (PCO2W and
+DOFST-K certificates).
 
 ```bash
 cd ~/code/ooiea-mooring-tools/calibration
@@ -31,8 +32,9 @@ python -m asset_cal.cli SPKIR-B path/to/DI7255L.cal --asset-management ~/code/as
   Its "series" is the source format: `METCTD-CAL` for the vendor `.cal` file, `METCTD-CAP` for a QCT cap/log capture.
   `METCTD-CAL` takes the capture as an optional `--qct` check: serial, caldate and all 11 coefficients must agree.
 - Input filenames are never parsed: point the tool at any file name in any folder. Everything it needs comes from
-  the file contents, except the calibration date for DOSTA and PHSEN, whose QCT captures do not contain it -- pass it
-  from the vendor certificate with `--caldate YYYYMMDD` (required for those two, rejected for every other class).
+  the file contents, except the calibration date for DOSTA and PHSEN, whose QCT captures do not contain it, and for
+  PARAD-K (scanned certificate) -- pass it from the vendor certificate with `--caldate YYYYMMDD` (required for those
+  three, rejected for every other class).
   The source file name is copied into the notes column for traceability only.
 - PCO2W reads the vendor PDF certificate; every value written comes from it. `--qct <capture>` is optional: with it,
   values are identified against the sensor's QCT capture (so any certificate layout works) and any disagreement
@@ -106,9 +108,10 @@ them through float.
 calibration/
     asset_cal/
         cli.py            # CLASS-SERIES dispatch, --mode test previews
-        common/           # csv writer, SeriesParser base class
+        common/           # csv writer, SeriesParser base class, value comparison
         <class>/          # parser.py + tests/ (with fixtures/ where real files exist)
-    tests/                # cli tests
+    docs/                 # background notes (DOFST-K Soc adjustment)
+    tests/                # cli and comparison tests
 ```
 
 ## Tests
@@ -116,3 +119,5 @@ calibration/
 ```bash
 python -m pytest
 ```
+
+Run from this folder for the calibration tests only, or from the repo root for every package.
