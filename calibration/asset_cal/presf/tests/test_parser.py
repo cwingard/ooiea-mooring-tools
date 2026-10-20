@@ -54,7 +54,7 @@ def test_write_csv_matches_archived_output(tmp_path: Path) -> None:
     output_path = parser.write_csv(cal, tmp_path)
 
     assert output_path == tmp_path / "PRESFA" / "CGINS-PRESFA-01328__20120330.csv"
-    assert output_path.read_text() == (
+    assert output_path.read_bytes().decode() == (
         "serial,name,value,notes\n"
         "26P-1328,CC_b,8388.6,date in filename comes from latest sensor caldate "
         "read from file captured from relevant QCT\n"

@@ -57,7 +57,7 @@ def test_write_csv_series_j_row_order_and_notes(tmp_path: Path) -> None:
     output_path = parser.write_csv(cal, tmp_path)
 
     assert output_path == tmp_path / "FLORTJ" / "CGINS-FLORTJ-01030__20161206.csv"
-    assert output_path.read_text() == (
+    assert output_path.read_bytes().decode() == (
         "serial,name,value,notes\n"
         "1030,CC_dark_counts_cdom,47,date in filename comes from dev file\n"
         "1030,CC_scale_factor_cdom,0.0650,\n"
@@ -82,7 +82,7 @@ def test_write_csv_series_d_uses_plain_serial(tmp_path: Path) -> None:
     output_path = parser.write_csv(cal, tmp_path)
 
     assert output_path == tmp_path / "FLORTD" / "CGINS-FLORTD-01030__20161206.csv"
-    first_line = output_path.read_text().splitlines()[1]
+    first_line = output_path.read_bytes().decode().splitlines()[1]
     assert first_line.startswith("1030,")  # bare serial for every series
 
 

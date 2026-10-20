@@ -53,9 +53,15 @@ def write_cal_csv(output_path: Path, serial: str, coefficients: list[CalCoeffici
     -------
     Path
         The path that was written (same as output_path).
+
+    Notes
+    -----
+    Always written with LF line endings, on every platform: all
+    OOI text files use Linux line endings. Without newline="\n",
+    Path.write_text turns every "\n" into "\r\n" on Windows.
     """
     lines = ["serial,name,value,notes"]
     for coeff in coefficients:
         lines.append(f"{serial},{coeff.name},{coeff.value},{coeff.notes}")
-    output_path.write_text("\n".join(lines) + "\n", encoding="ascii")
+    output_path.write_text("\n".join(lines) + "\n", encoding="ascii", newline="\n")
     return output_path

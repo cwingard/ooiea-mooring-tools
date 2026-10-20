@@ -32,7 +32,7 @@ def test_write_csvwrite_style_reproduces_real_archived_row(tmp_path: Path) -> No
 
     _write_csvwrite_style(out_path, [real_values])
 
-    assert out_path.read_text() == _REAL_TAARRAY_ROW_TEXT.replace(",0.0,", ",0,") + "\n"
+    assert out_path.read_bytes().decode() == _REAL_TAARRAY_ROW_TEXT.replace(",0.0,", ",0,") + "\n"
 
 
 def test_write_csv_formatting(tmp_path: Path) -> None:
@@ -55,22 +55,22 @@ def test_write_csv_formatting(tmp_path: Path) -> None:
     output_path = parser.write_csv(cal, tmp_path)
 
     assert output_path == tmp_path / "OPTAAD" / "CGINS-OPTAAD-00123__20121128.csv"
-    assert output_path.read_text() == (
+    assert output_path.read_bytes().decode() == (
         "serial,name,value,notes\n"
-        'ACS-123,CC_acwo,"[-0.465231, -0.274376]",\n'
-        'ACS-123,CC_awlngth,"[401.0, 405.1]",\n'
-        'ACS-123,CC_ccwo,"[0.449779, 0.538688]",\n'
-        'ACS-123,CC_cwlngth,"[400.1, 404.3]",\n'
-        "ACS-123,CC_taarray,SheetRef:CC_taarray,\n"
-        'ACS-123,CC_tbins,"[3.684881, 4.425816]",\n'
         "ACS-123,CC_tcal,19.0,date in filename comes from 'offsets saved' date within factory devfile\n"
+        'ACS-123,CC_awlngth,"[401.0, 405.1]",\n'
+        'ACS-123,CC_acwo,"[-0.465231, -0.274376]",\n'
+        'ACS-123,CC_cwlngth,"[400.1, 404.3]",\n'
+        'ACS-123,CC_ccwo,"[0.449779, 0.538688]",\n'
+        'ACS-123,CC_tbins,"[3.684881, 4.425816]",\n'
+        "ACS-123,CC_taarray,SheetRef:CC_taarray,\n"
         "ACS-123,CC_tcarray,SheetRef:CC_tcarray,\n"
     )
 
     taarray_path = tmp_path / "OPTAAD" / "CGINS-OPTAAD-00123__20121128__CC_taarray.ext"
     tcarray_path = tmp_path / "OPTAAD" / "CGINS-OPTAAD-00123__20121128__CC_tcarray.ext"
-    assert taarray_path.read_text() == "5,6\n7,8\n"
-    assert tcarray_path.read_text() == "1,2\n3,4\n"
+    assert taarray_path.read_bytes().decode() == "5,6\n7,8\n"
+    assert tcarray_path.read_bytes().decode() == "1,2\n3,4\n"
 
 
 def test_write_csv_missing_directory_raises(tmp_path: Path) -> None:
@@ -93,13 +93,12 @@ def test_real_devfile_matches_archived_files(tmp_path: Path) -> None:
     output_path = parser.write_csv(parser.parse(REAL_DEV), tmp_path)
 
     assert output_path.name == f"{ARCHIVED}.csv"
-    # Row order differs from the committed file and does not matter to CI.
-    written = sorted(output_path.read_text().splitlines())
-    assert written == sorted((FIXTURE_DIR / f"{ARCHIVED}.csv").read_text().splitlines())
+    # Row order matters: the csv must match the committed file byte for byte.
+    assert output_path.read_bytes().decode() == (FIXTURE_DIR / f"{ARCHIVED}.csv").read_bytes().decode()
     for suffix in ("__CC_taarray.ext", "__CC_tcarray.ext"):
-        assert (tmp_path / "OPTAAD" / f"{ARCHIVED}{suffix}").read_text() == (
+        assert (tmp_path / "OPTAAD" / f"{ARCHIVED}{suffix}").read_bytes() == (
             FIXTURE_DIR / f"{ARCHIVED}{suffix}"
-        ).read_text()
+        ).read_bytes()
 
 
 def test_devfile_without_temperature_bins_stops(tmp_path: Path) -> None:
@@ -111,3 +110,29 @@ def test_devfile_without_temperature_bins_stops(tmp_path: Path) -> None:
 
     with pytest.raises(ValueError, match="no temperature-correction table"):
         OptaaParser(series="D").parse(bad)
+
+
+def test_dateline_without_comma_parses(tmp_path: Path) -> None:
+    """2026 factory devfiles (e.g. ACS-260) drop the comma after the Tcal value."""
+    lines = REAL_DEV.read_text().splitlines()
+    lines[3] = "Tcal: 22.2 C Ical: 20.7 C. The offsets were saved to this file on 09/02/2026."
+    dev = tmp_path / "no_comma.dev"
+    dev.write_text("\n".join(lines) + "\n")
+
+    cal = OptaaParser(series="D").parse(dev)
+
+    assert cal.tcal == 22.2
+    assert cal.caldate == "20260902"
+
+
+def test_quoted_dateline_parses(tmp_path: Path) -> None:
+    """2026 ACS-344 devfile wraps the dateline in double quotes, no space before C."""
+    lines = REAL_DEV.read_text().splitlines()
+    lines[3] = '"Tcal: 21.0C, Ical: 19.3C. The offsets were saved to this file on 06/09/2026."'
+    dev = tmp_path / "quoted.dev"
+    dev.write_text("\n".join(lines) + "\n")
+
+    cal = OptaaParser(series="D").parse(dev)
+
+    assert cal.tcal == 21.0
+    assert cal.caldate == "20260609"

@@ -52,7 +52,7 @@ def test_write_csv_matches_archived_output(tmp_path: Path) -> None:
     # version of the Matlab script did not yet add the caldate
     # provenance note. Flagged for Chris; this test asserts current
     # (provenance-included) Matlab behavior, not the archived file.
-    assert output_path.read_text() == (
+    assert output_path.read_bytes().decode() == (
         "serial,name,value,notes\n"
         "505,CC_Im,1.3589,date in filename comes from factory devfile\n"
         "505,CC_a0,4431,digital\n"
@@ -82,7 +82,7 @@ def test_paradk_writes_transcribed_values(tmp_path: Path) -> None:
     output_path = parser_k.write_csv(cal, tmp_path)
 
     assert output_path.name == "CGINS-PARADK-20611__20240517.csv"
-    assert output_path.read_text().splitlines()[1:] == [
+    assert output_path.read_bytes().decode().splitlines()[1:] == [
         "20611,CC_dark_offset,0.45,probe dark [mV]; transcribed from cert.pdf",
         "20611,CC_scale_wet,9.04E-18,[V/(quanta/cm2-sec)]",
     ]

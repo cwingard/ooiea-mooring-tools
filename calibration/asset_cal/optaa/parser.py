@@ -44,9 +44,12 @@ files. Notable:
   zero-pad -- confirmed against the archive, which never has a
   4-digit serial to distinguish the two conventions, but the Matlab
   source's string concatenation is unambiguous).
+- All files are written with LF line endings on every platform.
 - Side-car files are comma-separated values in Matlab csvwrite
   style: Python's str(float), except whole numbers are written
   without ".0" (csvwrite writes 0, not 0.0).
+- Rows are written in the Matlab script's order (tcal, awlngth,
+  acwo, cwlngth, ccwo, tbins, taarray, tcarray), not alphabetically.
 - The provenance note is attached to CC_tcal, as in the Matlab
   source.
 """
@@ -57,10 +60,16 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import ClassVar
 
+from dateutil import parser as date_parser
+
 from asset_cal.common.csv_writer import CalCoefficient, write_cal_csv
 from asset_cal.common.series_parser import SeriesParser
 
 _CALDATE_PROVENANCE = "date in filename comes from 'offsets saved' date within factory devfile"
+
+_TCAL_RE = re.compile(r"tcal:\s*(-?\d+(?:\.\d+)?)\s*C\b", re.IGNORECASE)
+_ICAL_RE = re.compile(r"ical:\s*(-?\d+(?:\.\d+)?)\s*C\b", re.IGNORECASE)
+_SAVED_DATE_RE = re.compile(r"(?:saved to this file on|file created on:?)\s+(.+?)[\s.\"']*$", re.IGNORECASE)
 
 
 @dataclass(frozen=True)
@@ -189,17 +198,18 @@ class OptaaParser(SeriesParser[OptaaCal]):
         tcarray_path = output_dir / f"{basename}__CC_tcarray.ext"
 
         serial_column = f"ACS-{cal.serial_number}"
-        values: dict[str, tuple[str, str]] = {
-            "acwo": (_format_array(cal.aoff, 6), ""),
-            "awlngth": (_format_array(cal.awvl, 1), ""),
-            "ccwo": (_format_array(cal.coff, 6), ""),
-            "cwlngth": (_format_array(cal.cwvl, 1), ""),
-            "taarray": ("SheetRef:CC_taarray", ""),
-            "tbins": (_format_array(cal.tbin, 6), ""),
-            "tcal": (f"{cal.tcal:.1f}", _CALDATE_PROVENANCE),
-            "tcarray": ("SheetRef:CC_tcarray", ""),
-        }
-        coefficients = [CalCoefficient(f"CC_{name}", value, note) for name, (value, note) in sorted(values.items())]
+        # Row order follows write_optaa_dev_to_csv.m (template([3 5 6 1 2 4 7 8], :)), the order of every OPTAA
+        # file committed to asset-management by that script.
+        coefficients = [
+            CalCoefficient("CC_tcal", f"{cal.tcal:.1f}", _CALDATE_PROVENANCE),
+            CalCoefficient("CC_awlngth", _format_array(cal.awvl, 1)),
+            CalCoefficient("CC_acwo", _format_array(cal.aoff, 6)),
+            CalCoefficient("CC_cwlngth", _format_array(cal.cwvl, 1)),
+            CalCoefficient("CC_ccwo", _format_array(cal.coff, 6)),
+            CalCoefficient("CC_tbins", _format_array(cal.tbin, 6)),
+            CalCoefficient("CC_taarray", "SheetRef:CC_taarray"),
+            CalCoefficient("CC_tcarray", "SheetRef:CC_tcarray"),
+        ]
         write_cal_csv(output_path, serial_column, coefficients)
 
         _write_csvwrite_style(taarray_path, cal.atbin)
@@ -215,7 +225,7 @@ def _format_array(values: list[float], precision: int) -> str:
 
 def _write_csvwrite_style(path: Path, matrix: list[list[float]]) -> None:
     lines = [",".join(_format_ext_value(v) for v in row) for row in matrix]
-    path.write_text("\n".join(lines) + "\n", encoding="ascii")
+    path.write_text("\n".join(lines) + "\n", encoding="ascii", newline="\n")
 
 
 def _format_ext_value(value: float) -> str:
@@ -237,37 +247,28 @@ def _find_serial_number(header_line_2: str) -> int:
 
 
 def _parse_offset_save_row(line: str) -> tuple[float, float, str]:
-    """Returns (tcal, ical, date) where date is 'YYYY-MM-DD'."""
-    text = line.replace(",", ".")
-    idx_c = [m.start() for m in re.finditer(r"C\.", text.upper())]
-    if len(idx_c) != 2:
-        raise ValueError(f"Could not parse acs devfile dateline: {line!r}")
+    """Returns (tcal, ical, date) where date is 'YYYY-MM-DD'.
 
-    idx_a = text.lower().find("tcal:")
-    if idx_a == -1:
+    Accepts 'Tcal: 21.6 C, Ical: 19.9 C.' and the 2026 factory form
+    without the comma. The date text after 'saved to this file on' (or
+    'File created on:') is handed to dateutil.
+    """
+    tcal_match = _TCAL_RE.search(line)
+    if tcal_match is None:
         raise ValueError(f"Could not parse Tcal acs devfile value: {line!r}")
-    tcal = float(text[idx_a + 5: idx_c[0]].strip())
-
-    idx_a = text.lower().find("ical:")
-    if idx_a == -1:
+    ical_match = _ICAL_RE.search(line)
+    if ical_match is None:
         raise ValueError(f"Could not parse Ical acs devfile value: {line!r}")
-    ical = float(text[idx_a + 5: idx_c[1]].strip())
 
-    slash_idx = [m.start() for m in re.finditer(r"/", text)]
-    if len(slash_idx) != 2:
-        raise ValueError(f"Could not parse 'offset save' date in devfile: {line!r}")
-    month = int(text[slash_idx[0] - 2: slash_idx[0]])
-    day = int(text[slash_idx[0] + 1: slash_idx[1]])
+    date_match = _SAVED_DATE_RE.search(line)
+    if date_match is None:
+        raise ValueError(f"Could not find 'offset save' date in devfile: {line!r}")
+    try:
+        saved = date_parser.parse(date_match.group(1)).date()
+    except (date_parser.ParserError, OverflowError) as exc:
+        raise ValueError(f"Could not parse 'offset save' date in devfile: {line!r}") from exc
 
-    rest = text[slash_idx[1] + 1:]
-    tokens = rest.split()
-    if not tokens:
-        raise ValueError(f"Could not parse year in 'offset save' date: {line!r}")
-    year_token = tokens[0].replace(".", "").replace('"', "").strip()
-    year = year_token[-2:]
-
-    date = f"20{year}-{month:02d}-{day:02d}"
-    return tcal, ical, date
+    return float(tcal_match.group(1)), float(ical_match.group(1)), saved.isoformat()
 
 
 def _parse_wavelength_table(

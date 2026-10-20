@@ -62,7 +62,7 @@ def test_write_csv_matches_archived_output(tmp_path: Path) -> None:
     output_path = parser.write_csv(cal, tmp_path)
 
     assert output_path == tmp_path / "CTDBPC" / "CGINS-CTDBPC-07240__20121213.csv"
-    assert output_path.read_text() == (
+    assert output_path.read_bytes().decode() == (
         "serial,name,value,notes\n"
         "16-7240,CC_a0,0.001236782,date in filename comes from latest sensor caldate within QCT cap file\n"
         "16-7240,CC_a1,0.000277456,\n"

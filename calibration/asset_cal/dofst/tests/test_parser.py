@@ -41,7 +41,7 @@ def test_vendor_adjusted_certificate_matches_archived_values(tmp_path: Path) -> 
 
     assert output_path.name == "CGINS-DOFSTK-04511__20240521.csv"
     assert _values(output_path) == _values(FIXTURE_DIR / "CGINS-DOFSTK-04511__20240521.csv")
-    assert "vendor adjusted" in output_path.read_text()
+    assert "vendor adjusted" in output_path.read_bytes().decode()
 
 
 def test_real_certificate_and_capture_use_host_adjusted_soc() -> None:

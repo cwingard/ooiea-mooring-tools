@@ -59,7 +59,7 @@ def test_write_csv_matches_current_script_format(tmp_path: Path) -> None:
     # CTDBP" -- confirmed drift, same category as PARAD-J's CC_Im
     # provenance note and DOSTA's CC_conc_coef note. This test
     # asserts current script behavior, not the archived files.
-    assert output_path.read_text() == (
+    assert output_path.read_bytes().decode() == (
         "serial,name,value,notes\n"
         "P0088,CC_ea434,18217,\n"
         "P0088,CC_eb434,2216,\n"

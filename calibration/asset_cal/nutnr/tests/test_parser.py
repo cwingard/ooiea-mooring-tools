@@ -34,7 +34,7 @@ def test_write_csv_matches_alphabetical_order_and_formatting(tmp_path: Path) -> 
     output_path = parser.write_csv(cal, tmp_path)
 
     assert output_path == tmp_path / "NUTNRB" / "CGINS-NUTNRB-01056__20170923.csv"
-    assert output_path.read_text() == (
+    assert output_path.read_bytes().decode() == (
         "serial,name,value,notes\n"
         "1056,CC_cal_temp,19.90,date in filename comes from latest caldate within calfile SNA1056C.cal\n"
         '1056,CC_di,"[36.41666667, 41.70833333]",\n'

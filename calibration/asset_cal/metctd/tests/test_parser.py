@@ -62,7 +62,7 @@ def test_write_csv_matches_archived_output(tmp_path: Path) -> None:
     output_path = parser.write_csv(cal, tmp_path, output_dir_name="METBKA")
 
     assert output_path == tmp_path / "METBKA" / "CGINS-METCTD-10906__20130717.csv"
-    assert output_path.read_text() == (
+    assert output_path.read_bytes().decode() == (
         "serial,name,value,notes\n"
         "37-10906,CC_a0,-1.030606e-04,source: QCT 3305-00116-00011\n"
         "37-10906,CC_a1,3.059972e-04,\n"

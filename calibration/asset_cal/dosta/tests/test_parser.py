@@ -42,7 +42,7 @@ def test_write_csv_formats_conc_coef_and_svu(tmp_path: Path) -> None:
     output_path = parser.write_csv(cal, tmp_path)
 
     assert output_path == tmp_path / "DOSTAD" / "CGINS-DOSTAD-00211__20130704.csv"
-    assert output_path.read_text() == (
+    assert output_path.read_bytes().decode() == (
         "serial,name,value,notes\n"
         '211,CC_conc_coef,"[0.0, 1.0]",date in filename comes from factory calibration certificate\n'
         '211,CC_csv,"[0.00315218, 0.000133734, 2.61979e-06, 230.297, -0.343226, -58.5185, 4.55436]",\n'

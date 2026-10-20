@@ -44,7 +44,7 @@ def test_real_files_reproduce_archived_csv(tmp_path: Path) -> None:
     output_path = parser.write_csv(parser.parse(cert, qct_path=CAPTURE), tmp_path)
 
     assert output_path.name == ARCHIVED.name
-    assert output_path.read_text() == ARCHIVED.read_text()
+    assert output_path.read_bytes().decode() == ARCHIVED.read_bytes().decode()
 
 
 def test_tavg_comes_from_certificate_not_sensor() -> None:
@@ -105,7 +105,7 @@ def test_certificate_only_reproduces_archived_csv(tmp_path: Path) -> None:
 
     output_path = parser.write_csv(parser.parse(cert), tmp_path)
 
-    assert output_path.read_text() == ARCHIVED.read_text()
+    assert output_path.read_bytes().decode() == ARCHIVED.read_bytes().decode()
 
 
 def test_certificate_only_and_with_capture_agree() -> None:
