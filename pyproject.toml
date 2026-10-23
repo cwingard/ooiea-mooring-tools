@@ -11,8 +11,9 @@
 #    packages importable from any directory. --no-deps keeps pip from
 #    installing anything; conda already supplies every dependency:
 #        pip install --no-deps --no-build-isolation -e .
-#    Editable only: asset_ingest finds its templates/ folder next to its
-#    source, which a regular (non-editable) install would not copy.
+#    Editable only: asset_ingest finds its templates/ folder and
+#    asset_discrete its reference/ folder next to their source, which a
+#    regular (non-editable) install would not copy.
 #
 # buildtree/buildtree.py is a standalone script (not a package) and is not
 # installed; run it as `python buildtree/buildtree.py <config.xlsx>`.
@@ -24,7 +25,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ooiea-mooring-tools"
 version = "0.1.0"
-description = "Endurance Array mooring tooling: calibration, deployment and ingestion CSVs for OOI asset management"
+description = "Endurance Array tooling: asset management CSVs and cruise discrete summaries"
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [{ name = "Chris Wingard" }]
@@ -43,12 +44,13 @@ test = ["pytest>=7"]
 asset-cal = "asset_cal.cli:main"
 asset-deploy = "asset_deploy.cli:main"
 asset-ingest = "asset_ingest.cli:main"
+asset-discrete = "asset_discrete.cli:main"
 
 [tool.setuptools.packages.find]
-where = ["calibration", "deployment", "ingestion"]
-include = ["asset_cal*", "asset_deploy*", "asset_ingest*"]
+where = ["calibration", "deployment", "ingestion", "discrete"]
+include = ["asset_cal*", "asset_deploy*", "asset_ingest*", "asset_discrete*"]
 exclude = ["*.tests", "*.tests.*"]
 
 [tool.pytest.ini_options]
-testpaths = ["calibration", "deployment/tests", "ingestion/tests"]
-pythonpath = ["calibration", "deployment", "ingestion"]
+testpaths = ["calibration", "deployment/tests", "ingestion/tests", "discrete/tests"]
+pythonpath = ["calibration", "deployment", "ingestion", "discrete"]

@@ -1,0 +1,29 @@
+header,flagType
+Cast Flag,castFlags
+CTD File Flag,CTDFileFlags
+Niskin Flag,niskinFlags
+CTD Pressure Flag,CTDParameterFlags
+CTD Temperature 1 Flag,CTDParameterFlags
+CTD Temperature 2 Flag,CTDParameterFlags
+CTD Conductivity 1 Flag,CTDParameterFlags
+CTD Conductivity 2 Flag,CTDParameterFlags
+CTD Oxygen Flag,CTDParameterFlags
+CTD Fluorescence Flag,CTDParameterFlags
+CTD Transmissometer Flag,CTDParameterFlags
+CTD pH Flag,CTDParameterFlags
+Discrete Oxygen Flag,discreteSampleFlags
+Discrete Fluorescence Flag,discreteSampleFlags
+Discrete Nutrients Flag,discreteSampleFlags
+Discrete Salinity Flag,discreteSampleFlags
+Discrete Alkalinity Flag,discreteSampleFlags
+Discrete DIC Flag,discreteSampleFlags
+Discrete pCO2 Flag,discreteSampleFlags
+Discrete pH Flag,discreteSampleFlags
+Discrete Oxygen Replicate Flag,discreteReplicateFlags
+Discrete Fluorescence Replicate Flag,discreteReplicateFlags
+Discrete Nutrients Replicate Flag,discreteReplicateFlags
+Discrete Salinity Replicate Flag,discreteReplicateFlags
+Discrete Alkalinity Replicate Flag,discreteReplicateFlags
+Discrete DIC Replicate Flag,discreteReplicateFlags
+Discrete pCO2 Replicate Flag,discreteReplicateFlags
+Discrete pH Replicate Flag,discreteReplicateFlags
