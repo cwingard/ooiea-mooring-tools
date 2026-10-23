@@ -1,0 +1,12 @@
+Dissolved Oxygen                 Scripps Inst of Oceanography
+Date: 12-Oct-2026   Julian Day: 286     Chemist: MA
+Ship:       R/V Sally Ride
+Expedition: SR2614
+N(20)IO3: 0.0100123 Vol(20): 10.00120  Titer (at 20 C): 0.47079  Blk:  0.00231
+IO3 measured at 19.38 C.  Thio (20C) 0.21374 N.  Thio temp at stdize: 19.17 C.
+O2 Box A.  Raw data filename: SR2614
+Sta Cst Bot O2  Flask    Raw     Titer     O2   Thio Draw End   Titr    Comments
+ID  ID ID Flsk  Vol    Titer   (20 C)    ml/l  Temp Temp Volts Time
+0001 01 02 0049 140.81  0.27374  0.27376  2.328 19.64 10.15 2.152 221127 OT 0.2810
+0001 01 02 0050 137.75  0.27518  0.27520  2.393 19.76 10.15 2.124 221350
+0001 01 02 0051 141.55  0.27510  0.27512  2.327 19.74 10.15 2.155 221739

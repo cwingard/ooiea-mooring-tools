@@ -104,6 +104,7 @@ ooiea-mooring-tools/
     calibration/         # cal file generation (MATLAB -> Python conversion, vendor/QCT-driven)
     deployment/          # deployment record / CSV generation -- see deployment/README.md
     ingestion/           # ingestion CSV generation and consistency checking
+    discrete/            # cruise water samples: transcription workbook -> OOI Discrete Summary
     buildtree/           # recovered-data directory tree builder
     onboard_config/      # DCL/CPM/serial cfg generation (absorbed from platform_cfgs/configs
                          #    and platform_cfgs/tools/config_manager.py) -- relationship to the
@@ -138,6 +139,10 @@ the tool *does*, be correct? If not, the name or the grouping is wrong.
 - **`ingestion/`** -- working (Crawl). Per-site templates + config xlsx + asset-management `*_Deploy.csv` ->
   ingestion-csvs `D000NN`/`R000NN` files via `generate`; read-only consistency `check` of existing files. Becomes a
   YAML consumer in Run. Usage: [ingestion/README.md](ingestion/README.md).
+- **`discrete/`** -- working for the CTD side (2026-10-23). Per-cruise transcription workbook (from the paper
+  Rosette Sampling Logs) + Sea-Bird `.btl` files -> formatted Discrete Summary xlsx, README and build log; format
+  validator for any Discrete Summary CSV. Lab result readers are next. An EA-owned operational process with no
+  other consumer, so it lives here (section 2 rule). Usage: [discrete/README.md](discrete/README.md).
 - **`buildtree/`** -- working. Pure-Python replacement for the original bash/awk script (`buildtree.py`); not yet a
   package and has no tests. Run as `python buildtree/buildtree.py <config.xlsx> [--dry-run]`.
 - **`anchor_survey/`** -- absorbed as-is (MATLAB), not yet converted.
@@ -160,15 +165,16 @@ Python 3.10 or later (`pyproject.toml`). Moving to a newer Python is a one-line 
 by a test run.
 
 No install is needed: each tool runs from its own folder (`python -m asset_cal.cli ...` from `calibration/`, and so
-on; see each tool's README). Optionally, an editable install adds `asset-cal`, `asset-deploy` and `asset-ingest`
-commands that work from any directory. `--no-deps` keeps pip from installing anything -- conda supplies every
-dependency:
+on; see each tool's README). Optionally, an editable install adds `asset-cal`, `asset-deploy`, `asset-ingest` and
+`asset-discrete` commands that work from any directory. `--no-deps` keeps pip from installing anything -- conda
+supplies every dependency:
 
 ```bash
 pip install --no-deps --no-build-isolation -e .
 ```
 
-It must be editable (`-e`): `asset_ingest` reads its `templates/` folder from the source tree.
+It must be editable (`-e`): `asset_ingest` reads its `templates/` folder and `asset_discrete` its `reference/`
+folder from the source tree.
 
 Tests: `pytest` from the repo root runs every package's tests; `python -m pytest` inside a tool folder runs only that
 tool's. Tests that need a local asset-management clone skip when it is not found (see `deployment/README.md`).
